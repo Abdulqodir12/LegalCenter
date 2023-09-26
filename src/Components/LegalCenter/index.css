@@ -1,0 +1,2735 @@
+/**********  Header start   ***********/
+@font-face {
+    font-family: "Inclusive Sans", sans-serif;
+    src: url("/index.html/https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:opsz,wght@9..144,800&family=Inclusive+Sans&family=Montserrat&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;1,6..12,400&display=swap");
+}
+@font-face {
+    font-family: "Nunito Sans", sans-serif;
+    src: url("/index.html/https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:opsz,wght@9..144,800&family=Inclusive+Sans&family=Montserrat&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,600;1,6..12,400&display=swap");
+}
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: url("/index.html/https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:opsz,wght@9..144,800&family=Inclusive+Sans&family=Inter:wght@700&family=Montserrat&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,600;1,6..12,400&display=swap");
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url("/index.html/https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:opsz,wght@9..144,800&family=Inclusive+Sans&family=Inter:wght@700&family=Montserrat&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,600;1,6..12,400&family=Roboto:wght@300&display=swap");
+}
+
+.Header {
+}
+.Header-list {
+}
+.SiteLogo {
+    margin: 40px 0px 48px 40px;
+}
+.Legal {
+    margin: 51px 64px 60px -70px;
+    width: 100%;
+    max-width: 88px;
+    color: #3b1d8f;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+}
+/* */
+.SideLogotext {
+    margin: 51px 560px 55px 0px;
+    width: 100%;
+    max-width: 200px;
+    color: #303030;
+    font-family: Inclusive Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+
+.Header-tel {
+    margin: 74px 38px 63px 0px;
+    width: 100%;
+    width: 145px;
+    height: 16px;
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+.Header-tel:hover {
+    color: #3b1d8f;
+}
+
+.btn-header {
+    padding: 16px 32px 16px 32px;
+    margin: 56px 80px 55px 0px;
+    color: #edeff2;
+    border-radius: 15px;
+    background-color: #273895;
+    height: 18px;
+    align-items: center;
+}
+
+/**********  Header end   ***********/
+
+/**********  Nav start    ***********/
+
+.nav-list {
+    margin-bottom: 0px;
+}
+.nav-list a:hover {
+    color: #3b1d8f;
+}
+
+.nav-link:nth-child(1) {
+    margin-left: 40px;
+}
+.nav-link:not(:last-child) {
+    margin-left: 48px;
+}
+
+.nav-link {
+    color: #000;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.mobilni-img {
+    width: 12px;
+    height: 22px;
+    padding: 14px 14px 18px 19px;
+    border-radius: 7px;
+    background: linear-gradient(326deg, #2641d1 11.53%, #3333a3 74.32%);
+    display: contents;
+}
+.mobilni-menyu {
+    padding: 15px 13px 13px 14px;
+    width: 22px;
+    height: 22px;
+    border-radius: 7px;
+    background: #dee6ef;
+    display: contents;
+}
+
+/**********  Nav end    ***********/
+
+/********** Main  Section start  ***********/
+
+.section-name {
+    margin: 120px 32px 16px 40px;
+    color: #262626;
+    width: 733px;
+    font-family: Inclusive Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.main-section-wrapper-text {
+    margin: 0px 218px 32px 40px;
+    color: #303030;
+    width: 480px;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    position: relative;
+}
+
+.main-section-wrapper-button {
+    margin: 0px 497px 382px 40px;
+    color: #ffffff;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: #273895;
+}
+
+.Section-img {
+    margin: 55px 157px 0px 0px;
+    width: 438px;
+    height: 488px;
+}
+
+.section-img-group {
+    position: absolute;
+    top: 170px;
+    right: 305px;
+    bottom: 857;
+    left: 700;
+}
+
+.img-yulduz {
+    position: absolute;
+    top: 252px;
+    right: 263px;
+    bottom: 8507px;
+    left: 980px;
+}
+
+.section-img-doira {
+    position: absolute;
+    top: 170;
+    right: 321px;
+    bottom: 857;
+    left: 300;
+    flex-shrink: 0;
+    z-index: 1;
+}
+.doxod {
+    margin-top: 20px;
+    margin-left: 1080px;
+    position: absolute;
+    z-index: 2;
+    color: #303030;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+.dollar {
+    margin-top: 40px;
+    margin-left: 1073px;
+    position: absolute;
+    color: #303030;
+    font-size: 16px;
+    font-family: Inclusive Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    z-index: 2;
+}
+.section-span-text {
+    margin-top: 65px;
+    margin-left: 1057px;
+    position: absolute;
+    z-index: 2;
+    color: #303030;
+    text-align: center;
+    max-width: 80px;
+    width: 100%;
+    font-family: Inclusive Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 116.667% */
+}
+/********* section img *********/
+.div-qolib {
+    margin: 460px 80px 8074px 648px;
+    position: absolute;
+    width: 100%;
+    max-width: 712px;
+    height: 164px;
+    background-color: #f4f7fa;
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    border-radius: 10px;
+}
+.biz-haqimizda {
+    position: relative;
+}
+.section-soat {
+    position: absolute;
+    margin: 32px 141px 8px 48px;
+}
+.section-soat2 {
+    margin: 37px 141px 8px 53px;
+    position: absolute;
+}
+.section-oy {
+    margin: 30px 137.61px 22.53px 74.77px;
+    position: absolute;
+}
+.section-rang-img {
+    position: absolute;
+    top: 32px;
+    right: 443px;
+    bottom: 92px;
+    left: 229px;
+}
+
+.dollar-elipse15 {
+    position: absolute;
+    top: 35px;
+    right: 190px;
+    bottom: 288px;
+    left: 488px;
+}
+
+.dollar-elipse4 {
+    position: absolute;
+    top: 36px;
+    right: 176px;
+    bottom: 95px;
+    left: 501px;
+}
+.span-dollar {
+    position: absolute;
+    top: 43.32px;
+    right: 186.82px;
+    bottom: 107px;
+    left: 511.5px;
+}
+/********* section img *********/
+.haqimizda {
+    margin: 80px 32px 32px 48px;
+    width: 149px;
+    color: #303030;
+    font-size: 16px;
+    font-family: Inclusive Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.haqimizda2 {
+    margin: 80px 32px 32px 0px;
+    width: 224px;
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.haqimizda3 {
+    margin: 80px 48px 32px 0px;
+    width: 179px;
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.section-jamoa-logo {
+    margin: 0px 326px 32px 191px;
+}
+.section-jamoa-title {
+    margin: 0px 115px 16px 191px;
+    width: 100%;
+    max-width: 400px;
+    color: #303030;
+    font-family: Inclusive Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+.section-jamoa-text {
+    margin: 0px 147px 134px 191px;
+    width: 406px;
+    height: 85px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.section-jamoa-klentlar {
+    margin: -20px 25px 5px 0px;
+    width: 217px;
+    height: 156px;
+    border-radius: 10px;
+    background: linear-gradient(236deg, #fff 29.99%, #f4f9ff 79.17%);
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-klentlar-soni {
+    padding: 32px 29px 0px 32px;
+    margin-bottom: 0px;
+    width: 156px;
+    height: 54px;
+    color: #7247ff;
+    font-family: Inclusive Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+p sub {
+    font-size: 16px;
+}
+
+.section-klentlar-text {
+    margin: 0px 29px 32px 32px;
+    width: 156px;
+    height: 35px;
+    font-family: Inclusive Sans;
+    color: #404040;
+    font-size: 14px;
+    font-weight: 400;
+}
+.section-jamoa-tajriba {
+    margin: 0px 250px 17px 2px;
+    width: 100%;
+    max-width: 179px;
+    height: 135px;
+    border-radius: 10px;
+    background: linear-gradient(236deg, #fff 29.99%, #f4f9ff 79.17%);
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-jamoa-tajriba-yili {
+    margin: 24px 97px 15px 24px;
+    width: 58px;
+    height: 32px;
+    color: #7247ff;
+    font-family: Inclusive Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+.section-jamoa-tajriba-text {
+    margin: 0px 24px 24px 24px;
+    width: 100%;
+    max-width: 131px;
+    height: 40px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.section-klientlar-container {
+    position: relative;
+}
+.section-jamoa-tajriba-img {
+    position: absolute;
+    z-index: -1;
+    bottom: 57px;
+    left: 390px;
+}
+.section-jamoa-tajribali-hodmlar {
+    margin: 0px 23px 84px 40px;
+    width: 100%;
+    max-width: 179px;
+    height: 135px;
+    border-radius: 10px;
+    background: linear-gradient(236deg, #fff 29.99%, #f4f9ff 79.17%);
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-tajribali-hodimlar {
+    margin: 24px 74px 0px 24px;
+    width: 100%;
+    max-width: 81px;
+    height: 54px;
+    font-family: Inclusive Sans;
+    color: #7247ff;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+.section-jamoa-tajribali-hodimlar-text {
+    margin: 0px 24px 24px 27px;
+    width: 100%;
+    max-width: 128px;
+    height: 40px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.section-jamoa-tarjriba {
+    position: relative;
+}
+.section-jamoa-hodmlar-img {
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    right: 678px;
+    bottom: 8821px;
+    left: 18px;
+}
+.section-jamoa-sirius {
+    margin: 0px 250px 48px 0px;
+    position: relative;
+    width: 100%;
+    max-width: 192px;
+    height: 171px;
+    border-radius: 10px;
+    background: linear-gradient(236deg, #fff 29.99%, #f4f9ff 79.17%);
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-klentlar-sirius {
+    margin: 32px 80px 0px 32px;
+    width: 100%;
+    max-width: 80px;
+    height: 39px;
+    color: #7247ff;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2.72px;
+}
+.section-sirius-text {
+    margin: 8px 32px 32px 32px;
+    width: 100%;
+    max-width: 128px;
+    height: 60px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.section-jamoa-sirius-img {
+    position: absolute;
+    z-index: -1;
+    top: 22px;
+    right: 200px;
+    bottom: 8821px;
+    left: -13px;
+}
+/********* Section yordam beramiz wrapper start ***********/
+.section-wrapper-title {
+    margin: 0px 627px 31px 626px;
+    width: 100%;
+    max-width: 187px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #303030;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.section-wrapper-loyihalar-list {
+    margin-bottom: 144px;
+    width: 100%;
+    max-width: 343px;
+    height: 344px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #fff;
+}
+.section-wrapper-loyihalar-list:nth-child(1) {
+    margin: 0px 16px 144px 189px;
+}
+.section-wrapper-loyihalar-list:nth-child(3) {
+    margin: 0px 189px 144px 16px;
+}
+.loyihalar-list-biznes-img {
+    width: 100%;
+    max-width: 159px;
+    margin: 32px 92px 16px 92px;
+}
+.loyihalar-list-title {
+    margin: 0px 233px 16px 32px;
+    width: 100%;
+    max-width: 78px;
+    height: 18px;
+    font-family: Inclusive Sans;
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.loyihalar-list-text {
+    margin: 0px 32px 32px 32px;
+    width: 100%;
+    max-width: 279px;
+    height: 102px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+.loyihalar-list-startup-img {
+    margin: 32px 87.12px 16px 90px;
+    width: 100%;
+    max-width: 166.881px;
+    height: 129px;
+}
+.loyihalar-list-title2 {
+    margin: 0px 15.4px 16px 32px;
+    width: 100%;
+    max-width: 158px;
+    height: 18px;
+    color: #303030;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.loyihalar-list-text2 {
+    margin: 0px 32px 32px 32px;
+    width: 100%;
+    max-width: 280px;
+    height: 101px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+.loyihalar-list-chas-img {
+    margin: 32px 90.65px 16px 91px;
+    width: 100%;
+    max-width: 161.352px;
+    height: 128px;
+}
+.loyihalar-list-title3 {
+    margin: 0px 131px 16px 32px;
+    width: 100%;
+    max-width: 180px;
+    height: 18px;
+    color: #303030;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.loyihalar-list-text3 {
+    margin: 0px 32px 32px 32px;
+    width: 100%;
+    max-width: 279px;
+    height: 102px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+/********* Section yordam beramiz wrapper end ***********/
+/********* Section-afzalliklar start*/
+.section-afzalliklar {
+    padding-bottom: 144px;
+}
+
+.section-afzalliklar-wrapper-title {
+    margin: 0px 519px 18px 483px;
+    width: 100%;
+    max-width: 438px;
+    color: #303030;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+.section-wrapper-start-intelekt {
+    margin: 0px 29px 0px 267px;
+    width: 100%;
+    max-width: 187px;
+    position: relative;
+    height: 105.834px;
+    border-radius: 11.936px;
+    background: linear-gradient(326deg, #f0ebff 11.53%, #fff 74.32%);
+    box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.78);
+}
+.section-wrapper-intelekt-input {
+    padding: 19px 25px 0px 35px;
+    margin-bottom: 0px;
+    width: 100%;
+    max-width: 140px;
+    height: 16px;
+    color: #000;
+    font-family: Inclusive Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.915px;
+}
+.section-wrapper-intelekt-button {
+    margin: 6px 19px 10px 19px;
+    padding: 15.62px 22.9px 15.63px 22.11px;
+    width: 100%;
+    max-width: 102px;
+    height: 15px;
+    color: #fff;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.323px;
+    border-radius: 7.957px;
+    background: linear-gradient(326deg, #2641d1 11.53%, #3333a3 74.32%);
+}
+.section-wrapper-intelekt-smart-img {
+    top: 16px;
+    right: 1034px;
+    bottom: 0px;
+    left: -70px;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    max-width: 219px;
+    height: 410px;
+}
+.section-wrapper-intelekt-smart-img2 {
+    width: 100%;
+    width: 178.973px;
+    height: 397.159px;
+    position: absolute;
+    z-index: -1;
+    top: 16px;
+    right: 1034px;
+    bottom: 0px;
+    left: -65px;
+}
+.section-wrapper-intelekt-smart-img3 {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    width: 160px;
+    height: 375px;
+    top: 35px;
+    right: 1034px;
+    bottom: 0px;
+    left: -56px;
+}
+.section-wrapper-intelekt-smart-img4 {
+    position: absolute;
+    width: 100%;
+    max-width: 150px;
+    height: 158px;
+    top: 118px;
+    right: 1034px;
+    bottom: 0px;
+    left: -47px;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+.section-wrapper-intelekt-smart-img-sirius {
+    margin: 183px 70px 71px -5px;
+    width: 100%;
+    max-width: 69px;
+    height: 46px;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 44px; /* 314.286% */
+    letter-spacing: 2.38px;
+}
+.section-wrapper-start-sirius {
+    margin: 24px;
+}
+.section-wrapper-start-sirius-title {
+    margin: 0px 392px 8px 29px;
+    width: 100%;
+    max-width: 80px;
+    height: 39px;
+    flex-shrink: 0;
+    color: #34449c;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 2.72px;
+}
+.section-wrapper-start-sirius-text-container {
+    margin: 0px 32px 30px 31px;
+    width: 100%;
+    max-width: 438px;
+    height: 220px;
+
+    /* color: #404040;
+    font-family: Gotham Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; */
+}
+.section-wrapper-start-sirius-container-text {
+    /* margin: 0px 32px 60px 31px; */
+    width: 100%;
+    max-width: 438px;
+    /* height: 214px; */
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.section-wrapper-start-sirius-text-text {
+    margin: 0px 159px 24px 12.87px;
+    width: 100%;
+    max-width: 300px;
+    height: 19px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.section-wrapper-start-sirius-text-text:nth-child(3) {
+    margin-bottom: 100px;
+}
+.section-wrapper-start-sirius-text {
+    margin: 75px;
+}
+.section-wrapper-start-sirius-text-img {
+    width: 100%;
+    max-width: 12px;
+    height: 6.576px;
+    margin-bottom: 18px;
+}
+
+.section-afzalliklar-wrapper-item-list {
+    margin-right: 19px;
+    width: 100%;
+    max-width: 236px;
+    height: 342px;
+    border-radius: 20px;
+    background: linear-gradient(236deg, #fff 29.99%, #f4f9ff 79.17%);
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-afzalliklar-wrapper-item-list:nth-child(1) {
+    margin-left: 80px;
+}
+/* .section-afzalliklar-wrapper-item-list:nth-child(5) {
+    margin-right: 103px;
+} */
+
+.section-afzalliklar-wrapper-item-list-chat-img {
+    margin: 36px 146px 16px 32px;
+    width: 100%;
+    max-width: 58px;
+    height: 58px;
+}
+.section-afzalliklar-wrapper-item-list-title {
+    margin: 0px 123px 16px 32px;
+    width: 100%;
+    max-width: 81px;
+    height: 40px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px; /* 125% */
+}
+.section-afzalliklar-wrapper-item-list-title5 {
+    margin: 0px 123px 16px 32px;
+    width: 100%;
+    max-width: 172px;
+    height: 60px;
+    color: #404040;
+    font-family: Nutino Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px; /* 125% */
+}
+.section-afzalliklar-wrapper-item-list-text {
+    margin: 0px 32px 32px 32px;
+    width: 100%;
+    max-width: 172px;
+    height: 144px;
+    flex-shrink: 0;
+    color: #404040;
+    /* font-family: Inclusive Sans; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/********* Section-afzalliklar end*/
+
+/********* Section Tarif start **********/
+
+.section-tarif-wrapper-title {
+    margin: 0px 501px 16px 501px;
+    width: 100%;
+    max-width: 438px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #303030;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 137.5% */
+}
+.section-tarif-wrapper-text {
+    margin: 0px 615px 42px 615px;
+    width: 100%;
+    max-width: 210px;
+    height: 16px;
+    flex-shrink: 0;
+    color: #404040;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+.tarif-oy {
+    margin: 0px 92px 32px 599px;
+    padding-bottom: 2px;
+    color: #273895;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    border-bottom: dashed 1px;
+    background-color: #f4f7fa;
+}
+.tarif-oy:hover {
+    margin: 0px 64px 42px 571px;
+    padding: 1px 1px;
+    color: #fff;
+    width: 100%;
+    max-width: 133px;
+    height: 40px;
+    border-radius: 15px;
+    background: #273895;
+    border: none;
+}
+
+.tarif-yil {
+    margin: 0px 634px 32px 0px;
+    padding-bottom: 2px;
+    color: #273895;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    border-bottom: dashed 1px;
+    background-color: #f4f7fa;
+}
+.tarif-yil:hover {
+    margin: 0px 64px 42px 0px;
+    padding: 1px 1px;
+    color: #fff;
+    width: 100%;
+    max-width: 133px;
+    height: 40px;
+    border-radius: 15px;
+    background: #273895;
+    border: none;
+}
+.section-tarif-wrapper-container {
+    margin-bottom: 40px;
+}
+/******************************************************************/
+.section-tarif-wrapper-bepul {
+    margin: 0px 189px 0px 189px;
+    width: 100%;
+    max-width: 1062px;
+    height: 495px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    display: inline-block;
+    background: #fff;
+}
+
+.section-tarif-wrapper-bepul-osson-title {
+    margin: 48px 406px 8px 405px;
+
+    width: 251px;
+    height: 26px;
+    color: #2741d0;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 30px; */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.section-tarif-wrapper-bepul-osson-text {
+    margin: 0px 406px 16px 405px;
+    width: 100%;
+    max-width: 251px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #c9c9c9;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px; /* 137.5% */
+}
+.section-tarif-wrapper-bepul-osson-text2 {
+    margin: 0px 308.05px 16px 307.13px;
+    width: 100%;
+    max-width: 446.817px;
+    color: #737373;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.section-tarif-wrapper-bepul-list2-title {
+    margin: 0px 406px 16px 406px;
+    width: 100%;
+    width: 250px;
+    height: 26px;
+    color: #404040;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.bepul-2 {
+    margin: 0px;
+    padding: 0px;
+}
+.section-tarif-wrapper-bepul-list2-img1 {
+    margin: 31.34px 8px 28.32px 230px;
+    width: 100%;
+    max-width: 7.393px;
+    height: 7.393px;
+}
+.section-tarif-wrapper-bepul-list2-text1 {
+    margin: 0px 85px 8px 0px;
+    padding: 0px;
+    width: 100%;
+    width: 225px;
+    height: 33px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 250% */
+}
+.section-tarif-wrapper-bepul-list2-img2 {
+    margin: -30px 8px 28.32px 230px;
+    width: 100%;
+    max-width: 7.393px;
+    height: 7.393px;
+}
+.section-tarif-wrapper-bepul-list2-text2 {
+    margin: -20px 24px 55px 0px;
+    width: 100%;
+    width: 286px;
+    height: 29px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 250% */
+}
+.section-tarif-wrapper-bepul-list2-img3 {
+    margin: 31.34px 8px 28.32px 0px;
+    width: 100%;
+    max-width: 7.393px;
+    height: 7.393px;
+}
+.section-tarif-wrapper-bepul-list2-text3 {
+    margin: 0px 406px 8px 0px;
+    width: 100%;
+    max-width: 87px;
+    height: 33px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.section-tarif-wrapper-bepul-list2-img4 {
+    margin: 0px 8px 28.32px 0px;
+    width: 100%;
+    max-width: 7.393px;
+    height: 7.393px;
+}
+.section-tarif-wrapper-bepul-list2-text4 {
+    margin: -17px 167px 16px 0px;
+    width: 100%;
+    width: 306px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-tarif-wrapper-kabinet-link {
+    margin: 0px 0px 16px 386px;
+    width: 100%;
+    width: 259px;
+    color: #2741d0;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.q {
+    width: 259px;
+}
+.section-tarif-wrapper-kabinet-img {
+    margin: 0px 386.2px 0px 5px;
+    width: 100%;
+    width: 14.801px;
+    height: 16px;
+}
+.section-tarif-wrapper-kabinet-button {
+    margin: 0px 400px 48px 400px;
+    display: flex;
+    width: 100%;
+    max-width: 180px;
+    height: 56px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: #3333a3;
+    border-radius: 15px;
+}
+.section-tarif-standart {
+    margin: 32px 33px 32px 0px;
+    width: 100%;
+    max-width: 513px;
+    height: 647px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #fff;
+    display: inline-block;
+}
+.section-tarif-standart-title {
+    margin: 48px 317px 16px 48px;
+    width: 100%;
+    max-width: 148px;
+    height: 27px;
+    color: #2741d0;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.section-tarif-standart-jismoniy {
+    margin: 0px 315px 16px 48px;
+    width: 100%;
+    max-width: 150px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #737373;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.section-tarif-standart-jismoniy-oy {
+    margin: 0px 315px 16px 48px;
+    width: 100%;
+    max-width: 150px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.section-tarif-standart-jismoniy-oy-sizuchun {
+    margin: 0px 315px 16px 48px;
+    width: 100%;
+    max-width: 150px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+.section-tarif-standart-img1 {
+    margin: 0px 8px 52px 48px;
+    width: 100%;
+    max-width: 7.055px;
+    height: 7.055px;
+}
+.section-tarif-standart-text0 {
+    margin: 0px 0px 16px 0px;
+    width: 100%;
+    max-width: 360px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-tarif-standart-text1 {
+    margin: 0px 0px 16px 0px;
+    width: 100%;
+    max-width: 360px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-tarif-standart-text1:nth-child(2) {
+    width: 300px;
+}
+
+.section-tarif-standart-text1-container1 {
+    margin: 0px;
+    padding: 0px;
+}
+.section-tarif-standart-text1-container2 {
+    margin: 0px;
+    padding: 0px;
+    height: 48px;
+    margin-bottom: 16px;
+}
+.section-tarif-standart-text1-container3 {
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+}
+.section-tarif-standart-text1-container4 {
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+}
+.section-tarif-standart-text1-container5 {
+    margin: 0px;
+    padding: 0px;
+    height: 48px;
+}
+.section-tarif-standart-link {
+    margin: 16px 0px 0px 48px;
+    width: 100%;
+    max-width: 259px;
+    color: #2741d0;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.section-tarif-standart-link-img {
+    margin: 0px 0px 0px 16px;
+    width: 100%;
+    max-width: 14.801px;
+    height: 16px;
+}
+.section-tarif-standart-button {
+    margin: 16px 245px 48px 48.1px;
+    display: flex;
+    width: 100%;
+    max-width: 180px;
+    height: 56px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: #3333a3;
+    border-radius: 15px;
+}
+
+/******** Biznes Konsultant Start**********/
+.section-tarif-konsultant-title {
+    margin: 48px 122px 16px 48px;
+    width: 100%;
+    max-width: 344px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #2741d0;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.section-tarif-standart-frilanser {
+    margin: 0px 199px 16px 48px;
+    width: 100%;
+    max-width: 267px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #737373;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.section-tarif-frilanser-text2 {
+    width: 1005;
+    max-width: 350px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+/******** Biznes Konsultant End**********/
+
+/**********  Bznes Premium Start  ************/
+.section-tarif-premium-title {
+    margin: 48px 187px 16px 48px;
+    width: 100%;
+    max-width: 278px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #2741d0;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.section-tarif-premium-text3 {
+    width: 100%;
+    max-width: 399px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+/* .section-tarif-premium-text5 {
+    margin: 0px 48px 41px 0px;
+    width: 100%;
+    max-width: 320px;
+    height: 48px;
+    color: #404040;
+    font-family: inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+} */
+.section-tarif-premium-text1-container5 {
+    margin-bottom: 25px;
+}
+
+.section-tarif-premium-link {
+    margin: 41px 0px 0px 48px;
+}
+
+.section-tarif-mejdunarodniy-standart-text1 {
+    width: 100%;
+    max-width: 355px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-tarif-mejdunarodni-text2 {
+    /* margin-bottom: -26px 48px 16px 0px; */
+    width: 100%;
+    max-width: 320px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-tarif-mejdunarodni-text3 {
+    /* margin: 0px 48px 16px 0px; */
+    width: 100%;
+    max-width: 330px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.section-tarif-mejdunarodniy-text4 {
+    /* margin: 0px 48px 16px 0px; */
+    width: 100%;
+    max-width: 395px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-tarif-mejdunarodniy-text5 {
+    /* margin: -40px 48px 0px 0px; */
+    width: 100%;
+    max-width: 395px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-tarif-mejdunarodniy-text1-container1 {
+    height: 60px;
+}
+.section-tarif-mejdunarodni-text1-container2 {
+    height: 80px;
+}
+.section-tarif-standart-mejdunarodni-container3 {
+    height: 30px;
+}
+.section-tarif-mejdunarodniy-text1-container5 {
+    margin-top: -20px;
+    margin-bottom: 32px;
+    height: 14px;
+}
+.section-tarif-mejdunarodni-link {
+    margin: 24px 0px 16px 48px;
+}
+
+.section-tarif-standart3 {
+    margin: 0px 33px 232px 0px;
+    width: 100%;
+    max-width: 513px;
+    height: 672px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #fff;
+    display: inline-block;
+}
+.section-tarif-standart4 {
+    margin: 0px 33px 232px 0px;
+    width: 100%;
+    max-width: 513px;
+    height: 672px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #fff;
+    display: inline-block;
+}
+
+/**********  Bznes Premium End  ************/
+
+/********* Section Tarif end **********/
+
+/********* Hamkorimiz bo'lin Start Bacround imj**********/
+
+.section-hamkor {
+    margin-top: 700px;
+    margin-bottom: 62px;
+
+    position: relative;
+}
+.section-hamkor-img1 {
+    width: 100%;
+    max-width: 1440px;
+    height: 372px;
+    position: absolute;
+    z-index: -1;
+}
+.section-hamkor-img2 {
+    top: 32px;
+    left: 195px;
+    width: 100%;
+    max-width: 350px;
+    height: 340px;
+    position: absolute;
+    z-index: -1;
+}
+.section-hamkor-title {
+    margin: 70px 846px 16px 196px;
+    width: 100%;
+    max-width: 398px;
+    height: 41px;
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    font-family: Inclusive Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+.section-hamkor-text {
+    margin: 125px 223px 205px 196px;
+    width: 100%;
+    max-width: 321px;
+    display: inline-block;
+    height: 48px;
+    color: #e9e9e9;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.section-hamkorlarga-list1 {
+    margin: 76px 189px 16px 189px;
+    width: 100%;
+    max-width: 1062px;
+    height: 229px;
+    border-radius: 20px;
+    background: #fff;
+}
+.section-hamkorlar-imkonyatlar-text0 {
+    margin: 0px;
+}
+.section-hamkorlar-imkonyatlar-img {
+    margin: 55px 0px 55px 110px;
+    width: 100%;
+    max-width: 218px;
+    height: 119px;
+}
+.section-hamkorlar-imkonyatlar-title {
+    margin: 48px 477px 16px 32px;
+    width: 100%;
+    max-width: 225px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+.section-hamkorlar-imkonyatlar-text1 {
+    margin: 0px 187px 8px 32px;
+    width: 100%;
+    width: 430px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+.section-hamkorlar-imkonyatlar-text2 {
+    margin: 0px 187px 48px 32px;
+    width: 100%;
+    width: 450px;
+    color: #b7b6b6;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.section-hamkorlarga-list2 {
+    margin: 0px 189px 16px 189px;
+    width: 100%;
+    max-width: 1062px;
+    height: 249px;
+    border-radius: 20px;
+    background: #fff;
+}
+.section-hamkorlar-imkonyatlar-img2 {
+    margin: 61px 64px 61px 110px;
+    width: 100%;
+    max-width: 186px;
+    height: 127px;
+    flex-shrink: 0;
+}
+.section-hamkorlar-imkonyatlar-title2 {
+    margin: 48px 477px 16px 0px;
+    width: 100%;
+    max-width: 225px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.section-hamkorlar-imkonyatlar-text2-1 {
+    margin: 0px 187px 10px 0px;
+    width: 100%;
+    max-width: 440px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-hamkorlar-imkonyatlar-text2-2 {
+    margin: 0px 187px 48px 0px;
+    width: 100%;
+    max-width: 445px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.section-hamkorlarga-list1 {
+    margin: 0px 189px 16px 189px;
+    width: 100%;
+    max-width: 1062px;
+    height: 229px;
+    border-radius: 20px;
+    background: #fff;
+}
+.section-hamkorlar-imkonyatlar-img3 {
+    margin: 62px 31px 61px 110px;
+    width: 100%;
+    max-width: 219px;
+    height: 106px;
+}
+.section-hamkorlar-imkonyatlar-titl3 {
+    margin: 48px 477px 16px 0px;
+    width: 100%;
+    max-width: 225px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+.section-hamkorlar-imkonyatlar-text3-1 {
+    margin: 0px 187px 10px 0px;
+    width: 100%;
+    max-width: 460px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.section-hamkorlar-imkonyatlar-text3-2 {
+    margin: 0px 187px 48px 0px;
+    width: 100%;
+    max-width: 450px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-hamkorlarga-list4 {
+    margin: 0px 189px 31px 189px;
+    width: 100%;
+    max-width: 1062px;
+    height: 299px;
+    border-radius: 20px;
+    background: #fff;
+}
+.section-hamkorlar-imkonyatlar-img4 {
+    margin: 70px 31px 70px 110px;
+    width: 100%;
+    max-width: 219px;
+    height: 159px;
+}
+.section-hamkorlar-imkonyatlar-title4 {
+    margin: 48px 477px 16px 0px;
+    width: 100%;
+    max-width: 225px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+.section-hamkorlar-imkonyatlar-text4-1 {
+    margin: 0px 187px 15px 0px;
+    width: 100%;
+    max-width: 400px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-hamkorlar-imkonyatlar-text4-2-container {
+    margin: 0px 187px 10px 0px;
+}
+.section-hamkorlar-imkonyatlar-text4-2 {
+    margin-left: 15px;
+    width: 100%;
+    max-width: 515px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    list-style: disc;
+}
+.section-hamkorlar-imkonyatlar-text4-3 {
+    margin: 0px 187px 48px 0px;
+    width: 100%;
+    max-width: 515px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+.section-hamkorlar-imkonyatlar-button {
+    margin: 0px 595px 144px 595px;
+    display: flex;
+    width: 100%;
+    max-width: 250px;
+    height: 56px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: #273895;
+    border-radius: 15px;
+}
+/********* Hamkorimiz bo'lin End Bacround imj **********/
+
+/*********  Osson Boshlash Start ************/
+
+.section-osson-boshlash-title {
+    margin: 0px 595px 48px 595px;
+    width: 100%;
+    max-width: 250px;
+    height: 37px;
+    color: #303030;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+.section-osson-boshlash-wrapper {
+    margin: 100px 254.5px 207.7px 166.25px;
+    width: 100%;
+    width: 1019.248px;
+    height: 361.951px;
+    background-image: url("././../../../public/s.png");
+    display: inline-block;
+    position: sticky;
+}
+
+.section-osson-boshlash-wrapper-royhat {
+    margin: -50px 16px 16px 20px;
+    width: 100%;
+    max-width: 296px;
+    height: 243px;
+    padding: 0px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-osson-boshlash-wrapper-royhat2 {
+    margin: 0px 16px 144px 20px;
+    width: 100%;
+    max-width: 296px;
+    height: 243px;
+    padding: 0px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-osson-boshlash-wrapper-royhat-1 {
+    margin: 32px 300px 16px 32px;
+    padding: 0px;
+    display: inline-flex;
+    padding: 5px 5px 5px 5px;
+    color: #404040;
+    width: 100%;
+    max-width: 15px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 50%;
+    border: solid 2px;
+}
+.section-osson-boshlash-wrapper-royhat-1-title {
+    margin: 0px 39px 16px 32px;
+    width: 100%;
+    max-width: 225px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+.section-osson-boshlash-wrapper-royhat-1-text {
+    margin: 0px 32px 32px 32px;
+    width: 100%;
+    max-width: 160px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-osson-boshlash-wrapper-royhat-2-text {
+    margin: 0px 32px 32px 32px;
+    width: 100%;
+    max-width: 190px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-osson-boshlash-wrapper-royhat-strategiya {
+    margin: -50px 16px 144px 0px;
+    width: 100%;
+    max-width: 312px;
+    height: 502px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-osson-boshlash-wrapper-royhat-strategiya-img {
+    margin: 73px 41px 32px 40px;
+    width: 100%;
+    max-width: 231px;
+    height: 161px;
+}
+.section-osson-boshlash-wrapper-royhat-3 {
+    margin: 32px 300px 16px 40px;
+    padding: 0px;
+    display: inline-flex;
+    padding: 5px 5px 5px 5px;
+    color: #404040;
+    width: 100%;
+    max-width: 15px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 50%;
+    border: solid 2px;
+}
+.section-osson-boshlash-wrapper-royhat-3-title {
+    margin: 0px 47px 16px 40px;
+    width: 100%;
+    max-width: 225px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+.section-osson-boshlash-wrapper-royhat-3-text {
+    margin: 0px 40px 57px 40px;
+    width: 100%;
+    max-width: 210px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-osson-boshlash-wrapper-royhat-target {
+    margin: -50px 299px 280px 0px;
+    width: 100%;
+    max-width: 312px;
+    height: 366px;
+    border-radius: 20px;
+    border: 2px solid #4917e8;
+    background: #fff;
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-osson-boshlash-wrapper-royhat-target-img {
+    margin: 40px 217px 16px 40px;
+    width: 100%;
+    max-width: 55px;
+    height: 55px;
+}
+.section-osson-boshlash-wrapper-royhat-4-text {
+    margin: 0px 40px 16px 40px;
+    width: 100%;
+    max-width: 160px;
+    color: #404040;
+    font-family: Inclusive Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-osson-boshlash-wrapper-royhat-button {
+    margin: 0px 40px 40px 40px;
+    padding: 0px;
+    display: flex;
+    width: 232px;
+    height: 56px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    font-family: Inclusive Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: #273895;
+    border-radius: 15px;
+}
+/*********  Osson Boshlash End ************/
+
+/*********  Section Hamkorlaruchun bashorat Start **********/
+
+.section-hamkorlaruchun-bashorat {
+    margin: 0px 0px 144px 0px;
+    width: 100%;
+    max-width: 1480px;
+    height: 287px;
+    flex-shrink: 0;
+    background: #273895;
+    display: inline-block;
+}
+.section-hamkorlaruchun-bashorat-wrapper-title {
+    margin: 96px 106px 110px 80px;
+    width: 100%;
+    max-width: 406px;
+    height: 81px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+.section-hamkorlaruchun-bashorat1-title {
+    margin: 98px 8px 16px 0px;
+    width: 100%;
+    max-width: 186px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    
+}
+.section-hamkorlaruchun-bashorat1-text {
+    margin: 0px 32px 96px 0px;
+    width: 100%;
+    max-width: 122px;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-hamkorlaruchun-bashorat1-title2 {
+    margin: 98px 8px 16px 0px;
+    width: 100%;
+    max-width: 186px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.section-hamkorlaruchun-bashorat1-text2 {
+    margin: 0px 16px 96px 0px;
+    width: 100%;
+    max-width: 198px;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-hamkorlaruchun-bashorat1-title3 {
+    margin: 98px 4px 16px 0px;
+    width: 100%;
+    max-width: 180px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.section-hamkorlaruchun-bashorat1-text3 {
+    margin: 0px 18px 96px 0px;
+    width: 100%;
+    max-width: 175px;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-hamkorlaruchun-bashorat1-title4 {
+    margin: 98px 80px 16px 0px;
+    width: 100%;
+    max-width: 165px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.section-hamkorlaruchun-bashorat1-text4 {
+    margin: 0px 84px 96px 4px;
+    width: 100%;
+    max-width: 160px;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/*********  Section Hamkorlaruchun bashorat End **********/
+
+/******   Section Rahbar Start ********/
+.section-rahbar-wrapper-img-img {
+    margin: 0px 0px 171px 164px;
+    padding: 0px 20px 0px 20px;
+    border-top: none;
+    border-bottom: none;
+    width: 100%;
+    max-width: 468px;
+    height: 584px;
+    flex-shrink: 0;
+    background-color: lightgray;
+
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; ; */
+}
+.section-rahbar-wrapper-text-container {
+}
+.section-rahbar-wrapper-img {
+    position: relative;
+}
+.section-rahbar-wrapper-container-text1 {
+    margin: 70px 517px 0px 72px;
+    width: 100%;
+    max-width: 219px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-rahbar-wrapper-container-title {
+    margin: 0px 376px 16px 72px;
+    width: 100%;
+    max-width: 360px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #303030;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+.section-rahbar-wrapper-container-text2 {
+    margin: 0px 378px 32px 72px;
+    width: 100%;
+    max-width: 358px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+}
+.section-rahbar-wrapper-container-text3 {
+    margin: 0px 267px 0px 72px;
+    width: 100%;
+    max-width: 465px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-rahbar-list-text {
+    margin: 0px 267px 0px 72px;
+    width: 100%;
+    max-width: 469px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    list-style: inside;
+}
+.section-rahbar-list-text2 {
+    margin: 0px 267px 16px 72px;
+    width: 100%;
+    max-width: 469px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-rahbar-list-text3 {
+    margin: 0px 267px 32px 72px;
+    width: 100%;
+    max-width: 469px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-rahbar-button {
+    margin: 0px 468px 309px 72px;
+    display: flex;
+    width: 251px;
+    height: 56px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    border-radius: 15px;
+    background: #273895;
+}
+/* .rahbar-wrapper{
+    position: relative;
+    
+} */
+.aleksandr-container {
+    position: absolute;
+    /* top:486px;
+    right:704;
+     bottom: 144px;
+   left: 390px; */
+    z-index: 2;
+    top: 486px;
+    right: 720px;
+    width: 100%;
+    max-width: 360px;
+    height: 125px;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+
+    border-radius: 11.936px;
+    background: linear-gradient(331deg, #f0ebff -4.05%, #fff 34.42%);
+    box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.2);
+}
+.aleksandr-container-text {
+    width: 100%;
+    max-width: 29px;
+    height: 13px;
+
+    color: #303030;
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.915px;
+}
+.aleksandr-container-text2 {
+    margin: 20px 45px 32px 32px;
+    padding: 0px;
+    width: 100%;
+    max-width: 296px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #303030;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 15.915px;
+}
+.vergul {
+    width: 100%;
+    max-width: 29px;
+    height: 13px;
+    color: #303030;
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.915px;
+}
+.footer-chiziq {
+    width: 100;
+    max-width: 1440px;
+    height: 1px;
+    background: #dee6ef;
+}
+.footer-logo-img {
+    margin: 32px 0px 32px 80px;
+    width: 100%;
+    max-width: 125px;
+    height: 55px;
+    flex-shrink: 0;
+}
+.footer-logo-text1 {
+    margin: 45px 48px 44px -35px;
+    width: 100%;
+    max-width: 100px;
+    height: 55px;
+    color: #3b1d8f;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+}
+.footer-logo-text2 {
+    margin: 45px 602px 42px 0px;
+    width: 100%;
+    max-width: 227px;
+    height: 40px;
+    color: #303030;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer-vk-link {
+    margin: 49px 0px 42px 0px;
+    padding: 9px;
+    width: 100%;
+    max-width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #cfdae7;
+    border: 1px solid #cfdae7;
+}
+.footer-vk-link:hover {
+    background-color: #e2e2e2;
+}
+.footer-vk-link4:hover {
+    background-color: #e2e2e2;
+}
+.footer-vk-link4 {
+    margin: 49px 70px 42px 0px;
+    padding: 9px;
+    width: 100%;
+    max-width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #cfdae7;
+    border: 1px solid #cfdae7;
+}
+
+.footer-img-link {
+    padding: 8px;
+}
+.elektron-manzil {
+    width: 100%;
+    max-width: 1440px;
+    height: 52px;
+    background: #e8edf3;
+}
+.elektron-manzil-text1 {
+    margin: 16px 541px 16px 79px;
+    color: #7a7a7a;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.elektron-manzil-text2 {
+    margin: 16px 16px 16px 0px;
+    color: #7a7a7a;
+    text-align: right;
+    font-family: Nunito Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.elektron-manzil-text3 {
+    margin: 16px 111px 16px 0px;
+    color: #7a7a7a;
+    text-align: right;
+    font-family: Nunito Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/******   Section Rahbar End  ********/
+
+/********** Main Section end*/
+
+/*******  Mobilni  ********/
+
+/********** Header media start **********/
+
+@media only screen and (max-width: 1350px) {
+    .SideLogotext {
+        margin: 51px 480px 55px 20px;
+        width: 230px;
+        color: #303030;
+        font-size: 12px;
+    }
+    .section-img-doira {
+        position: absolute;
+        top: 170;
+        right: 168px;
+        bottom: 857;
+        left: 300;
+        flex-shrink: 0;
+        z-index: 1;
+        width: 100px;
+        height: 100px;
+    }
+    .section-img-group {
+        position: absolute;
+        top: 170px;
+        right: 150px;
+        bottom: 857;
+        left: 700;
+        width: 130px;
+        height: 130px;
+    }
+    .img-yulduz {
+        position: absolute;
+        top: 252px;
+        right: 268px;
+        bottom: 8507px;
+        left: 968px;
+    }
+}
+@media only screen and (max-width: 1250px) {
+    .Legal {
+        margin: 51px 0px 60px -70px;
+        width: 130px;
+        color: #3b1d8f;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    .SideLogotext {
+        margin: 51px 360px 55px 20px;
+        width: 230px;
+        color: #303030;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 166.667% */
+    }
+
+    .section-img-doira {
+        position: absolute;
+        top: 170;
+        right: 60px;
+        bottom: 857;
+        left: 950px;
+
+        z-index: 1;
+    }
+    .section-img-group {
+        position: absolute;
+        top: 170px;
+        right: 44px;
+        bottom: 857;
+        left: 940px;
+    }
+    .img-yulduz {
+        position: absolute;
+        top: 226px;
+        right: 255px;
+        bottom: 8507px;
+        left: 860px;
+    }
+    .main-section-wrapper-button {
+        margin: 0px 10px 382px 50px;
+        color: #ffffff;
+        padding: 14px 28px;
+        align-items: center;
+        border-radius: 15px;
+        background: #273895;
+    }
+    .section-name {
+        margin: 120px 20px 16px 40px;
+        color: #262626;
+        width: 670px;
+        font-size: 38px;
+    }
+    .main-section-wrapper-text {
+        margin: 0px 170px 32px 40px;
+        color: #303030;
+        width: 480px;
+        font-size: 14px;
+        position: relative;
+    }
+    .Section-img {
+        margin: 55px 157px 0px 0px;
+        width: 390px;
+        height: 430px;
+    }
+
+    .doxod {
+        margin-top: 20px;
+        margin-left: 963px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        font-size: 12px;
+    }
+    .dollar {
+        margin-top: 40px;
+        margin-left: 960px;
+        position: absolute;
+        color: #303030;
+        font-size: 12px;
+        z-index: 2;
+    }
+    .section-span-text {
+        margin-top: 65px;
+        margin-left: 935px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        width: 94px;
+        font-size: 12px;
+    }
+    .div-qolib {
+        margin: 430px 80px 8074px 648px;
+        position: absolute;
+        width: 550px;
+        height: 164px;
+        background-color: #f4f7fa;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+        border-radius: 10px;
+    }
+    .haqimizda {
+        margin: 80px 30px 32px 48px;
+        width: 160px;
+        color: #303030;
+        font-size: 14px;
+    }
+    .haqimizda2 {
+        margin: 80px 40px 32px 0px;
+        width: 270px;
+        color: #303030;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    .haqimizda3 {
+        margin: 80px 0px 32px 0px;
+        width: 220px;
+        color: #303030;
+        font-size: 14px;
+    }
+    .section-rang-img {
+        position: absolute;
+        top: 32px;
+        right: 398px;
+        bottom: 92px;
+        left: 187px;
+    }
+
+    .dollar-elipse15 {
+        position: absolute;
+        top: 35px;
+        right: 90px;
+        bottom: 288px;
+        left: 403px;
+    }
+
+    .dollar-elipse4 {
+        position: absolute;
+        top: 36px;
+        right: 176px;
+        bottom: 95px;
+        left: 415px;
+    }
+    .span-dollar {
+        position: absolute;
+        top: 43.32px;
+        right: 186.82px;
+        bottom: 107px;
+        left: 425px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+        max-width: 1000px;
+        margin-right: -40px;
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .SiteLogo {
+        margin: 45px 0px 48px 40px;
+    }
+    .Legal {
+        margin: 51px 0px 60px -70px;
+        width: 140px;
+        color: #3b1d8f;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    .Section-img {
+        margin: 55px 140px 0px 50px;
+        width: 400px;
+        height: 450px;
+    }
+    .yuridic-container {
+        width: 500px;
+    }
+    .SideLogotext {
+        margin: 51px 150px 55px 20px;
+        width: 250px;
+        color: #303030;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 166.667% */
+    }
+    .Header-tel:hover {
+        color: #3b1d8f;
+
+        margin-left: -50px;
+    }
+
+    .btn-header {
+        padding: 16px 22px 16px 22px;
+        margin: 56px 0px 55px 0px;
+        color: #edeff2;
+        border-radius: 15px;
+        background-color: #273895;
+        height: 18px;
+        align-items: center;
+    }
+    .section-name {
+        margin: 120px 10px 16px 40px;
+        color: #262626;
+        width: 600px;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 55px;
+    }
+
+    .main-section-wrapper-text {
+        margin: 0px 160px 32px 40px;
+        color: #303030;
+        width: 400px;
+        font-size: 14px;
+        position: relative;
+    }
+
+    .main-section-wrapper-button {
+        margin: 0px 160px 382px 40px;
+        color: #ffffff;
+        padding: 16px 32px;
+        align-items: center;
+        border-radius: 15px;
+        background: #273895;
+    }
+    .div-qolib {
+        margin: 430px 130px 8074px 440px;
+        position: absolute;
+        width: 550px;
+        height: 164px;
+        background-color: #f4f7fa;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+        border-radius: 10px;
+    }
+    .section-img-doira {
+        position: absolute;
+        top: 170;
+        right: 168px;
+        bottom: 857;
+        left: 780px;
+        z-index: 1;
+        width: 100px;
+        height: 100px;
+    }
+    .section-img-group {
+        position: absolute;
+        top: 170px;
+        right: 150px;
+        bottom: 857;
+        left: 765px;
+        width: 130px;
+        height: 130px;
+    }
+    .img-yulduz {
+        position: absolute;
+        top: 252px;
+        right: 268px;
+        bottom: 8507px;
+        left: 700px;
+        width: 160px;
+    }
+    .doxod {
+        margin-top: 20px;
+        margin-left: 792px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        font-size: 12px;
+    }
+    .dollar {
+        margin-top: 40px;
+        margin-left: 790px;
+        position: absolute;
+        color: #303030;
+        font-size: 12px;
+        z-index: 2;
+    }
+    .section-span-text {
+        margin-top: 65px;
+        margin-left: 765px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        width: 94px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .mobilni-img {
+        width: 12px;
+        height: 22px;
+        padding: 14px 14px 18px 19px;
+        border-radius: 7px;
+        background: linear-gradient(326deg, #2641d1 11.53%, #3333a3 74.32%);
+        display: block;
+    }
+}
+
+/********** Header media end **********/
