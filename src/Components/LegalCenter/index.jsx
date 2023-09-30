@@ -249,7 +249,7 @@ const LegalCenter = () => {
                                     </p>
                                     <img
                                         className='section-jamoa-tajriba-img'
-                                        src='./../../assets/klient img.png'
+                                        src='../../assets/klient img.png'
                                         width={159}
                                         height={159}
                                         alt='rasm'
@@ -267,7 +267,7 @@ const LegalCenter = () => {
                                     </p>
                                     <img
                                         className='section-jamoa-hodmlar-img'
-                                        src='./../../assets/klient img.png'
+                                        src='../../assets/klient img.png'
                                         width={39}
                                         height={39}
                                         alt='rasm'
@@ -284,7 +284,7 @@ const LegalCenter = () => {
                                     </p>
                                     <img
                                         className='section-jamoa-sirius-img'
-                                        src='./../../assets/klient img.png'
+                                        src='../../assets/klient img.png'
                                         width={25}
                                         height={25}
                                         alt='rasm'
