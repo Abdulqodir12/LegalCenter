@@ -1777,7 +1777,7 @@ p sub {
     width: 100%;
     width: 1019.248px;
     height: 361.951px;
-    background-image: url("././../../../public/s.png");
+    background-image: url("././/public/s.png");
     display: inline-block;
     position: sticky;
 }
@@ -1986,8 +1986,6 @@ p sub {
     font-style: normal;
     font-weight: 700;
     line-height: 44px;
-
-
 }
 .section-hamkorlaruchun-bashorat1-title {
     margin: 98px 8px 16px 0px;
@@ -2003,9 +2001,8 @@ p sub {
     font-weight: 700;
     line-height: 150%;
     background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .section-hamkorlaruchun-bashorat1-text {
     margin: 0px 32px 96px 0px;
@@ -2033,8 +2030,8 @@ p sub {
     font-weight: 700;
     line-height: 150%;
     background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .section-hamkorlaruchun-bashorat1-text2 {
     margin: 0px 16px 96px 0px;
@@ -2062,8 +2059,8 @@ p sub {
     font-weight: 700;
     line-height: 150%;
     background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .section-hamkorlaruchun-bashorat1-text3 {
     margin: 0px 18px 96px 0px;
@@ -2091,8 +2088,8 @@ p sub {
     font-weight: 700;
     line-height: 150%;
     background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .section-hamkorlaruchun-bashorat1-text4 {
     margin: 0px 84px 96px 4px;
@@ -2110,7 +2107,7 @@ p sub {
 /*********  Section Hamkorlaruchun bashorat End **********/
 
 /******   Section Rahbar Start ********/
-.section-rahbar-wrapper{
+.section-rahbar-wrapper {
     display: flex;
 }
 .section-rahbar-wrapper-img-img {
