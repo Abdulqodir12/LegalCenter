@@ -1,6 +1,6 @@
 /**********  Header start   ***********/
 @font-face {
-    font-family: "Inclusive Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     src: url("/index.html/https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:opsz,wght@9..144,800&family=Inclusive+Sans&family=Montserrat&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;1,6..12,400&display=swap");
 }
 @font-face {
@@ -40,7 +40,7 @@
     width: 100%;
     max-width: 200px;
     color: #303030;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -92,7 +92,7 @@
 
 .nav-link {
     color: #000;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -122,7 +122,7 @@
     margin: 120px 32px 16px 40px;
     color: #262626;
     width: 733px;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -133,7 +133,7 @@
     margin: 0px 218px 32px 40px;
     color: #303030;
     width: 480px;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -188,7 +188,7 @@
     position: absolute;
     z-index: 2;
     color: #303030;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -200,7 +200,7 @@
     position: absolute;
     color: #303030;
     font-size: 16px;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
@@ -215,7 +215,7 @@
     text-align: center;
     max-width: 80px;
     width: 100%;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -283,7 +283,7 @@
     width: 149px;
     color: #303030;
     font-size: 16px;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -315,7 +315,7 @@
     width: 100%;
     max-width: 400px;
     color: #303030;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -326,7 +326,7 @@
     width: 406px;
     height: 85px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -347,7 +347,7 @@
     width: 156px;
     height: 54px;
     color: #7247ff;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -361,7 +361,7 @@ p sub {
     margin: 0px 29px 32px 32px;
     width: 156px;
     height: 35px;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     color: #404040;
     font-size: 14px;
     font-weight: 400;
@@ -380,7 +380,7 @@ p sub {
     width: 58px;
     height: 32px;
     color: #7247ff;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -392,7 +392,7 @@ p sub {
     max-width: 131px;
     height: 40px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -422,7 +422,7 @@ p sub {
     width: 100%;
     max-width: 81px;
     height: 54px;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     color: #7247ff;
     font-size: 36px;
     font-style: normal;
@@ -434,7 +434,7 @@ p sub {
     max-width: 128px;
     height: 40px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -467,7 +467,7 @@ p sub {
     height: 39px;
     color: #7247ff;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -479,7 +479,7 @@ p sub {
     max-width: 128px;
     height: 60px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -502,7 +502,7 @@ p sub {
     flex-shrink: 0;
     color: #303030;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -534,7 +534,7 @@ p sub {
     width: 100%;
     max-width: 78px;
     height: 18px;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     color: #303030;
     font-size: 16px;
     font-style: normal;
@@ -547,7 +547,7 @@ p sub {
     max-width: 279px;
     height: 102px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -565,7 +565,7 @@ p sub {
     max-width: 158px;
     height: 18px;
     color: #303030;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -577,7 +577,7 @@ p sub {
     max-width: 280px;
     height: 101px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -595,7 +595,7 @@ p sub {
     max-width: 180px;
     height: 18px;
     color: #303030;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -607,7 +607,7 @@ p sub {
     max-width: 279px;
     height: 102px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -626,7 +626,7 @@ p sub {
     max-width: 438px;
     color: #303030;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -649,7 +649,7 @@ p sub {
     max-width: 140px;
     height: 16px;
     color: #000;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -663,7 +663,7 @@ p sub {
     height: 15px;
     color: #fff;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 12px;
     font-weight: 400;
     line-height: 14.323px;
@@ -723,7 +723,7 @@ p sub {
     z-index: 1;
     color: #fff;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-weight: 400;
     line-height: 44px; /* 314.286% */
@@ -740,7 +740,7 @@ p sub {
     flex-shrink: 0;
     color: #34449c;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -766,7 +766,7 @@ p sub {
     max-width: 438px;
     /* height: 214px; */
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -779,7 +779,7 @@ p sub {
     height: 19px;
     flex-shrink: 0;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -826,7 +826,7 @@ p sub {
     max-width: 81px;
     height: 40px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: bold;
@@ -851,7 +851,7 @@ p sub {
     height: 144px;
     flex-shrink: 0;
     color: #404040;
-    /* font-family: Inclusive Sans; */
+    /* font-family: Nunito Sans; */
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -870,7 +870,7 @@ p sub {
     flex-shrink: 0;
     color: #303030;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -884,7 +884,7 @@ p sub {
     flex-shrink: 0;
     color: #404040;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -896,7 +896,7 @@ p sub {
     padding-bottom: 2px;
     color: #273895;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -921,7 +921,7 @@ p sub {
     padding-bottom: 2px;
     color: #273895;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -962,7 +962,7 @@ p sub {
     height: 26px;
     color: #2741d0;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -978,7 +978,7 @@ p sub {
     flex-shrink: 0;
     color: #c9c9c9;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -990,7 +990,7 @@ p sub {
     max-width: 446.817px;
     color: #737373;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1003,7 +1003,7 @@ p sub {
     height: 26px;
     color: #404040;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1026,7 +1026,7 @@ p sub {
     width: 225px;
     height: 33px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1044,7 +1044,7 @@ p sub {
     width: 286px;
     height: 29px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1063,7 +1063,7 @@ p sub {
     height: 33px;
     flex-shrink: 0;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1080,7 +1080,7 @@ p sub {
     width: 100%;
     width: 306px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1091,7 +1091,7 @@ p sub {
     width: 100%;
     width: 259px;
     color: #2741d0;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1116,7 +1116,7 @@ p sub {
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1140,7 +1140,7 @@ p sub {
     max-width: 148px;
     height: 27px;
     color: #2741d0;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -1155,7 +1155,7 @@ p sub {
     height: 26px;
     flex-shrink: 0;
     color: #737373;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1168,7 +1168,7 @@ p sub {
     height: 26px;
     flex-shrink: 0;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -1181,7 +1181,7 @@ p sub {
     height: 24px;
     flex-shrink: 0;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -1198,7 +1198,7 @@ p sub {
     width: 100%;
     max-width: 360px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1209,7 +1209,7 @@ p sub {
     width: 100%;
     max-width: 360px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1249,7 +1249,7 @@ p sub {
     width: 100%;
     max-width: 259px;
     color: #2741d0;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1271,7 +1271,7 @@ p sub {
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1288,7 +1288,7 @@ p sub {
     height: 27px;
     flex-shrink: 0;
     color: #2741d0;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -1303,7 +1303,7 @@ p sub {
     height: 26px;
     flex-shrink: 0;
     color: #737373;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1313,7 +1313,7 @@ p sub {
     width: 1005;
     max-width: 350px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1329,7 +1329,7 @@ p sub {
     height: 27px;
     flex-shrink: 0;
     color: #2741d0;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -1341,7 +1341,7 @@ p sub {
     width: 100%;
     max-width: 399px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1353,7 +1353,7 @@ p sub {
     max-width: 320px;
     height: 48px;
     color: #404040;
-    font-family: inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1371,7 +1371,7 @@ p sub {
     width: 100%;
     max-width: 355px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1382,7 +1382,7 @@ p sub {
     width: 100%;
     max-width: 320px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1393,7 +1393,7 @@ p sub {
     width: 100%;
     max-width: 330px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1404,7 +1404,7 @@ p sub {
     width: 100%;
     max-width: 395px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1415,7 +1415,7 @@ p sub {
     width: 100%;
     max-width: 395px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1497,7 +1497,7 @@ p sub {
     position: absolute;
     z-index: 2;
     color: #fff;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -1510,7 +1510,7 @@ p sub {
     display: inline-block;
     height: 48px;
     color: #e9e9e9;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1540,7 +1540,7 @@ p sub {
     height: 27px;
     flex-shrink: 0;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -1551,7 +1551,7 @@ p sub {
     width: 100%;
     width: 430px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1562,7 +1562,7 @@ p sub {
     width: 100%;
     width: 450px;
     color: #b7b6b6;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1591,7 +1591,7 @@ p sub {
     height: 27px;
     flex-shrink: 0;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -1603,7 +1603,7 @@ p sub {
     width: 100%;
     max-width: 440px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1614,7 +1614,7 @@ p sub {
     width: 100%;
     max-width: 445px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1642,7 +1642,7 @@ p sub {
     height: 27px;
     flex-shrink: 0;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -1653,7 +1653,7 @@ p sub {
     width: 100%;
     max-width: 460px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1665,7 +1665,7 @@ p sub {
     width: 100%;
     max-width: 450px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1692,7 +1692,7 @@ p sub {
     height: 27px;
     flex-shrink: 0;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -1703,7 +1703,7 @@ p sub {
     width: 100%;
     max-width: 400px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1717,7 +1717,7 @@ p sub {
     width: 100%;
     max-width: 515px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1729,7 +1729,7 @@ p sub {
     width: 100%;
     max-width: 515px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -1747,7 +1747,7 @@ p sub {
     align-items: center;
     color: #fff;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1766,7 +1766,7 @@ p sub {
     height: 37px;
     color: #303030;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -1777,7 +1777,7 @@ p sub {
     width: 100%;
     width: 1019.248px;
     height: 361.951px;
-    background-image: url("././/public/s.png");
+    background-image: url("/public/s.png");
     display: inline-block;
     position: sticky;
 }
@@ -1814,7 +1814,7 @@ p sub {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -1828,7 +1828,7 @@ p sub {
     height: 27px;
     flex-shrink: 0;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -1839,7 +1839,7 @@ p sub {
     width: 100%;
     max-width: 160px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1850,7 +1850,7 @@ p sub {
     width: 100%;
     max-width: 190px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1883,7 +1883,7 @@ p sub {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -1897,7 +1897,7 @@ p sub {
     height: 27px;
     flex-shrink: 0;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -1908,7 +1908,7 @@ p sub {
     width: 100%;
     max-width: 210px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1935,7 +1935,7 @@ p sub {
     width: 100%;
     max-width: 160px;
     color: #404040;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1953,7 +1953,7 @@ p sub {
     color: #fff;
     align-items: center;
     text-align: center;
-    font-family: Inclusive Sans;
+    font-family: Nunito Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
