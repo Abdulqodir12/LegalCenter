@@ -1,5 +1,5 @@
-import "../LegalCenter/index.css";
 import React from "react";
+import "../LegalCenter/index.css";
 
 const LegalCenter = () => {
     return (
@@ -10,7 +10,7 @@ const LegalCenter = () => {
                 <a href='#'>
                     <img
                         className='SiteLogo'
-                        src='..//../../public/LLc.png'
+                        src='/public/LLC.png'
                         alt='LLC'
                         width={160}
                         height={63}
@@ -247,7 +247,7 @@ const LegalCenter = () => {
                                     </p>
                                     <p className='section-jamoa-tajriba-text'>
                                         Опытных юристов в штате
-                                    </p>
+                                        </p>
                                     <img
                                         className='section-jamoa-tajriba-img'
                                         src='./../../../public/klient img.png'
@@ -1341,57 +1341,51 @@ const LegalCenter = () => {
                         </div>
                     </div>
                 </div>
-        
-                
-                    <div className='section-hamkorlaruchun-bashorat'>
-                        <div className='section-hamkorlaruchun-bashorat-wrapper d-flex'>
-                            <h2 className='section-hamkorlaruchun-bashorat-wrapper-title'>
-                                Прогнозы партнерской программы на 2021 год
-                            </h2>
-                            <div className='section-hamkorlaruchun-bashorat-container d-flex align-items-baseline'>
-                                <div className='section-hamkorlaruchun-bashorat1'>
-                                    <p className='section-hamkorlaruchun-bashorat1-title'>
-                                        $2 млн.
-                                    </p>
-                                    <p className='section-hamkorlaruchun-bashorat1-text'>
-                                        Заработают партнеры ILC
-                                    </p>
-                                </div>
-                                <div className='section-hamkorlaruchun-bashorat2'>
-                                    <p className='section-hamkorlaruchun-bashorat1-title2'>
-                                        10 000+
-                                    </p>
-                                    <p className='section-hamkorlaruchun-bashorat1-text2'>
-                                        Полисов будет оформлено по партнерским
-                                        ссылкам
-                                    </p>
-                                </div>
-                                <div className='section-hamkorlaruchun-bashorat3'>
-                                    <p className='section-hamkorlaruchun-bashorat1-title3'>
-                                        800+
-                                    </p>
-                                    <p className='section-hamkorlaruchun-bashorat1-text3'>
-                                        Партнеров присоединится к нам
-                                    </p>
-                                </div>
-                                <div className='section-hamkorlaruchun-bashorat4'>
-                                    <p className='section-hamkorlaruchun-bashorat1-title4'>
-                                        $1500
-                                    </p>
-                                    <p className='section-hamkorlaruchun-bashorat1-text4'>
-                                        Средний доход партнера в месяц
-                                    </p>
-                                </div>
+
+                <div className='section-hamkorlaruchun-bashorat'>
+                    <div className='section-hamkorlaruchun-bashorat-wrapper d-flex'>
+                        <h2 className='section-hamkorlaruchun-bashorat-wrapper-title'>
+                            Прогнозы партнерской программы на 2021 год
+                        </h2>
+                        <div className='section-hamkorlaruchun-bashorat-container d-flex align-items-baseline'>
+                            <div className='section-hamkorlaruchun-bashorat1'>
+                                <p className='section-hamkorlaruchun-bashorat1-title'>
+                                    $2 млн.
+                                </p>
+                                <p className='section-hamkorlaruchun-bashorat1-text'>
+                                    Заработают партнеры ILC
+                                </p>
+                            </div>
+                            <div className='section-hamkorlaruchun-bashorat2'>
+                                <p className='section-hamkorlaruchun-bashorat1-title2'>
+                                    10 000+
+                                </p>
+                                <p className='section-hamkorlaruchun-bashorat1-text2'>
+                                    Полисов будет оформлено по партнерским
+                                    ссылкам
+                                </p>
+                            </div>
+                            <div className='section-hamkorlaruchun-bashorat3'>
+                                <p className='section-hamkorlaruchun-bashorat1-title3'>
+                                    800+
+                                </p>
+                                <p className='section-hamkorlaruchun-bashorat1-text3'>
+                                    Партнеров присоединится к нам
+                                </p>
+                            </div>
+                            <div className='section-hamkorlaruchun-bashorat4'>
+                                <p className='section-hamkorlaruchun-bashorat1-title4'>
+                                    $1500
+                                </p>
+                                <p className='section-hamkorlaruchun-bashorat1-text4'>
+                                    Средний доход партнера в месяц
+                                </p>
                             </div>
                         </div>
                     </div>
-               
-                  
-                   
-            
+                </div>
                 <div className='section-rahbar'>
-                    <div className='section-rahbar-wrapper d-flex'>
-                        {/* <div > */}
+                    <div className='section-rahbar-wrapper '>
                         <img
                             className='section-rahbar-wrapper-img-img'
                             src='../../../public/Aleksandr.jpg'
@@ -1399,12 +1393,6 @@ const LegalCenter = () => {
                             height={584}
                             alt='rasm'
                         />
-                        {/* <div className='section-rahbar'> */}
-
-                        {/* </div> */}
-
-                        {/* </div> */}
-
                         <div className='section-rahbar-wrapper-img  '>
                             <div className='section-rahbar-wrapper-text-container'>
                                 <p className='section-rahbar-wrapper-container-text1'>
@@ -1416,7 +1404,6 @@ const LegalCenter = () => {
                                 <p className='section-rahbar-wrapper-container-text2'>
                                     10 лет в управлении и юриспуденции
                                 </p>
-
                                 <ul>
                                     <li>
                                         <p className='section-rahbar-wrapper-container-text3'>
@@ -1439,13 +1426,11 @@ const LegalCenter = () => {
                                         и мгновенные выплаты бонусов.
                                     </li>
                                 </ul>
-
                                 <p className='section-rahbar-list-text3'>
                                     Больше деталей партнерской программы
                                     смотрите в личном кабинете после
                                     регистрации.
                                 </p>
-
                                 <button className='section-rahbar-button'>
                                     Зарегистрироваться
                                 </button>
@@ -1469,7 +1454,7 @@ const LegalCenter = () => {
                 <p className='footer-chiziq'></p>
 
                 <div className='footer-wrapper d-flex'>
-                    <div className='footer-logo d-flex   '>
+                    <div className='footer-logo d-flex'>
                         <img
                             className='footer-logo-img'
                             src='../../../public/LLC.png'
