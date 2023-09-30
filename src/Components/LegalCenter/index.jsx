@@ -9,7 +9,7 @@ const LegalCenter = () => {
                 <a href='#'>
                     <img
                         className='SiteLogo'
-                        src='../../assets/LLC.png'
+                        src='/public/LLC.png'
                         alt='LLC'
                         width={160}
                         height={63}
@@ -32,14 +32,14 @@ const LegalCenter = () => {
 
                 <img
                     className='mobilni-img'
-                    src='../../assets/smartfon.png'
+                    src='/public/smartfon.png'
                     width={12.74}
                     height={22}
                     alt='rasm'
                 />
                 <img
                     className='mobilni-menyu'
-                    src='../../assets/menyu.png'
+                    src='/public/menyu.png'
                     width={22}
                     height={22}
                     alt='menyu'
@@ -102,14 +102,14 @@ const LegalCenter = () => {
 
                         <img
                             className='Section-img'
-                            src='../../assets/section-img.png'
+                            src='/public/section-img.png'
                             width={438}
                             height={488}
                             alt='rasm'
                         />
                         <img
                             className='section-img-group'
-                            src='../../assets/Group.png'
+                            src='/public/Group.png'
                             width={145}
                             height={145}
                             alt='rasm'
@@ -117,7 +117,7 @@ const LegalCenter = () => {
 
                         <img
                             className='section-img-doira'
-                            src='../../assets/doira.png'
+                            src='/public/doira.png'
                             width={112}
                             height={112}
                             alt='doira'
@@ -125,7 +125,7 @@ const LegalCenter = () => {
 
                         <img
                             className='img-yulduz'
-                            src='../../assets/Group 291.svg'
+                            src='/public/Group 291.svg'
                             width={197}
                             height={132}
                             alt='rasm'
@@ -141,42 +141,42 @@ const LegalCenter = () => {
                             <div className='biz-haqimizda'>
                                 <img
                                     className='section-soat'
-                                    src='../../assets/Ellipse 4.png'
+                                    src='/public/Ellipse 4.png'
                                     width={40}
                                     height={40}
                                     alt='rasm'
                                 />
                                 <img
                                     className='section-soat2'
-                                    src='../../assets/soat.png'
+                                    src='/public/soat.png'
                                     width={28.936}
                                     height={28.936}
                                     alt='rasm'
                                 />
                                 <img
                                     className='section-oy'
-                                    src='../../assets/oy.png'
+                                    src='/public/oy.png'
                                     width={16.611}
                                     height={27.467}
                                     alt='rasm'
                                 />
                                 <img
                                     className='section-rang-img'
-                                    src='../../assets/rang.png'
+                                    src='/public/rang.png'
                                     width={40}
                                     height={40}
                                     alt='rasm'
                                 />
                                 <img
                                     className='dollar-elipse15'
-                                    src='../../assets/Ellipse 15.png'
+                                    src='/public/Ellipse 15.png'
                                     width={33.339}
                                     height={33.191}
                                     alt='rasm'
                                 />
                                 <img
                                     className='dollar-elipse4'
-                                    src='../../assets/Ellipse 4.png'
+                                    src='/public/Ellipse 4.png'
                                     width={33.339}
                                     height={33.191}
                                     alt='rasm'
@@ -184,7 +184,7 @@ const LegalCenter = () => {
 
                                 <img
                                     className='span-dollar'
-                                    src='../../assets/$.png'
+                                    src='/public/$.png'
                                     width={13.677}
                                     height={9.362}
                                     alt='rasm'
@@ -213,7 +213,7 @@ const LegalCenter = () => {
                         <div className='section-jamoa-wrapper'>
                             <img
                                 className='section-jamoa-logo'
-                                src='../../assets/LLC.png'
+                                src='/public/LLC.png'
                                 width={187}
                                 height={59}
                                 alt='logo'
@@ -249,7 +249,7 @@ const LegalCenter = () => {
                                     </p>
                                     <img
                                         className='section-jamoa-tajriba-img'
-                                        src='../../assets/klient img.png'
+                                        src='/public/klient img.png'
                                         width={159}
                                         height={159}
                                         alt='rasm'
@@ -267,7 +267,7 @@ const LegalCenter = () => {
                                     </p>
                                     <img
                                         className='section-jamoa-hodmlar-img'
-                                        src='../../assets/klient img.png'
+                                        src='/public/klient img.png'
                                         width={39}
                                         height={39}
                                         alt='rasm'
@@ -284,7 +284,7 @@ const LegalCenter = () => {
                                     </p>
                                     <img
                                         className='section-jamoa-sirius-img'
-                                        src='../../assets/klient img.png'
+                                        src='/public/klient img.png'
                                         width={25}
                                         height={25}
                                         alt='rasm'
@@ -305,7 +305,7 @@ const LegalCenter = () => {
                             <li className='section-wrapper-loyihalar-list'>
                                 <img
                                     className='loyihalar-list-biznes-img'
-                                    src='../../assets/biznes img.png'
+                                    src='/public/biznes img.png'
                                     width={159}
                                     height={128}
                                     alt='rasm'
@@ -324,7 +324,7 @@ const LegalCenter = () => {
                             <li className='section-wrapper-loyihalar-list'>
                                 <img
                                     className='loyihalar-list-startup-img'
-                                    src='../../assets/start up imj.png'
+                                    src='/public/start up imj.png'
                                     width={166.881}
                                     height={129}
                                     alt='rasm'
@@ -343,7 +343,7 @@ const LegalCenter = () => {
                             <li className='section-wrapper-loyihalar-list'>
                                 <img
                                     className='loyihalar-list-chas-img'
-                                    src='../../assets/famly img.png'
+                                    src='/public/famly img.png'
                                     width={161.352}
                                     height={128}
                                     alt='rasm'
@@ -390,7 +390,7 @@ const LegalCenter = () => {
                                         </button>
                                         <img
                                             className='section-wrapper-intelekt-smart-img'
-                                            src='../../assets/sirius smart.png'
+                                            src='/public/sirius smart.png'
                                             width={219}
                                             height={410}
                                             alt='smart'
@@ -398,21 +398,21 @@ const LegalCenter = () => {
 
                                         <img
                                             className='section-wrapper-intelekt-smart-img2'
-                                            src='../../assets/smartfon.png'
+                                            src='/public/smartfon.png'
                                             width={178.973}
                                             height={397.159}
                                             alt='smart'
                                         />
                                         <img
                                             className='section-wrapper-intelekt-smart-img3'
-                                            src='../../assets/sirius smart rang.png'
+                                            src='/public/sirius smart rang.png'
                                             width={160}
                                             height={375}
                                             alt='smart'
                                         />
                                         <img
                                             className='section-wrapper-intelekt-smart-img4'
-                                            src='../../assets/sirius doira.png'
+                                            src='/public/sirius doira.png'
                                             width={150}
                                             height={158}
                                             alt='smart'
@@ -451,7 +451,7 @@ const LegalCenter = () => {
                                     <div className='   d-flex  align-items-center'>
                                         <img
                                             className='section-wrapper-start-sirius-text-img'
-                                            src='../../assets/goloc.png'
+                                            src='/public/goloc.png'
                                             width={12}
                                             height={6.576}
                                             alt='rasm'
@@ -463,7 +463,7 @@ const LegalCenter = () => {
                                     <div className='d-flex  align-items-center'>
                                         <img
                                             className='section-wrapper-start-sirius-text-img'
-                                            src='../../assets/goloc.png'
+                                            src='/public/goloc.png'
                                             width={12}
                                             height={6.576}
                                             alt='rasm'
@@ -475,7 +475,7 @@ const LegalCenter = () => {
                                     <div className='d-flex  align-items-center'>
                                         <img
                                             className='section-wrapper-start-sirius-text-img'
-                                            src='../../assets/goloc.png'
+                                            src='/public/goloc.png'
                                             width={12}
                                             height={6.576}
                                             alt='rasm'
@@ -488,7 +488,7 @@ const LegalCenter = () => {
                                     <div className='d-flex  align-items-center'>
                                         <img
                                             className='section-wrapper-start-sirius-text-img mt-3'
-                                            src='../../assets/goloc.png'
+                                            src='/public/goloc.png'
                                             width={12}
                                             height={6.576}
                                             alt='rasm'
@@ -505,7 +505,7 @@ const LegalCenter = () => {
                                 <li className='section-afzalliklar-wrapper-item-list'>
                                     <img
                                         className=' section-afzalliklar-wrapper-item-list-chat-img'
-                                        src='../../assets/chat 1.png'
+                                        src='/public/chat 1.png'
                                         width={58}
                                         height={58}
                                         alt='chat'
@@ -523,7 +523,7 @@ const LegalCenter = () => {
                                 <li className='section-afzalliklar-wrapper-item-list'>
                                     <img
                                         className=' section-afzalliklar-wrapper-item-list-chat-img'
-                                        src='../../assets/dolllr.png'
+                                        src='/public/dolllr.png'
                                         width={75}
                                         height={58}
                                         alt='chat'
@@ -540,7 +540,7 @@ const LegalCenter = () => {
                                 <li className='section-afzalliklar-wrapper-item-list'>
                                     <img
                                         className=' section-afzalliklar-wrapper-item-list-chat-img'
-                                        src='../../assets/kalkulyatr.png'
+                                        src='/public/kalkulyatr.png'
                                         width={44}
                                         height={62}
                                         alt='chat'
@@ -557,7 +557,7 @@ const LegalCenter = () => {
                                 <li className='section-afzalliklar-wrapper-item-list'>
                                     <img
                                         className=' section-afzalliklar-wrapper-item-list-chat-img'
-                                        src='../../assets/dokument.png'
+                                        src='/public/dokument.png'
                                         width={41}
                                         height={59}
                                         alt='chat'
@@ -574,7 +574,7 @@ const LegalCenter = () => {
                                 <li className='section-afzalliklar-wrapper-item-list'>
                                     <img
                                         className=' section-afzalliklar-wrapper-item-list-chat-img'
-                                        src='../../assets/quluf.png'
+                                        src='/public/quluf.png'
                                         width={62}
                                         height={62}
                                         alt='chat'
@@ -630,7 +630,7 @@ const LegalCenter = () => {
                                                 <div className='bepul-2 d-flex align-items-center '>
                                                     <img
                                                         className='section-tarif-wrapper-bepul-list2-img1   '
-                                                        src='../../assets/goloc.png'
+                                                        src='/public/goloc.png'
                                                         width={7.393}
                                                         height={7.393}
                                                         alt='rasm'
@@ -642,7 +642,7 @@ const LegalCenter = () => {
                                                 <div className=' bepul-2  d-flex align-items-center '>
                                                     <img
                                                         className='section-tarif-wrapper-bepul-list2-img2   '
-                                                        src='../../assets/goloc.png'
+                                                        src='/public/goloc.png'
                                                         width={7.393}
                                                         height={7.393}
                                                         alt='rasm'
@@ -658,7 +658,7 @@ const LegalCenter = () => {
                                                 <div className='bepul-2 d-flex align-items-center '>
                                                     <img
                                                         className='section-tarif-wrapper-bepul-list2-img3   '
-                                                        src='../../assets/goloc.png'
+                                                        src='/public/goloc.png'
                                                         width={7.393}
                                                         height={7.393}
                                                         alt='rasm'
@@ -670,7 +670,7 @@ const LegalCenter = () => {
                                                 <div className=' bepul-2  d-flex align-items-center '>
                                                     <img
                                                         className='section-tarif-wrapper-bepul-list2-img4   '
-                                                        src='../../assets/goloc.png'
+                                                        src='/public/goloc.png'
                                                         width={7.393}
                                                         height={7.393}
                                                         alt='rasm'
@@ -695,7 +695,7 @@ const LegalCenter = () => {
 
                                         <img
                                             className='section-tarif-wrapper-kabinet-img'
-                                            src='../../assets/strelka.png'
+                                            src='/public/strelka.png'
                                             width={14.801}
                                             height={16}
                                             alt='rasm'
@@ -727,7 +727,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-standart-text1-container1  d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -740,7 +740,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-standart-text1-container2 d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -754,7 +754,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-standart-text1-container3 d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -767,7 +767,7 @@ const LegalCenter = () => {
                                             <div className='  section-tarif-standart-text1-container4 d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -779,7 +779,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-standart-text1-container5  d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -796,7 +796,7 @@ const LegalCenter = () => {
                                                 Подробнее в личном кабинете
                                                 <img
                                                     className='section-tarif-standart-link-img'
-                                                    src='../../assets/strelka.png'
+                                                    src='/public/strelka.png'
                                                     width={14.801}
                                                     height={16}
                                                     alt='rasm'
@@ -825,7 +825,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-standart-text1-container1  d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -838,7 +838,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-standart-text1-container2 d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -852,7 +852,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-standart-text1-container3 d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -865,7 +865,7 @@ const LegalCenter = () => {
                                             <div className='  section-tarif-standart-text1-container4 d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -877,7 +877,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-standart-text1-container5  d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -894,7 +894,7 @@ const LegalCenter = () => {
                                                 Подробнее в личном кабинете
                                                 <img
                                                     className='section-tarif-standart-link-img'
-                                                    src='../../assets/strelka.png'
+                                                    src='/public/strelka.png'
                                                     width={14.801}
                                                     height={16}
                                                     alt='rasm'
@@ -924,7 +924,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-standart-text1-container1  d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -937,7 +937,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-standart-text1-container2 d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -951,7 +951,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-standart-text1-container3 d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -964,7 +964,7 @@ const LegalCenter = () => {
                                             <div className='  section-tarif-standart-text1-container4 d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -977,7 +977,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-premium-text1-container5  d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -994,7 +994,7 @@ const LegalCenter = () => {
                                                 Подробнее в личном кабинете
                                                 <img
                                                     className='section-tarif-standart-link-img'
-                                                    src='../../assets/strelka.png'
+                                                    src='/public/strelka.png'
                                                     width={14.801}
                                                     height={16}
                                                     alt='rasm'
@@ -1023,7 +1023,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-mejdunarodniy-text1-container1  d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -1036,7 +1036,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-mejdunarodni-text1-container2 d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -1051,7 +1051,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-mejdunarodni-text1-container3 d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -1064,7 +1064,7 @@ const LegalCenter = () => {
                                             <div className='  section-tarif-standart-mejdunarodni-container4 d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -1077,7 +1077,7 @@ const LegalCenter = () => {
                                             <div className=' section-tarif-mejdunarodniy-text1-container5  d-flex align-items-baseline'>
                                                 <img
                                                     className='section-tarif-standart-img1'
-                                                    src='../../assets/goloc.png'
+                                                    src='/public/goloc.png'
                                                     width={7.055}
                                                     height={7.055}
                                                     alt='rasm'
@@ -1094,7 +1094,7 @@ const LegalCenter = () => {
                                                 Подробнее в личном кабинете
                                                 <img
                                                     className='section-tarif-standart-link-img'
-                                                    src='../../assets/strelka.png'
+                                                    src='/public/strelka.png'
                                                     width={14.801}
                                                     height={16}
                                                     alt='rasm'
@@ -1117,14 +1117,14 @@ const LegalCenter = () => {
                     <div className='section-hamkor'>
                         <img
                             className='section-hamkor-img1'
-                            src='../../assets/bacround.png'
+                            src='/public/bacround.png'
                             width={1440}
                             height={372}
                             alt='rasm'
                         />
                         <img
                             className='section-hamkor-img2'
-                            src='../../assets/bacround img.png'
+                            src='/public/bacround img.png'
                             width={350}
                             height={391}
                             alt='rasm'
@@ -1143,7 +1143,7 @@ const LegalCenter = () => {
                     <li className='section-hamkorlarga-list1 d-flex align-items-center'>
                         <img
                             className='section-hamkorlar-imkonyatlar-img'
-                            src='../../assets/keng audiotorya.png'
+                            src='/public/keng audiotorya.png'
                             width={218}
                             height={119}
                             alt='rasm'
@@ -1167,7 +1167,7 @@ const LegalCenter = () => {
                     <li className='section-hamkorlarga-list2 d-flex align-items-center'>
                         <img
                             className='section-hamkorlar-imkonyatlar-img2'
-                            src='../../assets/foydali mahsulot.png'
+                            src='/public/foydali mahsulot.png'
                             width={186}
                             height={127}
                             alt='rasm'
@@ -1196,7 +1196,7 @@ const LegalCenter = () => {
                     <li className='section-hamkorlarga-list2 d-flex align-items-center'>
                         <img
                             className='section-hamkorlar-imkonyatlar-img3'
-                            src='../../assets/kotta bonus.png'
+                            src='/public/kotta bonus.png'
                             width={219}
                             height={106}
                             alt='rasm'
@@ -1220,7 +1220,7 @@ const LegalCenter = () => {
                     <li className='section-hamkorlarga-list4 d-flex align-items-center'>
                         <img
                             className='section-hamkorlar-imkonyatlar-img4'
-                            src='../../assets/trenning.png'
+                            src='/public/trenning.png'
                             width={219}
                             height={159}
                             alt='rasm'
@@ -1299,7 +1299,7 @@ const LegalCenter = () => {
                             <div className='section-osson-boshlash-wrapper-royhat-strategiya'>
                                 <img
                                     className='section-osson-boshlash-wrapper-royhat-strategiya-img'
-                                    src='../../assets/strategiya.png'
+                                    src='/public/strategiya.png'
                                     width={231}
                                     height={161}
                                     alt='rasm'
@@ -1320,7 +1320,7 @@ const LegalCenter = () => {
                             <div className='section-osson-boshlash-wrapper-royhat-target'>
                                 <img
                                     className='section-osson-boshlash-wrapper-royhat-target-img'
-                                    src='../../assets/target.png'
+                                    src='/public/target.png'
                                     width={55}
                                     height={55}
                                     alt='rasm'
@@ -1387,7 +1387,7 @@ const LegalCenter = () => {
                     <div className='section-rahbar-wrapper '>
                         <img
                             className='section-rahbar-wrapper-img-img'
-                            src='../../assets/Aleksandr.jpg'
+                            src='/public/Aleksandr.jpg'
                             width={468}
                             height={584}
                             alt='rasm'
@@ -1456,7 +1456,7 @@ const LegalCenter = () => {
                     <div className='footer-logo d-flex'>
                         <img
                             className='footer-logo-img'
-                            src='../../assets/LLC.png'
+                            src='/public/LLC.png'
                             width={125}
                             height={55}
                             alt='logo'
@@ -1472,7 +1472,7 @@ const LegalCenter = () => {
                         <a className='footer-img-link' href='#'>
                             <img
                                 className='footer-vk-link'
-                                src='../../assets/vk 1.png'
+                                src='/public/vk 1.png'
                                 width={18}
                                 height={18}
                                 alt='rasm'
@@ -1481,7 +1481,7 @@ const LegalCenter = () => {
                         <a className='footer-img-link' href='#'>
                             <img
                                 className='footer-vk-link'
-                                src='../../assets/instagram — копия 1.png'
+                                src='/public/instagram — копия 1.png'
                                 width={18}
                                 height={18}
                                 alt='rasm'
@@ -1490,7 +1490,7 @@ const LegalCenter = () => {
                         <a className='footer-img-link' href='#'>
                             <img
                                 className='footer-vk-link'
-                                src='../../assets/twitter 1.png'
+                                src='/public/twitter 1.png'
                                 width={18}
                                 height={18}
                                 alt='rasm'
@@ -1499,7 +1499,7 @@ const LegalCenter = () => {
                         <a className='footer-img-link' href='#'>
                             <img
                                 className='footer-vk-link4'
-                                src='../../assets/facebook-letter-logo 1.png'
+                                src='/public/facebook-letter-logo 1.png'
                                 width={18}
                                 height={18}
                                 alt='rasm'
