@@ -191,7 +191,7 @@ const LegalCenter = () => {
                                 />
 
                                 <ul>
-                                    <li className='d-flex'>
+                                    <li className='d-flex haqimizda-wrapper '>
                                         <p className='haqimizda'>
                                             Юридическая поддержка 24/7
                                         </p>
@@ -370,7 +370,7 @@ const LegalCenter = () => {
                         </h2>
 
                         <div className='section-wrapper-start'>
-                            <ul className='d-flex'>
+                            <ul className=' afzalliklar-wrap  d-flex'>
                                 <li>
                                     <div className='section-wrapper-start-intelekt'>
                                         {/* <form>
@@ -427,7 +427,7 @@ const LegalCenter = () => {
                                         SIRIUS
                                     </h3>
                                     <div className='section-wrapper-start-sirius-text-container'>
-                                        <p cllasNaem='section-wrapper-start-sirius-container-text'>
+                                        <p className='section-wrapper-start-sirius-container-text'>
                                             — первый полноценный искусственный
                                             интеллект, самостоятельно
                                             консультирующий людей по любым
@@ -448,7 +448,7 @@ const LegalCenter = () => {
                                     </div>
                                 </li>
                                 <li className='section-wrapper-start-sirius-text'>
-                                    <div className='   d-flex  align-items-center'>
+                                    <div className='d-flex  align-items-center'>
                                         <img
                                             className='section-wrapper-start-sirius-text-img'
                                             src='/public/goloc.png'
@@ -501,7 +501,7 @@ const LegalCenter = () => {
                                 </li>
                             </ul>
 
-                            <ul className='section-afzalliklar-wrapper-item d-flex'>
+                            <ul className='section-afzalliklar-wrapper-item   d-flex'>
                                 <li className='section-afzalliklar-wrapper-item-list'>
                                     <img
                                         className=' section-afzalliklar-wrapper-item-list-chat-img'
@@ -625,7 +625,7 @@ const LegalCenter = () => {
                                         <p className='section-tarif-wrapper-bepul-list2-title'>
                                             Для Вас доступно
                                         </p>
-                                        <div className='d-flex'>
+                                        <div className=' bepul-tarif-wrap  d-flex'>
                                             <div>
                                                 <div className='bepul-2 d-flex align-items-center '>
                                                     <img

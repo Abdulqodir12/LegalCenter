@@ -449,6 +449,7 @@ p sub {
     right: 678px;
     bottom: 8821px;
     left: 18px;
+    
 }
 .section-jamoa-sirius {
     margin: 0px 250px 48px 0px;
@@ -521,6 +522,7 @@ p sub {
 .section-wrapper-loyihalar-list:nth-child(1) {
     margin: 0px 16px 144px 189px;
 }
+
 .section-wrapper-loyihalar-list:nth-child(3) {
     margin: 0px 189px 144px 16px;
 }
@@ -615,6 +617,7 @@ p sub {
 }
 
 /********* Section yordam beramiz wrapper end ***********/
+
 /********* Section-afzalliklar start*/
 .section-afzalliklar {
     padding-bottom: 144px;
@@ -712,6 +715,7 @@ p sub {
     right: 1034px;
     bottom: 0px;
     left: -47px;
+    z-index: -1;
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
 .section-wrapper-intelekt-smart-img-sirius {
@@ -731,6 +735,7 @@ p sub {
 }
 .section-wrapper-start-sirius {
     margin: 24px;
+    
 }
 .section-wrapper-start-sirius-title {
     margin: 0px 392px 8px 29px;
@@ -752,16 +757,17 @@ p sub {
     width: 100%;
     max-width: 438px;
     height: 220px;
-
-    /* color: #404040;
-    font-family: Gotham Pro;
+    color: #404040;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; */
+    line-height: 150%;  
+    
 }
 .section-wrapper-start-sirius-container-text {
     /* margin: 0px 32px 60px 31px; */
+   
     width: 100%;
     max-width: 438px;
     /* height: 214px; */
@@ -771,6 +777,7 @@ p sub {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+ 
 }
 .section-wrapper-start-sirius-text-text {
     margin: 0px 159px 24px 12.87px;
@@ -790,6 +797,8 @@ p sub {
 }
 .section-wrapper-start-sirius-text {
     margin: 75px;
+   
+    
 }
 .section-wrapper-start-sirius-text-img {
     width: 100%;
@@ -830,7 +839,7 @@ p sub {
     font-size: 16px;
     font-style: normal;
     font-weight: bold;
-    line-height: 20px; /* 125% */
+    line-height: 20px;
 }
 .section-afzalliklar-wrapper-item-list-title5 {
     margin: 0px 123px 16px 32px;
@@ -842,7 +851,7 @@ p sub {
     font-size: 16px;
     font-style: normal;
     font-weight: bold;
-    line-height: 20px; /* 125% */
+    line-height: 20px;
 }
 .section-afzalliklar-wrapper-item-list-text {
     margin: 0px 32px 32px 32px;
@@ -851,7 +860,7 @@ p sub {
     height: 144px;
     flex-shrink: 0;
     color: #404040;
-    /* font-family: Nunito Sans; */
+    font-family: Nunito Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -943,7 +952,7 @@ p sub {
 .section-tarif-wrapper-container {
     margin-bottom: 40px;
 }
-/******************************************************************/
+
 .section-tarif-wrapper-bepul {
     margin: 0px 189px 0px 189px;
     width: 100%;
@@ -1133,6 +1142,7 @@ p sub {
     border-radius: 20px;
     background: #fff;
     display: inline-block;
+
 }
 .section-tarif-standart-title {
     margin: 48px 317px 16px 48px;
@@ -1365,6 +1375,7 @@ p sub {
 
 .section-tarif-premium-link {
     margin: 41px 0px 0px 48px;
+    
 }
 
 .section-tarif-mejdunarodniy-standart-text1 {
@@ -1523,6 +1534,7 @@ p sub {
     height: 229px;
     border-radius: 20px;
     background: #fff;
+    
 }
 .section-hamkorlar-imkonyatlar-text0 {
     margin: 0px;
@@ -1968,11 +1980,11 @@ p sub {
 .section-hamkorlaruchun-bashorat {
     margin: 0px 0px 144px 0px;
     width: 100%;
-    max-width: 1480px;
+    max-width: 1440px;
     height: 287px;
     flex-shrink: 0;
     background: #273895;
-    display: inline-block;
+    display: block;
 }
 .section-hamkorlaruchun-bashorat-wrapper-title {
     margin: 96px 106px 110px 80px;
@@ -2337,6 +2349,7 @@ p sub {
     border: 1px solid #cfdae7;
     border: 1px solid #cfdae7;
 }
+
 .footer-vk-link:hover {
     background-color: #e2e2e2;
 }
@@ -2402,42 +2415,54 @@ p sub {
 
 /********** Header media start **********/
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1250px) {
+    .section-span-text {
+        margin-top: 65px;
+        margin-left: 1065px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        text-align: center;
+        max-width: 80px;
+        width: 100%;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+    }
+
     .SideLogotext {
-        margin: 51px 480px 55px 20px;
+        margin: 51px 480px 55px 40px;
         width: 230px;
         color: #303030;
         font-size: 12px;
     }
-    .section-img-doira {
-        position: absolute;
-        top: 170;
-        right: 168px;
-        bottom: 857;
-        left: 300;
-        flex-shrink: 0;
-        z-index: 1;
-        width: 100px;
-        height: 100px;
+    .section-jamoa-logo {
+        margin: 0px 326px 32px 100px;
     }
-    .section-img-group {
-        position: absolute;
-        top: 170px;
-        right: 150px;
-        bottom: 857;
-        left: 700;
-        width: 130px;
-        height: 130px;
+    .section-jamoa-title {
+        margin: 0px 115px 16px 100px;
+        width: 100%;
+        max-width: 400px;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
     }
-    .img-yulduz {
-        position: absolute;
-        top: 252px;
-        right: 268px;
-        bottom: 8507px;
-        left: 968px;
+    .section-jamoa-text {
+        margin: 0px 147px 134px 100px;
+        width: 406px;
+        height: 85px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
     }
-}
-@media only screen and (max-width: 1250px) {
     .Legal {
         margin: 51px 0px 60px -70px;
         width: 130px;
@@ -2475,7 +2500,7 @@ p sub {
     }
     .img-yulduz {
         position: absolute;
-        top: 226px;
+        top: 250px;
         right: 255px;
         bottom: 8507px;
         left: 860px;
@@ -2592,17 +2617,922 @@ p sub {
         bottom: 107px;
         left: 425px;
     }
+    .section-wrapper-loyihalar-list:nth-child(1) {
+        margin: 0px 16px 144px 100px;
+    }
+    .section-wrapper-loyihalar-list:nth-child(3) {
+        margin: 0px 16px 144px 16px;
+    }
+    .section-afzalliklar-wrapper-title {
+        margin: 0px 412px 18px 412px;
+        width: 100%;
+        max-width: 438px;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-wrapper-start-intelekt {
+        margin: 0px 29px 0px 200px;
+        width: 100%;
+        max-width: 187px;
+        position: relative;
+        height: 105.834px;
+        border-radius: 11.936px;
+        background: linear-gradient(326deg, #f0ebff 11.53%, #fff 74.32%);
+        box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.78);
+    }
+
+    .section-wrapper-intelekt-smart-img {
+        top: 16px;
+        right: 1034px;
+        bottom: 0px;
+        left: -100px;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        max-width: 219px;
+        height: 410px;
+    }
+    .section-wrapper-intelekt-smart-img2 {
+        width: 100%;
+        width: 178.973px;
+        height: 397.159px;
+        position: absolute;
+        z-index: -1;
+        top: 16px;
+        right: 1034px;
+        bottom: 0px;
+        left: -100px;
+    }
+    .section-wrapper-intelekt-smart-img3 {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        width: 160px;
+        height: 375px;
+        top: 35px;
+        right: 1034px;
+        bottom: 0px;
+        left: -85px;
+    }
+    .section-wrapper-intelekt-smart-img4 {
+        position: absolute;
+        width: 100%;
+        max-width: 150px;
+        height: 158px;
+        top: 118px;
+        right: 1034px;
+        bottom: 0px;
+        left: -77px;
+        /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+    }
+    .section-wrapper-intelekt-smart-img-sirius {
+        margin: 183px 70px 71px -35px;
+        width: 100%;
+        max-width: 69px;
+        height: 46px;
+        position: absolute;
+        z-index: 1;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 44px; /* 314.286% */
+        letter-spacing: 2.38px;
+    }
+    .section-wrapper-start-sirius {
+        margin: 24px 16px 24px 24px;
+    }
+    .section-wrapper-start-sirius-text {
+        margin: 75px 16px 75px 0px;
+    }
+    .section-afzalliklar-wrapper-item-list {
+        margin-right: 50px;
+        width: 100%;
+        max-width: 236px;
+        height: 342px;
+        border-radius: 20px;
+        background: linear-gradient(236deg, #fff 29.99%, #f4f9ff 79.17%);
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+    .section-afzalliklar-wrapper-item-list:nth-child(1) {
+        margin-left: 190px;
+        margin-bottom: 30px;
+    }
+    .section-afzalliklar-wrapper-item-list:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    .section-afzalliklar-wrapper-item-list:nth-child(3) {
+        margin-bottom: 30px;
+    }
+    .section-afzalliklar-wrapper-item-list:nth-child(4) {
+        margin-left: 332px;
+    }
+
+    .section-afzalliklar-wrapper-item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-hamkor-img1 {
+        width: 100%;
+        max-width: 1250px;
+        height: 372px;
+        position: absolute;
+        z-index: -1;
+    }
+    .section-tarif-wrapper-title {
+        margin: 0px 406px 16px 406px;
+        width: 100%;
+        max-width: 438px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px; /* 137.5% */
+    }
+    .section-tarif-wrapper-text {
+        margin: 0px 520px 42px 520px;
+        width: 100%;
+        max-width: 210px;
+        height: 16px;
+        flex-shrink: 0;
+        color: #404040;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 21px */
+    }
+
+    .tarif-oy {
+        margin: 0px 92px 32px 520px;
+        padding-bottom: 2px;
+        color: #273895;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        border-bottom: dashed 1px;
+        background-color: #f4f7fa;
+    }
+    .tarif-oy:hover {
+        margin: 0px 64px 42px 571px;
+        padding: 1px 1px;
+        color: #fff;
+        width: 100%;
+        max-width: 133px;
+        height: 40px;
+        border-radius: 15px;
+        background: #273895;
+        border: none;
+    }
+
+    .tarif-yil {
+        margin: 0px 500px 32px 0px;
+        padding-bottom: 2px;
+        color: #273895;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        border-bottom: dashed 1px;
+        background-color: #f4f7fa;
+    }
+    .tarif-yil:hover {
+        margin: 0px 64px 42px 0px;
+        padding: 1px 1px;
+        color: #fff;
+        width: 100%;
+        max-width: 133px;
+        height: 40px;
+        border-radius: 15px;
+        background: #273895;
+        border: none;
+    }
+    .section-tarif-wrapper-bepul {
+        margin: 0px 117px 0px 117px;
+        width: 100%;
+        max-width: 1062px;
+        height: 495px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        display: inline-block;
+        background: #fff;
+    }
+    .section-hamkorlaruchun-bashorat {
+        margin: 0px 0px 144px 0px;
+        width: 100%;
+        max-width: 1250px;
+        height: 287px;
+        flex-shrink: 0;
+        background: #273895;
+        display: inline-block;
+    }
+    .section-hamkorlarga-list1 {
+        margin: 76px 1117px 16px 117px;
+        width: 100%;
+        max-width: 1062px;
+        height: 229px;
+        border-radius: 20px;
+        background: #fff;
+    }
+    .section-hamkorlarga-list2 {
+        margin: 0px 117px 16px 117px;
+        width: 100%;
+        max-width: 1062px;
+        height: 249px;
+        border-radius: 20px;
+        background: #fff;
+    }
+    .section-hamkorlarga-list4 {
+        margin: 0px 117px 31px 117px;
+        width: 100%;
+        max-width: 1062px;
+        height: 299px;
+        border-radius: 20px;
+        background: #fff;
+    }
+    .section-hamkorlar-imkonyatlar-button {
+        margin: 0px 500px 144px 500px;
+        display: flex;
+        width: 100%;
+        max-width: 250px;
+        height: 56px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        background-color: #273895;
+        border-radius: 15px;
+    }
+    .footer-chiziq {
+        width: 100;
+        max-width: 1250px;
+        height: 1px;
+        background: #dee6ef;
+    }
+    .footer-logo-text1 {
+        margin: 45px 48px 44px -35px;
+        width: 100%;
+        max-width: 100px;
+        height: 55px;
+        color: #3b1d8f;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    .footer-logo-text2 {
+        margin: 45px 370px 42px 0px;
+        width: 100%;
+        max-width: 227px;
+        height: 40px;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .elektron-manzil {
+        width: 100%;
+        max-width: 1250px;
+        height: 52px;
+        background: #e8edf3;
+    }
+    .elektron-manzil-text1 {
+        margin: 16px 380px 16px 79px;
+        color: #7a7a7a;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .elektron-manzil-text2 {
+        margin: 16px 16px 16px 0px;
+        color: #7a7a7a;
+        text-align: right;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .elektron-manzil-text3 {
+        margin: 16px 111px 16px 0px;
+        color: #7a7a7a;
+        text-align: right;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .Legal {
+        margin: 51px 64px 60px -70px;
+        width: 100%;
+        max-width: 88px;
+        color: #3b1d8f;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    .SideLogotext {
+        margin: 51px 270px 55px 0px;
+        width: 100%;
+        max-width: 220px;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 166.667% */
+    }
+    .section-name {
+        margin: 120px 16px 16px 40px;
+        color: #262626;
+        width: 100%;
+        max-width: 600px;
+        font-family: Nunito Sans;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 55px;
+    }
+    .div-qolib {
+        margin: 430px 0px 8074px 400px;
+        position: absolute;
+        width: 100%;
+        max-width: 712px;
+        height: 164px;
+        background-color: #f4f7fa;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+        border-radius: 10px;
+    }
+    .section-rang-img {
+        position: absolute;
+        top: 32px;
+        right: 443px;
+        bottom: 92px;
+        left: 227px;
+    }
+
+    .dollar-elipse15 {
+        position: absolute;
+        top: 35px;
+        right: 190px;
+        bottom: 288px;
+        left: 505px;
+    }
+
+    .dollar-elipse4 {
+        position: absolute;
+        top: 36px;
+        right: 176px;
+        bottom: 95px;
+        left: 520px;
+    }
+    .span-dollar {
+        position: absolute;
+        top: 43.32px;
+        right: 186.82px;
+        bottom: 107px;
+        left: 528.5px;
+    }
+    .section-jamoa-logo {
+        margin: 0px 200px 32px 70px;
+    }
+    .section-jamoa-title {
+        margin: 0px 20px 16px 70px;
+        width: 100%;
+        max-width: 400px;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-jamoa-text {
+        margin: 0px 20px 134px 70px;
+        width: 406px;
+        height: 85px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .section-wrapper-title {
+        margin: 0px 481px 31px 481px;
+        width: 100%;
+        max-width: 187px;
+        height: 18px;
+        flex-shrink: 0;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    }
+
+    .section-wrapper-loyihalar-list {
+        margin-bottom: 144px;
+        width: 100%;
+        max-width: 343px;
+        height: 344px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #fff;
+    }
+    .section-wrapper-loyihalar-list:nth-child(1) {
+        margin: 0px 16px 144px 30px;
+    }
+    .section-wrapper-start-intelekt {
+        margin: 0px 29px 0px 120px;
+        width: 100%;
+        max-width: 187px;
+        position: relative;
+        height: 105.834px;
+        border-radius: 11.936px;
+        background: linear-gradient(326deg, #f0ebff 11.53%, #fff 74.32%);
+        box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.78);
+    }
+
+    .section-wrapper-start-sirius {
+        width: 100%;
+        max-width: 430px;
+    }
+    .section-wrapper-start-sirius-text-container {
+        margin: 0px 32px 30px 0px;
+        width: 100%;
+        max-width: 400px;
+        height: 220px;
+    }
+    .section-wrapper-start-sirius-text-text {
+        margin: 0px 6px 24px 12.87px;
+        width: 100%;
+        max-width: 300px;
+        height: 19px;
+        flex-shrink: 0;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+    .section-tarif-wrapper-title {
+        margin: 0px 356px 16px 356px;
+        width: 100%;
+        max-width: 438px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px; /* 137.5% */
+    }
+    .section-tarif-wrapper-text {
+        margin: 0px 670px 42px 470px;
+        width: 100%;
+        max-width: 210px;
+        height: 16px;
+        flex-shrink: 0;
+        color: #404040;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 21px */
+    }
+
+    .tarif-oy {
+        margin: 0px 92px 32px 470px;
+        padding-bottom: 2px;
+        color: #273895;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        border-bottom: dashed 1px;
+        background-color: #f4f7fa;
+    }
+
+    .tarif-yil {
+        margin: 0px 470px 32px 0px;
+        padding-bottom: 2px;
+        color: #273895;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        border-bottom: dashed 1px;
+        background-color: #f4f7fa;
+    }
+    .section-tarif-wrapper-bepul {
+        margin: 0px 44px 0px 44px;
+        width: 100%;
+        max-width: 1062px;
+        height: 495px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        display: inline-block;
+        background: #fff;
+    }
+    .section-hamkor-img1 {
+        width: 100%;
+        max-width: 1150px;
+    }
+    .section-hamkorlarga-list1 {
+        margin: 76px 44px 16px 44px;
+        width: 100%;
+        max-width: 1062px;
+        height: 229px;
+        border-radius: 20px;
+        background: #fff;
+    }
+    .section-hamkorlarga-list2 {
+        margin: 0px 44px 16px 44px;
+        width: 100%;
+        max-width: 1062px;
+        height: 249px;
+        border-radius: 20px;
+        background: #fff;
+    }
+    .section-hamkorlarga-list4 {
+        margin: 0px 44px 31px 44px;
+        width: 100%;
+        max-width: 1062px;
+        height: 299px;
+        border-radius: 20px;
+        background: #fff;
+    }
+    .section-hamkorlar-imkonyatlar-button {
+        margin: 0px 450px 144px 450px;
+        display: flex;
+        width: 100%;
+        max-width: 250px;
+        height: 56px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        background-color: #273895;
+        border-radius: 15px;
+    }
+    .section-osson-boshlash-title {
+        margin: 0px 450px 48px 450px;
+        width: 100%;
+        max-width: 250px;
+        height: 37px;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-osson-boshlash-wrapper {
+        margin: 100px 65px 207.7px 65px;
+        width: 100%;
+        width: 1019.248px;
+        height: 361.951px;
+        background-image: url("/public/s.png");
+        display: inline-block;
+        position: sticky;
+    }
+
+    .section-osson-boshlash-wrapper-royhat-target {
+        margin: -50px 16px 280px 0px;
+        width: 100%;
+        max-width: 312px;
+        height: 366px;
+        border-radius: 20px;
+        border: 2px solid #4917e8;
+        background: #fff;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+    .section-hamkorlaruchun-bashorat {
+        margin: 0px 0px 144px 0px;
+        width: 100%;
+        max-width: 1150px;
+        height: 287px;
+        flex-shrink: 0;
+        background: #273895;
+        display: inline-block;
+    }
+    .section-rahbar-wrapper-img-img {
+        margin: 0px 0px 171px 100px;
+        padding: 0px 20px 0px 20px;
+        border-top: none;
+        border-bottom: none;
+        width: 100%;
+        max-width: 468px;
+        height: 584px;
+        flex-shrink: 0;
+        background-color: lightgray;
+
+        /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; ; */
+    }
+    .section-rahbar-wrapper-text-container {
+        width: 100%;
+        max-width: 450px;
+    }
+    .section-rahbar-wrapper-container-text1 {
+        margin: 70px 50px 0px 40px;
+        width: 100%;
+        max-width: 219px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-rahbar-wrapper-container-title {
+        margin: 0px 50px 16px 40px;
+        width: 100%;
+        max-width: 360px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #303030;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-rahbar-wrapper-container-text2 {
+        margin: 0px 50px 32px 40px;
+        width: 100%;
+        max-width: 358px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 20px;
+    }
+    .section-rahbar-wrapper-container-text3 {
+        margin: 0px 50px 0px 40px;
+        width: 100%;
+        max-width: 465px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-rahbar-list-text {
+        margin: 0px 50px 0px 40px;
+        width: 100%;
+        max-width: 469px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        list-style: inside;
+    }
+    .section-rahbar-list-text2 {
+        margin: 0px 50px 16px 40px;
+        width: 100%;
+        max-width: 469px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-rahbar-list-text3 {
+        margin: 0px 50px 32px 40px;
+        width: 100%;
+        max-width: 469px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-rahbar-button {
+        margin: 0px 250px 309px 40px;
+        display: flex;
+        width: 251px;
+        height: 56px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #fff;
+        align-items: center;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        border-radius: 15px;
+        background: #273895;
+    }
+    .aleksandr-container {
+        position: absolute;
+        /* top:486px;
+    right:704;
+     bottom: 144px;
+   left: 390px; */
+        z-index: 2;
+        top: 486px;
+        right: 370px;
+        width: 100%;
+        max-width: 360px;
+        height: 125px;
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+
+        border-radius: 11.936px;
+        background: linear-gradient(331deg, #f0ebff -4.05%, #fff 34.42%);
+        box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.2);
+    }
+
+    .footer-logo-text1 {
+        margin: 45px 48px 44px -35px;
+        width: 100%;
+        max-width: 100px;
+        height: 55px;
+        color: #3b1d8f;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    .footer-logo-text2 {
+        margin: 45px 300px 42px 0px;
+        width: 100%;
+        max-width: 227px;
+        height: 40px;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .elektron-manzil {
+        width: 100%;
+        max-width: 1150px;
+        height: 52px;
+        background: #e8edf3;
+    }
+    .elektron-manzil-text1 {
+        margin: 16px 280px 16px 79px;
+        color: #7a7a7a;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .elektron-manzil-text2 {
+        margin: 16px 16px 16px 0px;
+        color: #7a7a7a;
+        text-align: right;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .elektron-manzil-text3 {
+        margin: 16px 111px 16px 0px;
+        color: #7a7a7a;
+        text-align: right;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-img-group {
+        position: absolute;
+        margin-left: 904px;
+        top: 170px;
+        right: 0px;
+        bottom: 857;
+        left: 0;
+    }
+
+    .img-yulduz {
+        position: absolute;
+        top: 252px;
+        right: 263px;
+        bottom: 8507px;
+        left: 825px;
+    }
+
+    .section-img-doira {
+        position: absolute;
+        top: 170;
+        right: 100px;
+        bottom: 857;
+        left: 920px;
+        flex-shrink: 0;
+        z-index: 1;
+    }
+    .doxod {
+        margin-top: 20px;
+        margin-left: 935px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    .dollar {
+        margin-top: 40px;
+        margin-left: 926px;
+        position: absolute;
+        color: #303030;
+        font-size: 16px;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        z-index: 2;
+    }
+    .section-span-text {
+        margin-top: 65px;
+        margin-left: 918px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        text-align: center;
+        max-width: 80px;
+        width: 100%;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 116.667% */
+    }
 }
 
 @media only screen and (max-width: 1000px) {
-    .container {
-        width: 100%;
-        max-width: 1000px;
-        margin-right: -40px;
-        margin-left: 0px;
-        padding-right: 0px;
-        padding-left: 0px;
-    }
     .SiteLogo {
         margin: 45px 0px 48px 40px;
     }
@@ -2674,7 +3604,7 @@ p sub {
         background: #273895;
     }
     .div-qolib {
-        margin: 430px 130px 8074px 440px;
+        margin: 430px 130px 8074px 400px;
         position: absolute;
         width: 550px;
         height: 164px;
@@ -2695,9 +3625,10 @@ p sub {
     .section-img-group {
         position: absolute;
         top: 170px;
-        right: 150px;
+        margin-left: 768px;
+        right: 0px;
         bottom: 857;
-        left: 765px;
+        left: 0px;
         width: 130px;
         height: 130px;
     }
@@ -2726,24 +3657,6236 @@ p sub {
         z-index: 2;
     }
     .section-span-text {
-        margin-top: 65px;
-        margin-left: 765px;
+        margin-top: 62px;
+        margin-left: 772px;
         position: absolute;
         z-index: 2;
         color: #303030;
-        width: 94px;
+        width: 80px;
         font-size: 12px;
     }
+    .section-rang-img {
+        position: absolute;
+        top: 32px;
+        right: 443px;
+        bottom: 92px;
+        left: 195px;
+    }
+    .dollar-elipse15 {
+        position: absolute;
+        top: 35px;
+        right: 300px;
+        bottom: 288px;
+        left: 380px;
+    }
+
+    .dollar-elipse4 {
+        position: absolute;
+        top: 36px;
+        right: 176px;
+        bottom: 95px;
+        left: 395px;
+    }
+    .span-dollar {
+        position: absolute;
+        top: 43.32px;
+        right: 186.82px;
+        bottom: 107px;
+        left: 403.5px;
+    }
+    .haqimizda {
+        margin: 80px 32px 32px 48px;
+        width: 165px;
+        color: #303030;
+        font-size: 16px;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    .haqimizda2 {
+        margin: 80px 32px 32px 0px;
+        width: 224px;
+        color: #303030;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    .haqimizda3 {
+        margin: 80px 48px 32px 0px;
+        width: 179px;
+        color: #303030;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    .section-jamoa-tajriba-img {
+        display: contents;
+    }
+    .section-wrapper-title {
+        margin: 0px 406px 31px 406px;
+        width: 100%;
+        max-width: 187px;
+        height: 18px;
+        flex-shrink: 0;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    }
+    .section-wrapper-loyihalar {
+        flex-wrap: wrap;
+    }
+    .section-wrapper-loyihalar-list {
+        margin-bottom: 144px;
+        width: 100%;
+        max-width: 343px;
+        height: 344px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #fff;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-wrapper-loyihalar-list:nth-child(1) {
+        margin: 0px 16px 32px 130px;
+    }
+    .section-wrapper-loyihalar-list:nth-child(2) {
+        margin: 0px 130px 32px 0px;
+    }
+    .section-wrapper-loyihalar-list:nth-child(3) {
+        margin: 0px 328px 144px 328px;
+    }
+    .afzalliklar-wrap {
+        flex-wrap: wrap;
+    }
+    .section-afzalliklar-wrapper-title {
+        margin: 0px 281px 18px 281px;
+        width: 100%;
+        max-width: 438px;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-wrapper-start-intelekt {
+        margin: 0px 29px 0px 300px;
+        width: 100%;
+        max-width: 187px;
+        position: relative;
+        height: 105.834px;
+        border-radius: 11.936px;
+        background: linear-gradient(326deg, #f0ebff 11.53%, #fff 74.32%);
+        box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.78);
+    }
+    .section-wrapper-start-sirius-text {
+        margin: 32px 200px 60px 550px;
+    }
+    .section-afzalliklar-wrapper-item-list {
+        margin-right: 19px;
+        width: 100%;
+        max-width: 236px;
+        height: 342px;
+        border-radius: 20px;
+        background: linear-gradient(236deg, #fff 29.99%, #f4f9ff 79.17%);
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+    .section-afzalliklar-wrapper-item-list:nth-child(1) {
+        margin-left: 70px;
+    }
+    .section-afzalliklar-wrapper-item-list:nth-child(4) {
+        margin-left: 200px;
+    }
+    .section-tarif-wrapper-title {
+        margin: 0px 281px 16px 281px;
+        width: 100%;
+        max-width: 438px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px; /* 137.5% */
+    }
+    .section-tarif-wrapper-text {
+        margin: 0px 350px 42px 400px;
+        width: 100%;
+        max-width: 210px;
+        height: 16px;
+        flex-shrink: 0;
+        color: #404040;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 21px */
+    }
+
+    .tarif-oy {
+        margin: 0px 92px 32px 400px;
+        padding-bottom: 2px;
+        color: #273895;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        border-bottom: dashed 1px;
+        background-color: #f4f7fa;
+    }
+    .tarif-oy:hover {
+        margin: 0px 64px 42px 571px;
+        padding: 1px 1px;
+        color: #fff;
+        width: 100%;
+        max-width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        background: #273895;
+        border: none;
+    }
+
+    .tarif-yil {
+        margin: 0px 350px 32px 0px;
+        padding-bottom: 2px;
+        color: #273895;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        border-bottom: dashed 1px;
+        background-color: #f4f7fa;
+    }
+    .tarif-yil:hover {
+        margin: 0px 64px 42px 0px;
+        padding: 1px 1px;
+        color: #fff;
+        width: 100%;
+        max-width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        background: #273895;
+        border: none;
+    }
+    .section-tarif-wrapper-bepul {
+        margin: 0px 100px 0px 100px;
+        width: 100%;
+        max-width: 800px;
+        height: 495px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        display: inline-block;
+        background: #fff;
+    }
+    .section-tarif-wrapper-bepul-osson-title {
+        margin: 48px 274px 8px 274px;
+
+        width: 251px;
+        height: 26px;
+        color: #2741d0;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        /* line-height: 30px; */
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+    }
+    .section-tarif-wrapper-bepul-osson-text {
+        margin: 0px 274px 16px 274px;
+        width: 100%;
+        max-width: 251px;
+        height: 36px;
+        flex-shrink: 0;
+        color: #c9c9c9;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 44px; /* 137.5% */
+    }
+    .section-tarif-wrapper-bepul-osson-text2 {
+        margin: 0px 138px 16px 138px;
+        width: 100%;
+        max-width: 446.817px;
+        color: #737373;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .section-tarif-wrapper-bepul-list2-title {
+        margin: 0px 406px 16px 406px;
+        width: 100%;
+        width: 250px;
+        height: 26px;
+        color: #404040;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .bepul-2 {
+        margin: 0px;
+        padding: 0px;
+    }
+    .section-tarif-wrapper-bepul-list2-img1 {
+        margin: 31.34px 8px 28.32px 115px;
+        width: 100%;
+        max-width: 7.393px;
+        height: 7.393px;
+    }
+    .section-tarif-wrapper-bepul-list2-text1 {
+        margin: 0px 85px 8px 0px;
+        padding: 0px;
+        width: 100%;
+        width: 225px;
+        height: 33px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 250% */
+    }
+    .section-tarif-wrapper-bepul-list2-img2 {
+        margin: -30px 8px 28.32px 115px;
+        width: 100%;
+        max-width: 7.393px;
+        height: 7.393px;
+    }
+    .section-tarif-wrapper-bepul-list2-text2 {
+        margin: -20px 24px 55px 0px;
+        width: 100%;
+        width: 286px;
+        height: 29px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 250% */
+    }
+    .section-tarif-wrapper-bepul-list2-img3 {
+        margin: 31.34px 8px 28.32px 0px;
+        width: 100%;
+        max-width: 7.393px;
+        height: 7.393px;
+    }
+    .section-tarif-wrapper-bepul-list2-text3 {
+        margin: 0px 200px 8px 0px;
+        width: 100%;
+        max-width: 87px;
+        height: 33px;
+        flex-shrink: 0;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .section-tarif-wrapper-bepul-list2-img4 {
+        margin: 0px 8px 28.32px 0px;
+        width: 100%;
+        max-width: 7.393px;
+        height: 7.393px;
+    }
+    .section-tarif-wrapper-bepul-list2-text4 {
+        margin: -17px 30px 16px 0px;
+        width: 100%;
+        width: 306px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .section-tarif-wrapper-kabinet-link {
+        margin: 0px 0px 16px 290px;
+        width: 100%;
+        width: 259px;
+        color: #2741d0;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .q {
+        width: 259px;
+    }
+    .section-tarif-wrapper-kabinet-img {
+        margin: 0px 100px 0px 5px;
+        width: 100%;
+        width: 14.801px;
+        height: 16px;
+    }
+    .section-tarif-wrapper-kabinet-button {
+        margin: 0px 310px 48px 310px;
+        display: flex;
+        width: 100%;
+        max-width: 180px;
+        height: 56px;
+        color: #fff;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        background-color: #3333a3;
+        border-radius: 15px;
+    }
+    .section-tarif-list-standart {
+        flex-wrap: wrap;
+    }
+    .section-tarif-standart {
+        margin: 32px 121px 32px 121px;
+        width: 100%;
+        max-width: 513px;
+        height: 647px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #fff;
+        display: inline-block;
+    }
+    .section-tarif-standart3 {
+        margin: 0px 121px 32px 121px;
+        width: 100%;
+        max-width: 513px;
+        height: 672px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #fff;
+        display: inline-block;
+    }
+    .section-tarif-standart4 {
+        margin: 0px 121px 232px 121px;
+        width: 100%;
+        max-width: 513px;
+        height: 672px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #fff;
+        display: inline-block;
+    }
+    .section-hamkor {
+        margin-top: 1400px;
+        margin-bottom: 62px;
+
+        position: relative;
+    }
+    .section-hamkor-img1 {
+        width: 100%;
+        max-width: 1000px;
+        height: 372px;
+        position: absolute;
+        z-index: -1;
+    }
+    .section-hamkorlarga-list1 {
+        margin: 76px 30px 16px 30px;
+        width: 100%;
+        max-width: 900px;
+        height: 229px;
+        border-radius: 20px;
+        background: #fff;
+    }
+    .section-hamkorlar-imkonyatlar-img {
+        margin: 55px 0px 55px 110px;
+        width: 100%;
+        max-width: 218px;
+        height: 119px;
+    }
+    .section-hamkorlar-imkonyatlar-title {
+        margin: 48px 280px 16px 32px;
+        width: 100%;
+        max-width: 225px;
+        height: 27px;
+        flex-shrink: 0;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+    }
+    .section-hamkorlar-imkonyatlar-text1 {
+        margin: 0px 100px 8px 32px;
+        width: 100%;
+        width: 430px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+    }
+    .section-hamkorlar-imkonyatlar-text2 {
+        margin: 0px 70px 48px 32px;
+        width: 100%;
+        width: 450px;
+        color: #b7b6b6;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlarga-list2 {
+        margin: 0px 30px 16px 30px;
+        width: 100%;
+        max-width: 900px;
+        height: 249px;
+        border-radius: 20px;
+        background: #fff;
+    }
+    .section-hamkorlar-imkonyatlar-img2 {
+        margin: 61px 64px 61px 110px;
+        width: 100%;
+        max-width: 186px;
+        height: 127px;
+        flex-shrink: 0;
+    }
+    .section-hamkorlar-imkonyatlar-title2 {
+        margin: 48px 200px 16px 0px;
+        width: 100%;
+        max-width: 225px;
+        height: 27px;
+        flex-shrink: 0;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+    }
+
+    .section-hamkorlar-imkonyatlar-text2-1 {
+        margin: 0px 60px 10px 0px;
+        width: 100%;
+        max-width: 440px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlar-imkonyatlar-text2-2 {
+        margin: 0px 60px 48px 0px;
+        width: 100%;
+        max-width: 445px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .section-hamkorlar-imkonyatlar-titl3 {
+        margin: 48px 200px 16px 0px;
+        width: 100%;
+        max-width: 225px;
+        height: 27px;
+        flex-shrink: 0;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+    }
+    .section-hamkorlar-imkonyatlar-text3-1 {
+        margin: 0px 60px 10px 0px;
+        width: 100%;
+        max-width: 460px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .section-hamkorlar-imkonyatlar-text3-2 {
+        margin: 0px 60px 48px 0px;
+        width: 100%;
+        max-width: 450px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlarga-list4 {
+        margin: 0px 30px 31px 30px;
+        width: 100%;
+        max-width: 900px;
+        height: 299px;
+        border-radius: 20px;
+        background: #fff;
+    }
+    .section-hamkorlar-imkonyatlar-img4 {
+        margin: 70px 31px 70px 110px;
+        width: 100%;
+        max-width: 219px;
+        height: 159px;
+    }
+    .section-hamkorlar-imkonyatlar-title4 {
+        margin: 48px 200px 16px 0px;
+        width: 100%;
+        max-width: 225px;
+        height: 27px;
+        flex-shrink: 0;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+    }
+    .section-hamkorlar-imkonyatlar-text4-1 {
+        margin: 0px 60px 15px 0px;
+        width: 100%;
+        max-width: 400px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlar-imkonyatlar-text4-2-container {
+        margin: 0px 60px 10px 0px;
+    }
+    .section-hamkorlar-imkonyatlar-text4-2 {
+        margin-left: 15px;
+        width: 100%;
+        max-width: 515px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        list-style: disc;
+    }
+    .section-hamkorlar-imkonyatlar-text4-3 {
+        margin: 0px 60px 48px 0px;
+        width: 100%;
+        max-width: 515px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    .section-hamkorlar-imkonyatlar-button {
+        margin: 0px 375px 144px 375px;
+        display: flex;
+        width: 100%;
+        max-width: 250px;
+        height: 56px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        background-color: #273895;
+        border-radius: 15px;
+    }
+    .section-osson-boshlash-title {
+        margin: 0px 375px 48px 375px;
+        width: 100%;
+        max-width: 250px;
+        height: 37px;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-osson-boshlash-wrapper {
+        background-image: url("");
+        flex-wrap: wrap;
+    }
+    .section-osson-boshlash-wrapper-royhat {
+        margin: -50px 80px 16px 40px;
+        width: 100%;
+        max-width: 296px;
+        height: 243px;
+        padding: 0px;
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+    .section-osson-boshlash-wrapper-royhat2 {
+        margin: 0px 80px 32px 40px;
+        width: 100%;
+        max-width: 296px;
+        height: 243px;
+        padding: 0px;
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+    .section-osson-boshlash-wrapper-royhat-strategiya {
+        margin: -50px 16px 32px 0px;
+        width: 100%;
+        max-width: 312px;
+        height: 502px;
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+    .section-osson-boshlash-wrapper-royhat-target {
+        margin: 0px 80px 50px 220px;
+        width: 100%;
+        max-width: 312px;
+        height: 366px;
+        border-radius: 20px;
+        border: 2px solid #4917e8;
+        background: #fff;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+    .section-hamkorlaruchun-bashorat {
+        margin: 540px 0px 144px 0px;
+        width: 100%;
+        max-width: 1000px;
+        height: 287px;
+        flex-shrink: 0;
+        background: #273895;
+        display: block;
+    }
+    .section-hamkorlaruchun-bashorat-wrapper-title {
+        margin: 96px 10px 110px 40px;
+        width: 100%;
+        max-width: 406px;
+        height: 81px;
+        flex-shrink: 0;
+        color: #fff;
+        font-family: Nunito Sans;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-hamkorlaruchun-bashorat1-title {
+        margin: 98px 8px 16px 0px;
+        width: 100%;
+        max-width: 186px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .section-hamkorlaruchun-bashorat1-text {
+        margin: 0px 32px 96px 0px;
+        width: 100%;
+        max-width: 122px;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlaruchun-bashorat1-title2 {
+        margin: 98px 8px 16px 0px;
+        width: 100%;
+        max-width: 186px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .section-hamkorlaruchun-bashorat1-text2 {
+        margin: 0px 16px 96px 0px;
+        width: 100%;
+        max-width: 198px;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlaruchun-bashorat1-title3 {
+        margin: 98px 4px 16px 0px;
+        width: 100%;
+        max-width: 180px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .section-hamkorlaruchun-bashorat1-text3 {
+        margin: 0px 18px 96px 0px;
+        width: 100%;
+        max-width: 175px;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlaruchun-bashorat1-title4 {
+        margin: 98px 80px 16px 0px;
+        width: 100%;
+        max-width: 165px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .section-hamkorlaruchun-bashorat1-text4 {
+        margin: 0px 84px 96px 4px;
+        width: 100%;
+        max-width: 160px;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-rahbar-wrapper-img-img {
+        margin: 0px 0px 171px 10px;
+        padding: 0px 20px 0px 20px;
+        border-top: none;
+        border-bottom: none;
+        width: 100%;
+        max-width: 468px;
+        height: 584px;
+        flex-shrink: 0;
+        background-color: lightgray;
+
+        /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; ; */
+    }
+    .footer-logo-img {
+        margin: 32px 0px 32px 80px;
+        width: 100%;
+        max-width: 125px;
+        height: 45px;
+        flex-shrink: 0;
+    }
+    .footer-logo-text1 {
+        margin: 35px 48px 44px -35px;
+        width: 100%;
+        max-width: 100px;
+        height: 55px;
+        color: #3b1d8f;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    .footer-logo-text2 {
+        margin: 35px 150px 42px 0px;
+        width: 100%;
+        max-width: 227px;
+        height: 40px;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .footer-vk-link {
+        margin: 35px 0px 42px 0px;
+        padding: 9px;
+        width: 100%;
+        max-width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 1px solid #cfdae7;
+        border: 1px solid #cfdae7;
+    }
+    .footer-vk-link4 {
+        margin: 35px 70px 42px 0px;
+        padding: 9px;
+        width: 100%;
+        max-width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 1px solid #cfdae7;
+        border: 1px solid #cfdae7;
+    }
+    .footer-chiziq {
+        width: 100;
+        max-width: 1000px;
+        height: 1px;
+        background: #dee6ef;
+    }
+    .elektron-manzil {
+        width: 100%;
+        max-width: 1000px;
+        height: 52px;
+        background: #e8edf3;
+    }
+    .elektron-manzil-text1 {
+        margin: 16px 120px 16px 79px;
+        color: #7a7a7a;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .elektron-manzil-text2 {
+        margin: 16px 16px 16px 30px;
+        color: #7a7a7a;
+        text-align: right;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .elektron-manzil-text3 {
+        margin: 16px 20px 16px 0px;
+        color: #7a7a7a;
+        text-align: right;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
 }
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 850px) {
+    .SiteLogo {
+        margin: 40px 0px 48px 40px;
+    }
+    .Legal {
+        margin: 51px 64px 60px -70px;
+        width: 100%;
+        max-width: 88px;
+        color: #3b1d8f;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    /* */
+    .SideLogotext {
+        margin: 51px 560px 55px 0px;
+        /* width: 100%;
+    max-width: 220px; */
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        display: none;
+    }
+
+    .Header-tel {
+        /* margin: 74px 38px 63px 0px;
+    width: 100%;
+    width: 145px;
+    height: 16px;
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; */
+        display: none;
+    }
+    .Header-tel:hover {
+        color: #3b1d8f;
+    }
+
+    .btn-header {
+        padding: 16px 32px 16px 32px;
+        margin: 56px 80px 55px 0px;
+        color: #edeff2;
+        border-radius: 15px;
+        background-color: #273895;
+        height: 18px;
+        align-items: center;
+        display: none;
+    }
     .mobilni-img {
-        width: 12px;
+        margin: 45px 20px 60px 340px;
+        width: 100%;
+        max-width: 12px;
         height: 22px;
-        padding: 14px 14px 18px 19px;
+        padding: 14px 14px 14px 19px;
         border-radius: 7px;
         background: linear-gradient(326deg, #2641d1 11.53%, #3333a3 74.32%);
         display: block;
     }
+    .mobilni-menyu {
+        margin: 45px 10px 60px 0px;
+        padding: 15px 13px 13px 14px;
+        width: 100%;
+        max-width: 22px;
+        height: 22px;
+        border-radius: 7px;
+        background: #dee6ef;
+        display: block;
+    }
+    .nav-list a {
+        margin-bottom: 0px;
+        display: none;
+    }
+
+    .section-name {
+        margin: 0px 32px 16px 200px;
+        color: #262626;
+        width: 100%;
+        max-width: 733px;
+        font-family: Nunito Sans;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 55px;
+        position: absolute;
+    }
+
+    .main-section-wrapper-text {
+        margin: 200px 100px 32px 200px;
+        color: #303030;
+        width: 480px;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        position: relative;
+    }
+
+    .main-section-wrapper-button {
+        margin: 0px 497px 382px 300px;
+        color: #ffffff;
+        width: 100%;
+        max-width: 200px;
+        padding: 10px 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        background: #273895;
+    }
+    .yuridic-container {
+        position: relative;
+    }
+    .Section-img {
+        margin: 55px 100px 0px 220px;
+        position: absolute;
+        width: 100%;
+        max-width: 400px;
+        height: 488px;
+        z-index: -1;
+    }
+
+    .section-img-group {
+        position: absolute;
+        margin: 450px 100px 0px 350px;
+        top: 170px;
+        right: 0px;
+        bottom: 857;
+        left: 0;
+    }
+
+    .img-yulduz {
+        position: absolute;
+        top: 252px;
+        right: 263px;
+        bottom: 8507px;
+        left: 980px;
+        display: none;
+    }
+
+    .section-img-doira {
+        position: absolute;
+        margin: 485px 100px 0px 363px;
+        top: 170;
+        right: 0px;
+        bottom: 857;
+        left: 0;
+        flex-shrink: 0;
+        z-index: 1;
+    }
+    .doxod {
+        margin-top: 500px;
+        margin-left: 370px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    .dollar {
+        margin-top: 525px;
+        margin-left: 365px;
+        position: absolute;
+        color: #303030;
+        font-size: 16px;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        z-index: 2;
+    }
+    .section-span-text {
+        margin-top: 550px;
+        margin-left: 353px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        text-align: center;
+        max-width: 80px;
+        width: 100%;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 116.667% */
+    }
+    /********* section img *********/
+    .div-qolib {
+        margin: 660px 80px 8074px 30px;
+        position: absolute;
+        width: 100%;
+        max-width: 712px;
+        height: 164px;
+        background-color: #f4f7fa;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+        border-radius: 10px;
+    }
+    .section-rang-img {
+        position: absolute;
+        top: 32px;
+        right: 443px;
+        bottom: 92px;
+        left: 240px;
+    }
+
+    .dollar-elipse15 {
+        position: absolute;
+        top: 35px;
+        right: 190px;
+        bottom: 288px;
+        left: 488px;
+    }
+
+    .dollar-elipse4 {
+        position: absolute;
+        top: 36px;
+        right: 176px;
+        bottom: 95px;
+        left: 501px;
+    }
+    .span-dollar {
+        position: absolute;
+        top: 43.32px;
+        right: 186.82px;
+        bottom: 107px;
+        left: 511.5px;
+    }
+    .section-yurist-jamoa {
+        flex-wrap: wrap;
+    }
+    .section-jamoa-wrapper {
+        margin: 200px 50px 0px 100px;
+    }
+
+    .section-klientlar-container {
+        position: relative;
+        margin: -30px 50px 0px 100px;
+    }
+    .section-jamoa-tajribali-hodmlar {
+        margin-left: 140px;
+    }
+    .section-jamoa-hodmlar-img {
+        margin-left: 100px;
+    }
+    .section-wrapper-title {
+        margin: 0px 331px 31px 331px;
+        width: 100%;
+        max-width: 187px;
+        height: 18px;
+        flex-shrink: 0;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    }
+    .section-wrapper-loyihalar-list {
+        margin-bottom: 144px;
+        width: 100%;
+        max-width: 300px;
+        height: 344px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #fff;
+    }
+    .section-wrapper-loyihalar-list:nth-child(1) {
+        margin: 0px 16px 32px 100px;
+    }
+
+    .section-wrapper-loyihalar-list:nth-child(3) {
+        margin: 0px 50px 144px 260px;
+    }
+    .section-afzalliklar-wrapper-title {
+        margin: 0px 206px 18px 206px;
+        width: 100%;
+        max-width: 438px;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-wrapper-start-intelekt {
+        margin: 0px 29px 0px 140px;
+        width: 100%;
+        max-width: 187px;
+        position: relative;
+        height: 105.834px;
+        border-radius: 11.936px;
+        background: linear-gradient(326deg, #f0ebff 11.53%, #fff 74.32%);
+        box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.78);
+    }
+    .section-wrapper-start-sirius-text {
+        margin-left: 380px;
+    }
+
+    .section-tarif-wrapper-title {
+        margin: 0px 206px 16px 206px;
+        width: 100%;
+        max-width: 438px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px; /* 137.5% */
+    }
+    .section-tarif-wrapper-text {
+        margin: 0px 310px 42px 320px;
+        width: 100%;
+        max-width: 210px;
+        height: 16px;
+        flex-shrink: 0;
+        color: #404040;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 21px */
+    }
+
+    .tarif-oy {
+        margin: 0px 92px 32px 320px;
+        padding-bottom: 2px;
+        color: #273895;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        border-bottom: dashed 1px;
+        background-color: #f4f7fa;
+    }
+
+    .tarif-yil {
+        margin: 0px 280px 32px 0px;
+        padding-bottom: 2px;
+        color: #273895;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        border-bottom: dashed 1px;
+        background-color: #f4f7fa;
+    }
+    .section-tarif-wrapper-bepul {
+        margin: 0px 100px 0px 100px;
+        width: 100%;
+        max-width: 650px;
+        height: 495px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        display: inline-block;
+        background: #fff;
+    }
+
+    .section-tarif-wrapper-bepul-osson-title {
+        margin: 48px 199px 8px 199px;
+
+        width: 251px;
+        height: 26px;
+        color: #2741d0;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        /* line-height: 30px; */
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+    }
+    .section-tarif-wrapper-bepul-osson-text {
+        margin: 0px 199px 16px 199px;
+        width: 100%;
+        max-width: 251px;
+        height: 36px;
+        flex-shrink: 0;
+        color: #c9c9c9;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 44px; /* 137.5% */
+    }
+    .section-tarif-wrapper-bepul-osson-text2 {
+        margin: 0px 102px 16px 102px;
+        width: 100%;
+        max-width: 446.817px;
+        color: #737373;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .section-tarif-wrapper-bepul-list2-title {
+        margin: 0px 199px 16px 199px;
+        width: 100%;
+        width: 250px;
+        height: 26px;
+        color: #404040;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .section-tarif-wrapper-bepul-list2-img1 {
+        margin: 31.34px 8px 28.32px 30px;
+        width: 100%;
+        max-width: 7.393px;
+        height: 7.393px;
+    }
+    .section-tarif-wrapper-bepul-list2-img2 {
+        margin: -30px 8px 28.32px 30px;
+        width: 100%;
+        max-width: 7.393px;
+        height: 7.393px;
+    }
+    .section-tarif-wrapper-kabinet-link {
+        margin: 0px 0px 16px 190px;
+        width: 100%;
+        width: 259px;
+        color: #2741d0;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    .section-tarif-wrapper-kabinet-button {
+        margin: 0px 150px 48px 230px;
+        display: flex;
+        width: 100%;
+        max-width: 180px;
+        height: 56px;
+        color: #fff;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        background-color: #3333a3;
+        border-radius: 15px;
+    }
+
+    .section-tarif-standart {
+        margin: 32px 33px 32px 0px;
+        width: 100%;
+        max-width: 513px;
+        height: 647px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #fff;
+        display: inline-block;
+    }
+    .section-tarif-standart3 {
+        margin: 0px 33px 32px 0px;
+        width: 100%;
+        max-width: 513px;
+        height: 672px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #fff;
+        display: inline-block;
+    }
+    .section-tarif-standart4 {
+        margin: 0px 33px 232px 0px;
+        width: 100%;
+        max-width: 513px;
+        height: 672px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #fff;
+        display: inline-block;
+    }
+    .section-afzalliklar-wrapper-item-list:nth-child(1) {
+        margin-left: 20px;
+    }
+    .section-afzalliklar-wrapper-item-list:nth-child(4) {
+        margin-left: 150px;
+    }
+    .section-tarif-premium-text3 {
+        width: 100%;
+        margin-top: 10px;
+        max-width: 399px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+    .section-hamkor-img1 {
+        width: 100%;
+        max-width: 850;
+        height: 372px;
+        position: absolute;
+        z-index: -1;
+    }
+    .section-hamkorlarga-list1 {
+        margin: 76px 10px 16px 15px;
+        width: 100%;
+        max-width: 800px;
+        height: 229px;
+        border-radius: 20px;
+        background: #fff;
+    }
+    .section-hamkorlar-imkonyatlar-text0 {
+        margin: 0px;
+    }
+    .section-hamkorlar-imkonyatlar-img {
+        margin: 55px 0px 55px 50px;
+        width: 100%;
+        max-width: 218px;
+        height: 119px;
+    }
+    .section-hamkorlarga-list2 {
+        margin: 0px 10px 16px 15px;
+        width: 100%;
+        max-width: 800px;
+        height: 249px;
+        border-radius: 20px;
+        background: #fff;
+    }
+    .section-hamkorlar-imkonyatlar-img2 {
+        margin: 61px 0px 61px 50px;
+        width: 100%;
+        max-width: 186px;
+        height: 127px;
+        flex-shrink: 0;
+    }
+    .section-hamkorlarga-list4 {
+        margin: 0px 0px 31px 20px;
+        width: 100%;
+        max-width: 800px;
+        height: 299px;
+        border-radius: 20px;
+        background: #fff;
+    }
+    .section-hamkorlar-imkonyatlar-img4 {
+        margin: 70px 31px 70px 110px;
+        width: 100%;
+        max-width: 219px;
+        height: 159px;
+    }
+    .section-hamkorlar-imkonyatlar-button {
+        margin: 0px 300px 144px 300px;
+        display: flex;
+        width: 100%;
+        max-width: 250px;
+        height: 56px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        background-color: #273895;
+        border-radius: 15px;
+    }
+    .section-osson-boshlash-title {
+        margin: 0px 260px 48px 260px;
+        width: 100%;
+        max-width: 250px;
+        height: 37px;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-osson-boshlash-wrapper-royhat {
+        margin: -50px 16px 16px 10px;
+        width: 100%;
+        max-width: 296px;
+        height: 243px;
+        padding: 0px;
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+    .section-osson-boshlash-wrapper-royhat2 {
+        margin: 0px 16px 32px 10px;
+        width: 100%;
+        max-width: 296px;
+        height: 243px;
+        padding: 0px;
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+    .section-hamkorlaruchun-bashorat {
+        margin: 550px 0px 144px 0px;
+        width: 100%;
+        max-width: 850px;
+        height: 287px;
+        flex-shrink: 0;
+        background: #273895;
+        display: block;
+    }
+    .section-hamkorlaruchun-bashorat-wrapper-title {
+        margin: 32px 30px 20px 200px;
+        width: 100%;
+        max-width: 380px;
+        height: 81px;
+        flex-shrink: 0;
+        color: #fff;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-hamkorlaruchun-bashorat-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .section-hamkorlaruchun-bashorat1-title {
+        margin: 98px 8px 16px 35px;
+        width: 100%;
+        max-width: 186px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .section-hamkorlaruchun-bashorat1-text {
+        margin: 0px 32px 96px 60px;
+        width: 100%;
+        max-width: 122px;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .section-hamkorlaruchun-bashorat-container {
+        margin-top: -80px;
+    }
+    .section-rahbar-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-rahbar-wrapper-img-img {
+        margin: 400px 0px 171px 100px;
+        padding: 0px 20px 0px 20px;
+        border-top: none;
+        border-bottom: none;
+        width: 100%;
+        max-width: 468px;
+        height: 584px;
+        flex-shrink: 0;
+        background-color: lightgray;
+
+        /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; ; */
+    }
+    .section-rahbar-wrapper-text-container {
+        margin-top: -1300px;
+        margin-left: 100px;
+    }
+    .aleksandr-container {
+        position: absolute;
+        /* top:486px;
+    right:704;
+     bottom: 144px;
+   left: 390px; */
+        z-index: 2;
+        top: -265px;
+        left: 335px;
+        width: 100%;
+        max-width: 360px;
+        height: 125px;
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+
+        border-radius: 11.936px;
+        background: linear-gradient(331deg, #f0ebff -4.05%, #fff 34.42%);
+        box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.2);
+    }
+    .footer-chiziq {
+        width: 100;
+        max-width: 850px;
+        height: 1px;
+        background: #dee6ef;
+    }
+    .footer-logo-text1 {
+        margin: 45px 20px 44px -35px;
+        width: 100%;
+        max-width: 100px;
+        height: 55px;
+        color: #3b1d8f;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    .footer-logo-text2 {
+        margin: 45px 30px 42px 0px;
+        width: 100%;
+        max-width: 227px;
+        height: 40px;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .elektron-manzil-text1 {
+        margin: 16px 40px 16px 70px;
+        color: #7a7a7a;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .elektron-manzil {
+        width: 100%;
+        max-width: 850px;
+        height: 52px;
+        background: #e8edf3;
+    }
 }
 
-/********** Header media end **********/
+@media only screen and (max-width: 750px) {
+    .mobilni-img {
+        margin: 45px 20px 60px 280px;
+        width: 100%;
+        max-width: 12px;
+        height: 22px;
+        padding: 14px 14px 14px 19px;
+        border-radius: 7px;
+        background: linear-gradient(326deg, #2641d1 11.53%, #3333a3 74.32%);
+        display: block;
+    }
+    .div-qolib {
+        margin: 660px 10px 8074px 20px;
+        position: absolute;
+        width: 100%;
+        max-width: 650px;
+        height: 164px;
+        background-color: #f4f7fa;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+        border-radius: 10px;
+    }
+    .section-rang-img {
+        position: absolute;
+        top: 32px;
+        right: 443px;
+        bottom: 92px;
+        left: 225px;
+    }
+
+    .dollar-elipse15 {
+        position: absolute;
+        top: 35px;
+        right: 190px;
+        bottom: 288px;
+        left: 450px;
+    }
+
+    .dollar-elipse4 {
+        position: absolute;
+        top: 36px;
+        right: 176px;
+        bottom: 95px;
+        left: 465px;
+    }
+    .span-dollar {
+        position: absolute;
+        top: 43.32px;
+        right: 186.82px;
+        bottom: 107px;
+        left: 475px;
+    }
+    .section-wrapper-title {
+        margin: 0px 266px 31px 245px;
+        width: 100%;
+        max-width: 187px;
+        height: 18px;
+        flex-shrink: 0;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    }
+    .section-wrapper-loyihalar-list:nth-child(1) {
+        margin: 0px 16px 32px 20px;
+    }
+    .section-wrapper-loyihalar-list:nth-child(2) {
+        margin: 0px 10px 32px 0px;
+    }
+    .section-wrapper-loyihalar-list:nth-child(3) {
+        margin: 0px 240px 144px 210px;
+    }
+    .section-wrapper-start-sirius {
+        width: 100%;
+        max-width: 400px;
+        margin-left: 250px;
+    }
+    .section-wrapper-start-sirius-text {
+        margin: 32px 200px 60px 250px;
+    }
+    .section-afzalliklar-wrapper-item-list:nth-child(3) {
+        margin-left: 20px;
+    }
+    .section-afzalliklar-wrapper-item-list:nth-child(4) {
+        margin-left: 0px;
+    }
+    .section-afzalliklar-wrapper-item-list:nth-child(5) {
+        margin-left: 150px;
+    }
+    .section-tarif-wrapper-title {
+        margin: 0px 156px 16px 156px;
+        width: 100%;
+        max-width: 438px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px; /* 137.5% */
+    }
+    .section-tarif-wrapper-text {
+        margin: 0px 270px 42px 270px;
+        width: 100%;
+        max-width: 210px;
+        height: 16px;
+        flex-shrink: 0;
+        color: #404040;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 21px */
+    }
+    .tarif-oy {
+        margin: 0px 92px 32px 270px;
+        padding-bottom: 2px;
+        color: #273895;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        border-bottom: dashed 1px;
+        background-color: #f4f7fa;
+    }
+    .tarif-oy:hover {
+        margin: 0px 64px 42px 571px;
+        padding: 1px 1px;
+        color: #fff;
+        width: 100%;
+        max-width: 120px;
+        height: 30px;
+        border-radius: 15px;
+        background: #273895;
+        border: none;
+    }
+
+    .tarif-yil {
+        margin: 0px 200px 32px 0px;
+        padding-bottom: 2px;
+        color: #273895;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        border-bottom: dashed 1px;
+        background-color: #f4f7fa;
+    }
+    .tarif-yil:hover {
+        margin: 0px 64px 42px 0px;
+        padding: 1px 1px;
+        color: #fff;
+        width: 100%;
+        max-width: 120px;
+        height: 30px;
+        border-radius: 15px;
+        background: #273895;
+        border: none;
+    }
+    .section-tarif-wrapper-bepul {
+        margin: 0px 75px 0px 30px;
+        width: 100%;
+        max-width: 600px;
+        height: 495px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        display: inline-block;
+        background: #fff;
+    }
+    .bepul-tarif-wrap {
+        flex-wrap: wrap;
+    }
+    .section-tarif-wrapper-bepul-list2-text2 {
+        margin: -20px 24px 0px 0px;
+        width: 100%;
+        width: 286px;
+        height: 29px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .section-tarif-wrapper-bepul-list2-img2 {
+        margin: -10px 8px 0px 30px;
+        width: 100%;
+        max-width: 7.393px;
+        height: 7.393px;
+    }
+    .section-tarif-wrapper-bepul-list2-img3 {
+        margin: 31.34px 8px 28.32px 30px;
+        width: 100%;
+        max-width: 7.393px;
+        height: 7.393px;
+    }
+
+    .section-tarif-wrapper-bepul-list2-img4 {
+        margin: 0px 8px 28.32px 30px;
+        width: 100%;
+        max-width: 7.393px;
+        height: 7.393px;
+    }
+    .section-tarif-wrapper-bepul-list2-text4 {
+        margin: -17px 167px 16px 0px;
+        width: 100%;
+        width: 306px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .section-tarif-wrapper-kabinet-button {
+        margin: 0px 230px 48px 230px;
+        display: flex;
+        width: 100%;
+        max-width: 140px;
+        height: 40px;
+        color: #fff;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        background-color: #3333a3;
+        border-radius: 15px;
+    }
+    .section-hamkor-img1 {
+        width: 100%;
+        max-width: 750px;
+        height: 372px;
+        position: absolute;
+        z-index: -1;
+    }
+    .section-hamkorlarga-list1 {
+        margin: 76px 50px 16px 30px;
+        width: 100%;
+        max-width: 650px;
+        height: 229px;
+        border-radius: 20px;
+        background: #fff;
+    }
+
+    .section-hamkorlar-imkonyatlar-img {
+        margin: 55px 0px 55px 50px;
+        width: 100%;
+        max-width: 180px;
+        height: 80px;
+    }
+
+    .section-hamkorlar-imkonyatlar-text2 {
+        margin: 0px 187px 48px 32px;
+        width: 100%;
+        width: 400px;
+        color: #b7b6b6;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlarga-list2 {
+        margin: 0px 50px 16px 30px;
+        width: 100%;
+        max-width: 650px;
+        height: 249px;
+        border-radius: 20px;
+        background: #fff;
+    }
+    .section-hamkorlar-imkonyatlar-img2 {
+        margin: 61px 20px 61px 50px;
+        width: 100%;
+        max-width: 134px;
+        height: 120px;
+        flex-shrink: 0;
+    }
+    .section-hamkorlarga-list4 {
+        margin: 0px 30px 31px 30px;
+        width: 100%;
+        max-width: 650px;
+        height: 299px;
+        border-radius: 20px;
+        background: #fff;
+    }
+    .section-hamkorlar-imkonyatlar-img4 {
+        margin: 70px 20px 70px 30px;
+        width: 100%;
+        max-width: 219px;
+        height: 159px;
+    }
+    .section-hamkorlar-imkonyatlar-button {
+        margin: 0px 250px 144px 250px;
+        display: flex;
+        width: 100%;
+        max-width: 250px;
+        height: 56px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        background-color: #273895;
+        border-radius: 15px;
+    }
+    .section-hamkorlaruchun-bashorat {
+        margin: 550px 0px 144px 0px;
+        width: 100%;
+        max-width: 750px;
+        height: 287px;
+        flex-shrink: 0;
+        background: #273895;
+        display: block;
+    }
+
+    .section-osson-boshlash-wrapper-royhat-target {
+        margin: 20px 3px 280px 160px;
+        width: 100%;
+        max-width: 312px;
+        height: 366px;
+        border-radius: 20px;
+        border: 2px solid #4917e8;
+        background: #fff;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+    .footer-chiziq {
+        width: 100;
+        max-width: 750px;
+        height: 1px;
+        background: #dee6ef;
+    }
+
+    .footer-logo-img {
+        margin: 32px 0px 32px 30px;
+        width: 100%;
+        max-width: 125px;
+        height: 55px;
+        flex-shrink: 0;
+    }
+    .footer-logo-text1 {
+        margin: 45px 48px 44px -35px;
+        width: 100%;
+        max-width: 100px;
+        height: 55px;
+        color: #3b1d8f;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    .footer-logo-text2 {
+        margin: 45px 0px 42px 0px;
+        width: 100%;
+        max-width: 250px;
+        height: 40px;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .footer-vk-link4 {
+        margin: 49px 0px 55px 0px;
+        padding: 9px;
+        width: 100%;
+        max-width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 1px solid #cfdae7;
+        border: 1px solid #cfdae7;
+    }
+    .elektron-manzil {
+        width: 100%;
+        max-width: 750px;
+        height: 60px;
+        background: #e8edf3;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .elektron-manzil-text1 {
+        margin: 0px 0px 16px 10px;
+        color: #7a7a7a;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .elektron-manzil-text2 {
+        margin: 0px 16px 16px 10px;
+        color: #7a7a7a;
+        text-align: right;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .elektron-manzil-text3 {
+        margin: 0px 0px 16px 0px;
+        color: #7a7a7a;
+        text-align: right;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .Legal {
+        margin: 48px 64px 60px -70px;
+        width: 100%;
+        max-width: 88px;
+        color: #3b1d8f;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    .mobilni-img {
+        margin: 45px 20px 60px 160px;
+        width: 100%;
+        max-width: 12px;
+        height: 22px;
+        padding: 14px 14px 14px 19px;
+        border-radius: 7px;
+        background: linear-gradient(326deg, #2641d1 11.53%, #3333a3 74.32%);
+        display: block;
+    }
+    .section-name {
+        margin: 20px 32px 16px 40px;
+        color: #262626;
+        width: 450px;
+        font-family: Nunito Sans;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 55px;
+    }
+
+    .main-section-wrapper-text {
+        margin: 200px 218px 32px 40px;
+        color: #303030;
+        width: 480px;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 350;
+        line-height: 150%;
+        position: relative;
+    }
+
+    .main-section-wrapper-button {
+        margin: 0px 350px 382px 100px;
+        color: #ffffff;
+        padding: 16px 32px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        background: #273895;
+    }
+
+    .Section-img {
+        margin: 55px 0px 0px 50px;
+        width: 400px;
+        height: 450px;
+    }
+    .section-img-group {
+        position: absolute;
+        margin: 430px 0px 0px 200px;
+    }
+
+    .section-img-doira {
+        position: absolute;
+        margin: 460px 0px 0px 215px;
+        flex-shrink: 0;
+        z-index: 1;
+    }
+    .doxod {
+        margin-top: 475px;
+        margin-left: 223px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    .dollar {
+        margin-top: 500px;
+        margin-left: 215px;
+        position: absolute;
+        color: #303030;
+        font-size: 16px;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        z-index: 2;
+    }
+    .section-span-text {
+        margin-top: 523px;
+        margin-left: 205px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        text-align: center;
+        max-width: 80px;
+        width: 100%;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 116.667% */
+    }
+    .div-qolib {
+        margin: 650px 80px 8074px 120px;
+        position: absolute;
+        width: 100%;
+        max-width: 300px;
+        height: 480px;
+        background-color: #f4f7fa;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .biz-haqimizda {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .haqimizda-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .section-soat {
+        position: absolute;
+        margin: 32px 0px 8px 120px;
+    }
+    .section-soat2 {
+        margin: 37px 0px 8px 125px;
+        position: absolute;
+    }
+    .section-oy {
+        margin: 30px 0px 22.53px 145px;
+        position: absolute;
+    }
+    .haqimizda {
+        margin: 80px 32px 32px 48px;
+        width: 100%;
+        width: 200px;
+        align-items: center;
+        text-align: center;
+        color: #303030;
+        font-size: 16px;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .section-rang-img {
+        position: absolute;
+        top: 180px;
+        right: 0px;
+        bottom: 92px;
+        left: 120px;
+    }
+    .haqimizda2 {
+        margin: 70px 32px 32px 32px;
+        width: 224px;
+        color: #303030;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+    }
+    .dollar-elipse15 {
+        position: absolute;
+        top: 320px;
+        right: 0px;
+        bottom: 288px;
+        left: 120px;
+    }
+
+    .dollar-elipse4 {
+        position: absolute;
+        top: 321px;
+        right: 0px;
+        bottom: 95px;
+        left: 132px;
+    }
+    .span-dollar {
+        position: absolute;
+        top: 326px;
+        right: 186.82px;
+        bottom: 107px;
+        left: 140px;
+    }
+    .haqimizda3 {
+        margin: 60px 0px 32px 55px;
+        width: 179px;
+        color: #303030;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+    }
+    .section-jamoa-wrapper {
+        margin-top: 470px;
+    }
+    .section-jamoa-logo {
+        margin: 0px 326px 32px 30px;
+    }
+    .section-jamoa-title {
+        margin: 0px 115px 16px 30px;
+        width: 100%;
+        max-width: 400px;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-jamoa-text {
+        margin: 0px 147px 134px 30px;
+        width: 406px;
+        height: 85px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+    .section-wrapper-title {
+        margin: 0px 275px 31px 215px;
+        width: 100%;
+        max-width: 187px;
+        height: 18px;
+        flex-shrink: 0;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    }
+
+    .section-wrapper-loyihalar-list:nth-child(1) {
+        margin: 0px 16px 32px 150px;
+    }
+    .section-wrapper-loyihalar-list:nth-child(2) {
+        margin: 0px 16px 32px 150px;
+    }
+    .section-wrapper-loyihalar-list:nth-child(3) {
+        margin: 0px 16px 32px 150px;
+    }
+    .section-tarif-wrapper-title {
+        margin: 0px 121px 16px 121px;
+        width: 100%;
+        max-width: 438px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px; /* 137.5% */
+    }
+    .section-tarif-wrapper-text {
+        margin: 0px 235px 42px 235px;
+        width: 100%;
+        max-width: 210px;
+        height: 16px;
+        flex-shrink: 0;
+        color: #404040;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 21px */
+    }
+    .tarif-oy {
+        margin: 0px 92px 32px 230px;
+        padding-bottom: 2px;
+        color: #273895;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        border-bottom: dashed 1px;
+        background-color: #f4f7fa;
+    }
+    .tarif-yil {
+        margin: 0px 200px 32px 0px;
+        padding-bottom: 2px;
+        color: #273895;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        border-bottom: dashed 1px;
+        background-color: #f4f7fa;
+    }
+    .section-hamkor-img1 {
+        width: 100%;
+        max-width: 680px;
+        height: 372px;
+        position: absolute;
+        z-index: -1;
+    }
+    .section-hamkorlarga-list1 {
+        margin: 76px 10px 16px 20px;
+        width: 100%;
+        max-width: 400px;
+        height: 350px;
+        border-radius: 20px;
+        background: #fff;
+        flex-wrap: wrap;
+    }
+
+    .section-hamkorlar-imkonyatlar-img {
+        margin: 32px 0px 32px 110px;
+        width: 100%;
+        max-width: 218px;
+        height: 119px;
+    }
+    .section-hamkorlar-imkonyatlar-title {
+        margin: 0px 0px 16px 32px;
+        width: 100%;
+        max-width: 225px;
+        height: 27px;
+        flex-shrink: 0;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: right;
+    }
+    .section-hamkorlar-imkonyatlar-text1 {
+        margin: 0px 187px 8px 32px;
+        width: 100%;
+        max-width: 400px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+    }
+    .section-hamkorlar-imkonyatlar-text2 {
+        margin: 0px 0px 48px 32px;
+        width: 100%;
+        max-width: 350px;
+        color: #b7b6b6;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+    }
+    .section-hamkorlarga-list2 {
+        margin: 0px 10px 16px 20px;
+        width: 100%;
+        max-width: 400px;
+        height: 400px;
+        border-radius: 20px;
+        background: #fff;
+        flex-wrap: wrap;
+    }
+    .section-hamkorlar-imkonyatlar-img2 {
+        margin: 32px 64px 32px 110px;
+        width: 100%;
+        max-width: 186px;
+        height: 127px;
+        flex-shrink: 0;
+    }
+    .section-hamkorlar-imkonyatlar-title2 {
+        margin: 0px 0px 16px 32px;
+        text-align: right;
+        width: 100%;
+        max-width: 225px;
+        height: 27px;
+        flex-shrink: 0;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+    }
+
+    .section-hamkorlar-imkonyatlar-text2-1 {
+        margin: 0px 0px 10px 30px;
+        text-align: center;
+        width: 100%;
+        max-width: 350px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlar-imkonyatlar-text2-2 {
+        margin: 0px 0px 48px 30px;
+        text-align: center;
+        width: 100%;
+        max-width: 350px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlar-imkonyatlar-img3 {
+        margin: 62px 0px 32px 90px;
+        width: 100%;
+        max-width: 219px;
+        height: 106px;
+    }
+    .section-hamkorlar-imkonyatlar-titl3 {
+        margin: 0px 0px 16px 45px;
+        text-align: right;
+        width: 100%;
+        max-width: 225px;
+        height: 27px;
+        flex-shrink: 0;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+    }
+    .section-hamkorlar-imkonyatlar-text3-1 {
+        margin: 0px 0px 10px 30px;
+        text-align: center;
+        width: 100%;
+        max-width: 360px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .section-hamkorlar-imkonyatlar-text3-2 {
+        margin: 0px 0px 48px 30px;
+        text-align: center;
+        width: 100%;
+        max-width: 360px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlarga-list4 {
+        margin: 0px 0px 31px 20px;
+        width: 100%;
+        max-width: 400px;
+        height: 530px;
+        border-radius: 20px;
+        background: #fff;
+        flex-wrap: wrap;
+    }
+    .section-hamkorlar-imkonyatlar-img4 {
+        margin: 70px 31px 32px 110px;
+        width: 100%;
+        max-width: 219px;
+        height: 159px;
+    }
+    .section-hamkorlar-imkonyatlar-title4 {
+        margin: 0px 0px 16px 60px;
+        text-align: center;
+        width: 100%;
+        max-width: 225px;
+        height: 27px;
+        flex-shrink: 0;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+    }
+    .section-hamkorlar-imkonyatlar-text4-1 {
+        margin: 0px 0px 15px 32px;
+        width: 100%;
+        max-width: 400px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlar-imkonyatlar-text4-2-container {
+        margin: 0px 187px 10px 32px;
+    }
+    .section-hamkorlar-imkonyatlar-text4-2 {
+        margin-left: 15px;
+        width: 100%;
+        max-width: 515px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        list-style: disc;
+    }
+    .section-hamkorlar-imkonyatlar-text4-3 {
+        margin: 0px 0px 48px 32px;
+        width: 100%;
+        max-width: 515px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    .section-hamkorlar-imkonyatlar-button {
+        margin: 0px 260px 144px 60px;
+        display: flex;
+        width: 100%;
+        max-width: 250px;
+        height: 56px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        background-color: #273895;
+        border-radius: 15px;
+    }
+    .section-osson-boshlash-title {
+        margin: 0px 110px 48px 110px;
+        width: 100%;
+        max-width: 250px;
+        height: 37px;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-osson-boshlash-wrapper-royhat-strategiya {
+        margin: 10px 16px 32px 10px;
+        width: 100%;
+        max-width: 312px;
+        height: 502px;
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+    .section-osson-boshlash-wrapper-royhat-target {
+        margin: 0px 0px 0px 10px;
+        width: 100%;
+        max-width: 312px;
+        height: 366px;
+        border-radius: 20px;
+        border: 2px solid #4917e8;
+        background: #fff;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+
+    .section-osson-boshlash {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-hamkorlaruchun-bashorat {
+        margin: 880px 0px 144px 0px;
+        width: 100%;
+        max-width: 680px;
+        height: 380px;
+        flex-shrink: 0;
+        background: #273895;
+        display: block;
+    }
+    .section-hamkorlaruchun-bashorat-wrapper-title {
+        margin: 40px 0px 20px 140px;
+        width: 100%;
+        max-width: 400px;
+        height: 81px;
+        flex-shrink: 0;
+        color: #fff;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-hamkorlaruchun-bashorat1-title {
+        margin: 98px 8px 16px 100px;
+        width: 100%;
+        max-width: 186px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .section-hamkorlaruchun-bashorat1-text {
+        margin: 0px 32px 16px 120px;
+        width: 100%;
+        max-width: 122px;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlaruchun-bashorat1-title2 {
+        margin: 98px 8px 16px 70px;
+        width: 100%;
+        max-width: 186px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .section-hamkorlaruchun-bashorat1-text2 {
+        margin: 0px 16px 0px 70px;
+        width: 100%;
+        max-width: 198px;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlaruchun-bashorat1-title3 {
+        margin: 0px 4px 16px 100px;
+        width: 100%;
+        max-width: 180px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .section-hamkorlaruchun-bashorat1-text3 {
+        margin: 0px 18px 96px 100px;
+        width: 100%;
+        max-width: 175px;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlaruchun-bashorat1-title4 {
+        margin: 0px 80px 16px 50px;
+        width: 100%;
+        max-width: 165px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .section-hamkorlaruchun-bashorat1-text4 {
+        margin: 0px 84px 96px 55px;
+        width: 100%;
+        max-width: 160px;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlaruchun-bashorat1 {
+        margin: 0px;
+        padding: 0px;
+    }
+    .section-hamkorlaruchun-bashorat-container {
+        flex-wrap: wrap;
+    }
+    .section-rahbar-wrapper-text-container {
+        margin-top: -1200px;
+        margin-left: 40px;
+    }
+    .section-rahbar-wrapper-img-img {
+        margin: 400px 0px 171px 60px;
+        padding: 0px 20px 0px 20px;
+        border-top: none;
+        border-bottom: none;
+        width: 100%;
+        max-width: 400px;
+        height: 500px;
+        flex-shrink: 0;
+        background-color: lightgray;
+
+        /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; ; */
+    }
+
+    .aleksandr-container {
+        position: absolute;
+        /* top:486px;
+    right:704;
+     bottom: 144px;
+   left: 390px; */
+        z-index: 2;
+        top: -260px;
+        left: 200px;
+        width: 100%;
+        max-width: 360px;
+        height: 125px;
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+        border-radius: 11.936px;
+        background: linear-gradient(331deg, #f0ebff -4.05%, #fff 34.42%);
+        box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.2);
+    }
+    .footer-chiziq {
+        width: 100;
+        max-width: 680px;
+        height: 1px;
+        background: #dee6ef;
+    }
+    .footer-logo-img {
+        margin: 32px 0px 32px 80px;
+        width: 100%;
+        max-width: 125px;
+        height: 55px;
+        flex-shrink: 0;
+    }
+    .footer-logo-text1 {
+        margin: 45px 100px 32px -35px;
+        width: 100%;
+        max-width: 100px;
+        height: 55px;
+        color: #3b1d8f;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    .footer-logo-text2 {
+        margin: 45px 0px 32px 0px;
+        width: 100%;
+        max-width: 250px;
+        height: 40px;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .footer-vk-link {
+        margin: 0px 0px 42px 0px;
+        padding: 9px;
+        width: 100%;
+        max-width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 1px solid #cfdae7;
+        border: 1px solid #cfdae7;
+    }
+    .footer-vk-link4 {
+        margin: 0px 70px 42px 0px;
+        padding: 9px;
+        width: 100%;
+        max-width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 1px solid #cfdae7;
+        border: 1px solid #cfdae7;
+    }
+    .footer-wrapper {
+        flex-wrap: wrap;
+    }
+    .footer-img-link:nth-child(1) {
+        margin-left: 200px;
+    }
+    .elektron-manzil {
+        width: 100%;
+        max-width: 680px;
+        height: 80px;
+        background: #e8edf3;
+    }
+    .elektron-manzil-text1 {
+        margin: 16px 100px 0px 150px;
+        color: #7a7a7a;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .elektron-manzil-text2 {
+        margin: 10px 16px 16px 160px;
+        color: #7a7a7a;
+        text-align: right;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .elektron-manzil-text3 {
+        margin: 10px 0px 16px 0px;
+        color: #7a7a7a;
+        text-align: right;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .section-afzalliklar-wrapper-title {
+        margin: 0px 155px 18px 140px;
+        width: 100%;
+        max-width: 350px;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-wrapper-start-intelekt {
+        margin: 0px 29px 0px 267px;
+        width: 100%;
+        max-width: 187px;
+        position: relative;
+        height: 105.834px;
+        border-radius: 11.936px;
+        background: linear-gradient(326deg, #f0ebff 11.53%, #fff 74.32%);
+        box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.78);
+    }
+    .section-wrapper-start-sirius {
+        margin: 350px 0px 40px 150px;
+    }
+    .section-wrapper-start-sirius-text {
+        margin: 0px 0px 50px 150px;
+    }
+    .section-tarif-wrapper-title {
+        margin: 0px 0px 16px 120px;
+        width: 100%;
+        max-width: 300px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px; /* 137.5% */
+    }
+    .section-tarif-wrapper-text {
+        margin: 0px 0px 42px 167px;
+        width: 100%;
+        max-width: 210px;
+        height: 16px;
+        flex-shrink: 0;
+        color: #404040;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 21px */
+    }
+
+    .tarif-oy {
+        margin: 0px 92px 32px 170px;
+        padding-bottom: 2px;
+        color: #273895;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        border-bottom: dashed 1px;
+        background-color: #f4f7fa;
+    }
+
+    .tarif-yil {
+        margin: 0px 100px 32px 0px;
+        padding-bottom: 2px;
+        color: #273895;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        border: none;
+        border-bottom: dashed 1px;
+        background-color: #f4f7fa;
+    }
+    .section-tarif-wrapper-bepul {
+        margin: 0px 0px 0px 60px;
+        width: 100%;
+        max-width: 450px;
+        height: 520px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        display: inline-block;
+        background: #fff;
+    }
+    .section-tarif-wrapper-bepul-osson-title {
+        margin: 48px 100px 8px 100px;
+        width: 100%;
+        max-width: 251px;
+        height: 26px;
+        color: #2741d0;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        /* line-height: 30px; */
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+    }
+    .section-tarif-wrapper-bepul-osson-text {
+        margin: 0px 80px 16px 100px;
+        width: 100%;
+        max-width: 251px;
+        height: 36px;
+        flex-shrink: 0;
+        color: #c9c9c9;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 44px; /* 137.5% */
+    }
+    .section-tarif-wrapper-bepul-osson-text2 {
+        margin: 0px 0px 16px 50px;
+        width: 100%;
+        max-width: 350px;
+        color: #737373;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .section-tarif-wrapper-bepul-list2-title {
+        margin: 0px 0px 16px 100px;
+        width: 100%;
+        width: 250px;
+        height: 26px;
+        color: #404040;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .section-tarif-wrapper-kabinet-link {
+        margin: 0px 0px 16px 60px;
+        width: 100%;
+        width: 259px;
+        color: #2741d0;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .section-tarif-wrapper-kabinet-button {
+        margin: 10px 0px 48px 80px;
+        display: flex;
+        width: 100%;
+        max-width: 150px;
+        height: 40px;
+        color: #fff;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        background-color: #3333a3;
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .mobilni-img {
+        margin: 45px 20px 60px 80px;
+        width: 100%;
+        max-width: 12px;
+        height: 22px;
+        padding: 14px 14px 14px 19px;
+        border-radius: 7px;
+        background: linear-gradient(326deg, #2641d1 11.53%, #3333a3 74.32%);
+    }
+    .section-name {
+        margin: 20px 32px 16px 40px;
+        color: #262626;
+        width: 400px;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .main-section-wrapper-text {
+        margin: 160px 218px 32px 30px;
+        color: #303030;
+        width: 430px;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 350;
+        line-height: 150%;
+        position: relative;
+        text-align: center;
+    }
+
+    .main-section-wrapper-button {
+        margin: 0px 0px 382px 120px;
+        color: #ffffff;
+        padding: 16px 32px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        background: #273895;
+    }
+
+    .Section-img {
+        margin: 55px 0px 0px 50px;
+        width: 360px;
+        height: 380px;
+    }
+    .section-img-group {
+        position: absolute;
+        margin: 400px 0px 0px 180px;
+    }
+
+    .section-img-doira {
+        position: absolute;
+        margin: 430px 0px 0px 195px;
+        flex-shrink: 0;
+        z-index: 1;
+    }
+    .doxod {
+        margin-top: 440px;
+        margin-left: 206px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    .dollar {
+        margin-top: 462px;
+        margin-left: 198px;
+        position: absolute;
+        color: #303030;
+        font-size: 16px;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        z-index: 2;
+    }
+    .section-span-text {
+        margin-top: 490px;
+        margin-left: 185px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        text-align: center;
+        max-width: 80px;
+        width: 100%;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 116.667% */
+    }
+    .div-qolib {
+        margin: 650px 80px 8074px 60px;
+        position: absolute;
+        width: 100%;
+        max-width: 300px;
+        height: 480px;
+        background-color: #f4f7fa;
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-wrapper-start-sirius {
+        margin-left: 120px;
+    }
+    .section-wrapper-start-sirius-text {
+        margin: 0px 0px 50px 120px;
+    }
+    .section-jamoa-wrapper {
+        margin-top: 470px;
+        margin-left: 70px;
+    }
+    .section-jamoa-logo {
+        margin: 0px 0px 32px 30px;
+    }
+    .section-jamoa-title {
+        margin: 0px 115px 16px 30px;
+        width: 100%;
+        max-width: 400px;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-jamoa-text {
+        margin: 0px 147px 134px 30px;
+        width: 406px;
+        height: 85px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+    .section-klientlar-container {
+        margin-left: 60px;
+    }
+    .section-jamoa-tajribali-hodmlar {
+        margin-left: 100px;
+    }
+    .section-hamkor-img1 {
+        width: 100%;
+        max-width: 550px;
+        height: 372px;
+        position: absolute;
+        z-index: -1;
+    }
+    .section-hamkor-img2 {
+        top: 32px;
+        left: 100px;
+        width: 100%;
+        max-width: 350px;
+        height: 340px;
+        position: absolute;
+        z-index: -1;
+    }
+    .section-hamkor-title {
+        margin: 70px 0px 16px 90px;
+        width: 100%;
+        max-width: 398px;
+        height: 41px;
+        position: absolute;
+        z-index: 2;
+        color: #fff;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-hamkor-text {
+        margin: 125px 0px 205px 120px;
+        width: 100%;
+        max-width: 321px;
+        display: inline-block;
+        height: 48px;
+        color: #e9e9e9;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+    .section-hamkorlaruchun-bashorat {
+        margin: 900px 0px 144px 0px;
+        width: 100%;
+        max-width: 550px;
+        height: 400px;
+        flex-shrink: 0;
+        background: #273895;
+        display: block;
+    }
+    .section-hamkorlaruchun-bashorat-wrapper-title {
+        margin: 32px 0px 0px 100px;
+        width: 100%;
+        max-width: 380px;
+        height: 81px;
+        flex-shrink: 0;
+        color: #fff;
+        font-family: Nunito Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .section-hamkorlaruchun-bashorat1-title {
+        margin: 80px 8px 10px 80px;
+        width: 100%;
+        max-width: 150px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .section-hamkorlaruchun-bashorat1-text {
+        margin: 0px 32px 16px 110px;
+        width: 100%;
+        max-width: 100px;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlaruchun-bashorat1-title2 {
+        margin: 90px 8px 16px 70px;
+        width: 100%;
+        max-width: 130px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .section-hamkorlaruchun-bashorat1-text2 {
+        margin: 0px 16px 0px 60px;
+        width: 100%;
+        max-width: 150px;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlaruchun-bashorat1-title3 {
+        margin: 20px 4px 16px 60px;
+        width: 100%;
+        max-width: 180px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .section-hamkorlaruchun-bashorat1-text3 {
+        margin: 0px 18px 96px 60px;
+        width: 100%;
+        max-width: 175px;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-hamkorlaruchun-bashorat1-title4 {
+        margin: 0px 0px 16px 45px;
+        width: 100%;
+        max-width: 165px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .section-hamkorlaruchun-bashorat1-text4 {
+        margin: 0px 0px 96px 50px;
+        width: 100%;
+        max-width: 160px;
+        color: #fff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-rahbar-wrapper-text-container {
+        margin-top: -1200px;
+        margin-left: 10px;
+    }
+    .section-rahbar-wrapper-img-img {
+        margin: 400px 0px 171px 30px;
+        padding: 0px 20px 0px 20px;
+        border-top: none;
+        border-bottom: none;
+        width: 100%;
+        max-width: 360px;
+        height: 460px;
+        flex-shrink: 0;
+        background-color: lightgray;
+
+        /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; ; */
+    }
+
+    .aleksandr-container {
+        position: absolute;
+        /* top:486px;
+    right:704;
+     bottom: 144px;
+   left: 390px; */
+        z-index: 2;
+        top: -260px;
+        left: 150px;
+        width: 100%;
+        max-width: 360px;
+        height: 125px;
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+        border-radius: 11.936px;
+        background: linear-gradient(331deg, #f0ebff -4.05%, #fff 34.42%);
+        box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.2);
+    }
+    .footer-chiziq {
+        width: 100;
+        max-width: 560px;
+        height: 1px;
+        background: #dee6ef;
+    }
+    .footer-logo-img {
+        margin: 32px 0px 32px 50px;
+        width: 100%;
+        max-width: 125px;
+        height: 55px;
+        flex-shrink: 0;
+    }
+    .footer-logo-text1 {
+        margin: 45px 60px 32px -35px;
+        width: 100%;
+        max-width: 100px;
+        height: 55px;
+        color: #3b1d8f;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    .footer-logo-text2 {
+        margin: 45px 0px 32px 0px;
+        width: 100%;
+        max-width: 250px;
+        height: 40px;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .footer-vk-link {
+        margin: 0px 0px 42px 0px;
+        padding: 9px;
+        width: 100%;
+        max-width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 1px solid #cfdae7;
+        border: 1px solid #cfdae7;
+    }
+    .footer-vk-link4 {
+        margin: 0px 70px 42px 0px;
+        padding: 9px;
+        width: 100%;
+        max-width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 1px solid #cfdae7;
+        border: 1px solid #cfdae7;
+    }
+    .footer-wrapper {
+        flex-wrap: wrap;
+    }
+    .footer-img-link:nth-child(1) {
+        margin-left: 160px;
+    }
+    .elektron-manzil {
+        width: 100%;
+        max-width: 560px;
+        height: 80px;
+        background: #e8edf3;
+    }
+    .elektron-manzil-text1 {
+        margin: 16px 0px 0px 90px;
+        color: #7a7a7a;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .elektron-manzil-text2 {
+        margin: 10px 16px 16px 95px;
+        color: #7a7a7a;
+        text-align: right;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .elektron-manzil-text3 {
+        margin: 10px 0px 16px 0px;
+        color: #7a7a7a;
+        text-align: right;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .SiteLogo {
+        margin: 40px 0px 48px 40px;
+        width: 100%;
+        max-width: 100px;
+        height: 40px;
+    }
+    .Legal {
+        margin: 47px 64px 60px -30px;
+        width: 100%;
+        max-width: 88px;
+        color: #3b1d8f;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 15px;
+    }
+    .mobilni-img {
+        margin: 45px 20px 60px 50px;
+        width: 100%;
+        max-width: 12px;
+        height: 20px;
+        padding: 12px 14px 12px 14px;
+        border-radius: 7px;
+        background: linear-gradient(326deg, #2641d1 11.53%, #3333a3 74.32%);
+    }
+    .mobilni-menyu {
+        padding: 12px 14px 12px 14px;
+        width: 100%;
+        max-width: 18px;
+        height: 22px;
+        border-radius: 7px;
+        background: #dee6ef;
+    }
+    .section-name {
+        margin: 20px 32px 16px 30px;
+        color: #262626;
+        width: 400px;
+        font-family: Nunito Sans;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .main-section-wrapper-text {
+        margin: 140px 0px 32px 40px;
+        color: #303030;
+        width: 360px;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 350;
+        line-height: 150%;
+        position: relative;
+        text-align: center;
+    }
+
+    .main-section-wrapper-button {
+        margin: 0px 0px 382px 80px;
+        color: #ffffff;
+        padding: 16px 26px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        background: #273895;
+    }
+    .Section-img {
+        margin: 70px 0px 0px 50px;
+        width: 360px;
+        height: 380px;
+    }
+    .section-img-group {
+        position: absolute;
+        margin: 400px 0px 0px 180px;
+    }
+
+    .section-img-doira {
+        position: absolute;
+        margin: 430px 0px 0px 195px;
+        flex-shrink: 0;
+        z-index: 1;
+    }
+    .doxod {
+        margin-top: 440px;
+        margin-left: 206px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    .dollar {
+        margin-top: 462px;
+        margin-left: 198px;
+        position: absolute;
+        color: #303030;
+        font-size: 16px;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        z-index: 2;
+    }
+    .section-span-text {
+        margin-top: 490px;
+        margin-left: 185px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        text-align: center;
+        max-width: 80px;
+        width: 100%;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 116.667% */
+    }
+    .section-jamoa-logo {
+        margin: 0px 0px 32px 100px;
+        width: 100%;
+        max-width: 150px;
+    }
+    .section-jamoa-title {
+        margin: 0px 0px 16px 0px;
+        width: 100%;
+        max-width: 300px;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: center;
+    }
+    .section-jamoa-text {
+        margin: 0px 0px 100px 0px;
+        width: 300px;
+        height: 85px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        text-align: center;
+    }
+    .section-klientlar-container {
+        margin-left: 30px;
+        margin-bottom: 0px;
+    }
+    .section-jamoa-tajribali-hodmlar {
+        margin-left: 68px;
+    }
+    .section-jamoa-klentlar {
+        margin: -20px 18px 5px 0px;
+        width: 140px;
+        height: 94px;
+        border-radius: 10px;
+        background: linear-gradient(236deg, #fff 29.99%, #f4f9ff 79.17%);
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+    .section-klentlar-soni {
+        padding: 10px 29px 0px 22px;
+        margin-bottom: 0px;
+        width: 100px;
+        height: 30px;
+        color: #7247ff;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    p sub {
+        font-size: 16px;
+    }
+
+    .section-klentlar-text {
+        margin: 16px 29px 0px 26px;
+        width: 100px;
+        height: 28px;
+        font-family: Nunito Sans;
+        color: #404040;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .section-jamoa-tajriba {
+        margin: 0px 250px 17px 0px;
+        width: 100%;
+        max-width: 121px;
+        height: 91px;
+        border-radius: 10px;
+        background: linear-gradient(236deg, #fff 29.99%, #f4f9ff 79.17%);
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+    .section-jamoa-tajriba-yili {
+        margin: 10px 97px 12px 16px;
+        width: 49px;
+        height: 29px;
+        color: #7247ff;
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    .section-jamoa-tajriba-text {
+        margin: 0px 24px 0px 16px;
+        width: 100%;
+        max-width: 95px;
+        height: 28px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+    .section-jamoa-tajriba-img {
+        position: absolute;
+        z-index: -1;
+        bottom: 57px;
+        left: 235px;
+        width: 100%;
+        max-width: 102px;
+        height: 102px;
+        display: grid;
+    }
+    .section-jamoa-tajribali-hodmlar {
+        margin: 0px 23px 84px 40px;
+        width: 100%;
+        max-width: 124px;
+        height: 91px;
+        border-radius: 10px;
+        background: linear-gradient(236deg, #fff 29.99%, #f4f9ff 79.17%);
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+
+    .section-tajribali-hodimlar {
+        margin: 16px 74px 10px 16px;
+        width: 100%;
+        max-width: 80px;
+        height: 29px;
+        font-family: Nunito Sans;
+        color: #7247ff;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .section-jamoa-tajribali-hodimlar-text {
+        margin: 0px 24px 24px 16px;
+        width: 100%;
+        max-width: 100px;
+        height: 28px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .section-jamoa-hodmlar-img {
+        position: absolute;
+        z-index: -1;
+        top: -10px;
+        right: 0px;
+        bottom: 8821px;
+        left: -70px;
+        width: 100%;
+        max-width: 25px;
+        height: 25px;
+    }
+    .section-jamoa-sirius {
+        margin: 0px 0px 48px 0px;
+        position: relative;
+        width: 100%;
+        max-width: 132px;
+        height: 110px;
+        border-radius: 10px;
+        background: linear-gradient(236deg, #fff 29.99%, #f4f9ff 79.17%);
+        box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    }
+    .section-klentlar-sirius {
+        margin: 16px 80px 0px 20px;
+        width: 100%;
+        max-width: 80px;
+        height: 20px;
+        color: #7247ff;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 2.72px;
+    }
+    .section-sirius-text {
+        margin: 0px 32px 32px 32px;
+        width: 100%;
+        max-width: 100px;
+        height: 45px;
+        color: #404040;
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+    .section-jamoa-sirius-img {
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        right: 200px;
+        bottom: 8821px;
+        left: -13px;
+        display: none;
+    }
+.section-wrapper-title {
+        margin: 0px 222px 31px 100px;
+        width: 100%;
+        max-width: 187px;
+        height: 18px;
+        flex-shrink: 0;
+        color: #303030;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    }
+.section-wrapper-loyihalar-list:nth-child(1) {
+        margin: 0px 16px 32px 40px;
+    }
+    .section-wrapper-loyihalar-list:nth-child(2) {
+        margin: 0px 16px 32px 40px;
+    }
+    .section-wrapper-loyihalar-list:nth-child(3) {
+        margin: 0px 16px 32px 40px;
+    }
+    
+.loyihalar-list-biznes-img {
+    width: 100%;
+    max-width: 159px;
+    margin: 32px 0px 16px 70px;
+}
+.loyihalar-list-title {
+    margin: 0px 0px 16px 100px;
+    width: 100%;
+    max-width: 78px;
+    height: 18px;
+    font-family: Nunito Sans;
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+}
+.loyihalar-list-text {
+    margin: 0px 32px 32px 32px;
+    width: 100%;
+    max-width: 279px;
+    height: 102px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    text-align: center;
+}
+.loyihalar-list-startup-img {
+    margin: 32px 87.12px 16px 60px;
+    width: 100%;
+    max-width: 166.881px;
+    height: 129px;
+}
+.loyihalar-list-title2 {
+    margin: 0px 15.4px 16px 80px;
+    width: 100%;
+    max-width: 158px;
+    height: 18px;
+    color: #303030;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    
+}
+.loyihalar-list-text2 {
+    margin: 0px 32px 32px 32px;
+    width: 100%;
+    max-width: 280px;
+    height: 101px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    text-align: center;
+}
+.loyihalar-list-chas-img {
+    margin: 32px 90.65px 16px 70px;
+    width: 100%;
+    max-width: 161.352px;
+    height: 128px;
+}
+.loyihalar-list-title3 {
+    margin: 0px 0px 16px 80px;
+    width: 100%;
+    max-width: 180px;
+    height: 18px;
+    color: #303030;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.loyihalar-list-text3 {
+    margin: 0px 32px 32px 32px;
+    width: 100%;
+    max-width: 279px;
+    height: 102px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    text-align: center;
+}
+.section-klientlar-container {
+    position: relative;
+     
+}
+.section-afzalliklar-wrapper-title {
+    margin: 0px 0px 18px 70px;
+    width: 100%;
+    max-width: 280px;
+    color: #303030;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+.section-wrapper-start-intelekt {
+    margin: 0px 0px 0px 180px;
+    width: 100%;
+    max-width: 187px;
+    position: relative;
+    height: 105.834px;
+    border-radius: 11.936px;
+    background: linear-gradient(326deg, #f0ebff 11.53%, #fff 74.32%);
+    box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.78);
+}
+.section-wrapper-start-sirius {
+    margin: 370px 0px 0px 30px ;
+}
+.section-wrapper-start-sirius-title {
+    margin: 0px 392px 8px 29px;
+    width: 100%;
+    max-width: 80px;
+    height: 39px;
+    flex-shrink: 0;
+    color: #34449c;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 2.72px;
+}
+.section-wrapper-start-sirius-container-text {
+ 
+    width: 100%;
+    max-width: 280px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+     
+    
+}
+.section-wrapper-start-sirius-container-text1{
+     width: 100%;
+    max-width: 280px;
+    /* height: 214px; */
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.section-wrapper-start-sirius-container-text2{
+ width: 100%;
+    max-width: 280px;
+    /* height: 214px; */
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.section-wrapper-start-sirius-text-text {
+    margin: 0px 0px 12px 12.87px;
+    width: 100%;
+    max-width: 223px;
+    height: 19px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.section-wrapper-start-sirius-text-text:nth-child(2){
+    height: 35px;
+}
+.section-wrapper-start-sirius-text-text:nth-child(4){
+    margin-top: 0px;
+    height: 35px;
+}
+.section-wrapper-start-sirius-text {
+    margin: 0px 0px 36px 30px ;
+    
+}
+.section-afzalliklar-wrapper-item-list:nth-child(2) {
+    margin-left: 20px;
+    width: 100%;
+    max-width: 236px;
+    height: 342px;
+    border-radius: 20px;
+    background: linear-gradient(236deg, #fff 29.99%, #f4f9ff 79.17%);
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-afzalliklar-wrapper-item-list:nth-child(4) {
+    margin-left: 20px;
+    width: 100%;
+    max-width: 236px;
+    height: 342px;
+    border-radius: 20px;
+    background: linear-gradient(236deg, #fff 29.99%, #f4f9ff 79.17%);
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-afzalliklar-wrapper-item-list:nth-child(5) {
+    margin-top: 32px;
+    margin-left: 20px;
+    width: 100%;
+    max-width: 236px;
+    height: 342px;
+    border-radius: 20px;
+    background: linear-gradient(236deg, #fff 29.99%, #f4f9ff 79.17%);
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-afzalliklar{
+    padding-bottom:80px ;
+}
+.section-tarif-wrapper-title {
+    margin: 0px 0px 16px 15px;
+    width: 100%;
+    max-width: 280px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #303030;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 137.5% */
+}
+.section-tarif-wrapper-text {
+    margin: 0px 0px 42px 50px;
+    width: 100%;
+    max-width: 210px;
+    height: 16px;
+    flex-shrink: 0;
+    color: #404040;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+.tarif-oy {
+    margin: 0px 92px 32px 60px;
+    padding-bottom: 2px;
+    color: #273895;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    border-bottom: dashed 1px;
+    background-color: #f4f7fa;
+}
+.tarif-oy:hover {
+    margin: 0px 64px 42px 0px;
+    padding: 1px 1px;
+    color: #fff;
+    width: 100%;
+    max-width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background: #273895;
+    border: none;
+}
+
+.tarif-yil {
+    margin: 0px 0px 32px 0px;
+    padding-bottom: 2px;
+    color: #273895;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    border-bottom: dashed 1px;
+    background-color: #f4f7fa;
+}
+.tarif-yil:hover {
+    margin: 0px 64px 42px 0px;
+    padding: 1px 1px;
+    color: #fff;
+    width: 100%;
+    max-width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background: #273895;
+    border: none;
+}
+.section-tarif-wrapper-bepul {
+    margin: 0px 0px 0px 20px;
+    width: 100%;
+    max-width: 280px;
+    height: 495px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    display: inline-block;
+    background: #fff;
+}
+
+.section-tarif-wrapper-bepul-osson-title {
+    margin: 48px 0px 8px 31px;
+    width: 218px;
+    height: 26px;
+    color: #2741d0;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 30px; */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.section-tarif-wrapper-bepul-osson-text {
+    margin: 0px 0px 16px 31px;
+    width: 100%;
+    max-width: 219px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #c9c9c9;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 137.5% */
+}
+.section-tarif-wrapper-bepul-osson-text2 {
+    margin: 0px 0px 10px 31px;
+    width: 100%;
+    max-width: 218px;
+    color: #737373;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.section-tarif-wrapper-bepul-list2-title {
+    margin: 0px 0px 10px 31px;
+    width: 100%;
+    width: 220px;
+    height: 26px;
+    color: #404040;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.section-tarif-wrapper-bepul-list2-text1 {
+    margin: -30px 0px 8px 10px;
+    padding: 0px;
+    width: 100%;
+    width: 168px;
+    height: 20px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 250% */
+}
+
+.section-tarif-wrapper-bepul-list2-text2 {
+    margin: -20px 0px 0px 10px;
+    width: 100%;
+    width: 213px;
+    height: 29px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 250% */
+}
+
+.section-tarif-wrapper-bepul-list2-text3 {
+    margin: -10px 0px 8px 10px;
+    width: 100%;
+    max-width: 168px;
+    height: 33px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.section-tarif-wrapper-bepul-list2-text4 {
+    margin: -10px 0px 16px 10px;
+    width: 100%;
+    width: 213px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-tarif-wrapper-bepul-list2-img1 {
+    margin: 10.34px 8px 28.32px 30px;
+    width: 100%;
+    max-width: 7.393px;
+    height: 7.393px;
+}
+
+
+.section-tarif-wrapper-bepul-list2-img3 {
+    margin: 20.34px 8px 28.32px 30px;
+    width: 100%;
+    max-width: 7.393px;
+    height: 7.393px;
+}
+.section-tarif-wrapper-kabinet-link {
+    margin: 0px 0px 16px 31px;
+    width: 100%;
+    width: 195px;
+    color: #2741d0;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.q {
+    width: 259px;
+}
+.section-tarif-wrapper-kabinet-img {
+    margin: 0px 0px 0px 10px;
+    width: 100%;
+    width: 13.801px;
+    height: 14px;
+}
+.section-tarif-wrapper-kabinet-button {
+    margin: 0px 0px 0px 25px;
+    display: flex;
+    width: 100%;
+    max-width: 220px;
+    height: 50px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: #3333a3;
+    border-radius: 15px;
+}
+.section-tarif-standart-title {
+    margin: 24px 31px 8px 31px;
+    width: 100%;
+    max-width: 218px;
+    height: 26px;
+    color: #2741d0;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.section-tarif-standart-jismoniy {
+    margin: 0px 31px 16px 31px;
+    width: 100%;
+    max-width: 218px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #737373;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.section-tarif-standart-jismoniy-oy {
+    margin: 0px 65px 16px 65px;
+    width: 100%;
+    max-width: 150px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+.section-tarif-standart-jismoniy-oy-sizuchun {
+    margin: 0px 29px 16px 31px;
+    width: 100%;
+    max-width: 220px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-align:center;
+}
+.section-tarif-standart-img1 {
+    margin: 0px 13px 52px 27px;
+    width: 100%;
+    max-width: 7.055px;
+    height: 7.055px;
+}
+.section-tarif-standart-text0 {
+    margin: 0px 0px 8px 0px;
+    width: 100%;
+    max-width: 213px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-tarif-standart-text1 {
+    margin: 0px 0px 8px 0px;
+    width: 100%;
+    max-width: 213px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-tarif-standart-link {
+    margin: 20px 0px 0px 31px;
+    width: 100%;
+    max-width: 195px;
+    color: #2741d0;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.section-tarif-standart-link-img {
+    margin: 0px 0px 0px 16px;
+    width: 100%;
+    max-width: 14.801px;
+    height: 16px;
+}
+.section-tarif-standart-button {
+    margin: 6px 0px 48px 26px;
+    display: flex;
+    width: 100%;
+    max-width: 220px;
+    height: 50px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: #3333a3;
+    border-radius: 15px;
+}
+.section-tarif-standart {
+    margin: 32px 33px 32px 0px;
+    width: 100%;
+    max-width: 280px;
+    height: 570px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #fff;
+   display: inline-block;
+}
+.section-tarif-konsultant-title {
+    margin: 24px 31px 8px 31px;
+    width: 100%;
+    max-width: 218px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #2741d0;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-tarif-standart-frilanser {
+    margin: 0px 31px 16px 31px;
+    width: 100%;
+    max-width: 218px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #737373;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.section-tarif-frilanser-text2 {
+    width: 1005;
+    max-width: 207px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.section-tarif-standar-text1{
+   width: 100%;
+   max-width: 168px;
+   font-size: 12px;
+}
+.section-tarif-premium-title {
+    margin: 24px 31px 8px 31px;
+    width: 100%;
+    max-width: 218px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #2741d0;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-tarif-premium-text3 {
+    width: 100%;
+    max-width: 168px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 150% */
+}
+.section-tarif-premium-text1-container5 {
+    margin-bottom: 0px;
+}
+.section-tarif-standart3 a{
+   width: 100%;
+    max-width:195px ;
+    font-size:12px ;
+    margin: -16px 0px 30px 31px;
+}
+.section-tarif-standart-link-img{
+    margin-top:15px;
+    margin-bottom: 16px;
+}
+.section-tarif-standart3{
+    width: 100%;
+    max-width: 280px;
+    height: 580px;
+}
+.section-tarif-standart4{
+    width: 100%;
+    max-width: 280px;
+    height: 620px;
+}
+.section-tarif-standart4 h3{
+margin: 24px 28px 8px 31px;
+    width: 100%;
+    max-width: 230px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #2741d0;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-tarif-mejdunarodniy-standart-text1 {
+    width: 100%;
+    max-width: 207px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-tarif-mejdunarodni-text2 {
+    /* margin-bottom: -26px 48px 16px 0px; */
+    width: 100%;
+    max-width: 213px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-tarif-mejdunarodni-text3 {
+    /* margin: 0px 48px 16px 0px; */
+    width: 100%;
+    max-width: 207px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.section-tarif-mejdunarodniy-text4 {
+    /* margin: 0px 48px 16px 0px; */
+    width: 100%;
+    max-width: 213px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-tarif-mejdunarodniy-text5 {
+    /* margin: -40px 48px 0px 0px; */
+    width: 100%;
+    max-width: 213px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section-tarif-standart-mejdunarodni-container3 {
+    height: 10px;
+    margin-bottom: 0px;
+}
+.section-tarif-mejdunarodniy-text1-container5 {
+    margin-top: -20px;
+    margin-bottom: 32px;
+    height: 14px;
+}
+.section-tarif-mejdunarodni-link {
+    width: 100%;
+    max-width: 195;
+    font-size: 12px;
+    margin: 24px 0px 16px 31px;
+}
+.section-hamkor-img1 {
+    width: 100%;
+    max-width: 540px;
+    height: 397px;
+    position: absolute;
+    z-index: -2;
+}
+.section-hamkor-img2 {
+    top: 100px;
+    left: 90px;
+    width: 100%;
+    max-width: 214px;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+}
+.section-hamkor-title {
+    margin: 70px 100px 16px 100px;
+    width: 100%;
+    max-width: 280px;
+    height: 41px;
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+.section-hamkor-text {
+    margin: 125px 100px 205px 100px;
+    width: 100%;
+    max-width: 321px;
+    display: inline-block;
+    height: 48px;
+    color: #e9e9e9;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.aleksandr-container{
+    width: 100%;
+    max-width: 300px;
+    height: 100px;
+}
+.aleksandr-container-text2{
+    font-size: 12px;
+    margin-left: 12px;
+}
+}
+
+@media only screen and ( max-width: 450px ){
+    .SiteLogo {
+        margin: 32px 0px 30px 20px;
+        width: 100%;
+        max-width: 100px;
+        height: 40px;
+    }
+    .Legal {
+        margin: 38px 0px 0px -40px;
+        width: 100%;
+        max-width: 70px;
+        color: #3b1d8f;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 15px;
+    }
+    .mobilni-img {
+        margin: 30px 20px 0px 30px;
+        width: 100%;
+        max-width: 12px;
+        height: 20px;
+        padding: 12px 14px 12px 14px;
+        border-radius: 7px;
+        background: linear-gradient(326deg, #2641d1 11.53%, #3333a3 74.32%);
+    }
+    .mobilni-menyu {
+        margin-top: 30px;
+        padding: 12px 14px 12px 14px;
+        width: 100%;
+        max-width: 18px;
+        height: 22px;
+        border-radius: 7px;
+        background: #dee6ef;
+    }
+    .section-name {
+        margin: 10px 20px 16px 20px;
+        color: #262626;
+        width: 260px;
+        font-family: Nunito Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .main-section-wrapper-text {
+        margin: 140px 20px 16px 21px;
+        color: #303030;
+        width: 279px;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 350;
+        line-height: 150%;
+        position: relative;
+        text-align: center;
+    }
+
+    .main-section-wrapper-button {
+        margin: 0px 42px 382px 42px;
+        width: 100%;
+        max-width: 160px;
+        color: #ffffff;
+        padding: 16px 26px;
+        justify-content: center;
+        font-size: 12px;
+        align-items: center;
+        border-radius: 15px;
+        background: #273895;
+    }
+    .Section-img {
+        margin: 100px 0px 0px 20px;
+        width: 280px;
+        height: 312px;
+    }
+    .section-img-group {
+        position: absolute;
+        margin: 290px 0px 0px 120px;
+    }
+
+    .section-img-doira {
+        position: absolute;
+        margin: 345px 0px 0px 135px;
+        flex-shrink: 0;
+        z-index: 1;
+    }
+    .doxod {
+        margin-top: 350px;
+        margin-left: 145px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    .dollar {
+        margin-top: 370px;
+        margin-left: 135px;
+        position: absolute;
+        color: #303030;
+        font-size: 16px;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        z-index: 2;
+    }
+    .section-span-text {
+        margin-top: 395px;
+        margin-left: 130px;
+        position: absolute;
+        z-index: 2;
+        color: #303030;
+        text-align: center;
+        max-width: 80px;
+        width: 100%;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 116.667% */
+    }
+.div-qolib{
+    margin:500px 0px 20px 0px ;
+}
+.section-jamoa-logo{
+    margin: 0px 0px 20px  120px  ;
+    width: 100%;
+    max-width: 70px ;
+    height: 40px ;
+}
+.section-jamoa-wrapper{
+    margin: 350px 0px 0px 0px ;
+}
+.section-jamoa-title{
+    width: 100%;
+    margin-left: 20px ;
+    max-width: 250px ;
+    font-size: 24px;
+    line-height: 30px;
+}
+.section-jamoa-text{
+    width: 100%;
+    max-width:280px  ;
+    font-size:12px  ;
+}
+.section-klientlar-container{
+    margin-left: 0px ;
+}
+.section-jamoa-tajribali-hodmlar{
+    margin-left: 10px;
+}
+.section-jamoa-hodmlar-img {
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    right: 0px;
+    bottom: 8821px;
+    left: -100px;
+}
+.section-wrapper-title{
+    margin: 32px 65px 24px 68px;
+width: 100%;
+max-width: 187px;
+height: 18px;
+flex-shrink: 0;
+color: #303030;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+}
+.section-wrapper-loyihalar-list:nth-child(1) {
+        margin: 0px 0px 32px 15px;
+    }
+    .section-wrapper-loyihalar-list:nth-child(2) {
+        margin: 0px 0px 32px 15px;
+    }
+    .section-wrapper-loyihalar-list:nth-child(3) {
+        margin: 0px 0px 32px 15px;
+    }
+.section-wrapper-loyihalar-list{
+    margin-left:20px ;
+    width: 100%;
+    max-width: 280px ;
+    height: 281px;
+    
+}
+.loyihalar-list-biznes-img {
+    margin: 24px 80px 16px 85px ;
+    width: 100%;
+    max-width: 115px;
+    height: 93px;
+    margin: 32px 0px 16px 70px;
+    text-align: center;
+    
+}
+.loyihalar-list-title {
+    margin: 0px 101px 16px 101px;
+    width: 100%;
+    max-width: 78px;
+    height: 18px;
+    font-family: Nunito Sans;
+    color: #303030;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+}
+.loyihalar-list-text {
+    margin: 0px 32px 32px 32px;
+    width: 100%;
+    max-width: 232px;
+    height: 90px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    text-align: center;
+}
+.loyihalar-list-startup-img {
+    margin: 32px 79px 16px 79px;
+    width: 100%;
+    max-width: 122px;
+    height: 94px;
+}
+.loyihalar-list-title2 {
+    margin: 0px 72px 16px 72px;
+    width: 100%;
+    max-width: 136px;
+    height: 18px;
+    color: #303030;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    
+}
+.loyihalar-list-text2 {
+    margin: 0px 24px 24px 24px;
+    width: 100%;
+    max-width: 232px;
+    height: 90px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    text-align: center;
+}
+.loyihalar-list-chas-img {
+    margin: 24px 81px 16px 81px;
+    width: 100%;
+    max-width: 119px;
+    height: 94px;
+}
+.loyihalar-list-title3 {
+    margin: 0px 64px 16px 64px;
+    width: 100%;
+    max-width: 152px;
+    height: 18px;
+    color: #303030;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.loyihalar-list-text3 {
+    margin: 0px 24px 32px 24px;
+    width: 100%;
+    max-width: 232px;
+    height: 90px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    text-align: center;
+}
+.section-afzalliklar-wrapper-title {
+    margin: 72px 20px 18px 20px;
+    width: 100%;
+    max-width: 280px;
+    color: #303030;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.section-wrapper-intelekt-smart-img {
+    top: -8px;
+    right: 1000px;
+    bottom: 0px;
+    left: -80px;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    max-width: 135px;
+    height: 275px;
+  
+}
+.section-wrapper-intelekt-smart-img2 {
+    width: 100%;
+    width: 146px;
+    height: 293px;
+    position: absolute;
+    z-index: -1;
+    top: -5px;
+    right: 1034px;
+    bottom: 0px;
+    left: -70px;
+
+}
+.section-wrapper-intelekt-smart-img3 {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    width: 130px;
+    height: 260px;
+    top: -0px;
+    right: 1034px;
+    bottom: 0px;
+    left: -70px;
+}
+.section-wrapper-intelekt-smart-img4 {
+    position: absolute;
+    width: 100%;
+    max-width: 127px;
+    height: 123px;
+    top: 70px;
+    right: 1034px;
+    bottom: 0px;
+    left: -70px;
+    z-index: -1;
+}
+.section-wrapper-start-intelekt {
+    margin: 30px 29px 0px 138px;
+    width: 100%;
+    max-width: 138px;
+    position: relative;
+    height: 84px;
+    border-radius: 11.936px;
+    background: linear-gradient(326deg, #f0ebff 11.53%, #fff 74.32%);
+    box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.78);
+}
+.section-wrapper-intelekt-input {
+    padding: 10px 25px 0px 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    max-width: 130px;
+    height: 16px;
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.915px;
+}
+.section-wrapper-intelekt-button {
+    margin: 6px 19px 10px 10px;
+    padding: 8px 8px 8px 8px;
+    width: 100%;
+    max-width: 100px;
+    height: 16px;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14.323px;
+    border-radius: 7.957px;
+    background: linear-gradient(326deg, #2641d1 11.53%, #3333a3 74.32%);
+}
+.section-wrapper-intelekt-smart-img-sirius {
+    margin: 100px 0px 71px -20px;
+    left: -10px;
+    width: 100%;
+    max-width: 51px;
+    height: 46px;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 44px; /* 314.286% */
+    letter-spacing: 2.38px;
+ 
+}
+.section-wrapper-start-sirius {
+    margin: 200px 0px 0px 10px ;
+    
+}
+.section-wrapper-start-sirius-text {
+    margin: 0px 0px 32px 10px ; 
+}
+.section-tarif-wrapper-bepul{
+    margin-left: 10px ;
+}
+.section-hamkor-img1 {
+    width: 100%;
+    max-width: 450px;
+    height: 372px;
+    position: absolute;
+    z-index: -1;
+}
+.section-hamkor-img2 {
+    top: 82px;
+    left: 50px;
+    width: 100%;
+    max-width: 214px;
+    height: 286px;
+    position: absolute;
+    z-index: -1;
+}
+.section-hamkor-title {
+    margin: 40px 0px 16px 60px;
+    width: 100%;
+    max-width: 200px;
+    height: 57px;
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+}
+.section-hamkor-text {
+    margin: 125px 0px 205px 60px;
+    width: 100%;
+    max-width: 249px;
+    display: inline-block;
+    height: 48px;
+    color: #e9e9e9;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.section-hamkorlarga-list1 {
+    margin: 76px 10px 16px 10px;
+    width: 100%;
+    max-width: 280px;
+    height: 332px;
+    border-radius: 20px;
+    background: #fff;
+    
+}
+.section-hamkorlar-imkonyatlar-text0 {
+    margin: 0px;
+}
+.section-hamkorlar-imkonyatlar-img {
+    margin: 24px 72px 16px 72px;
+    width: 100%;
+    max-width: 136px;
+    height: 75px;
+   
+}
+.section-hamkorlar-imkonyatlar-title {
+    margin: 0px 28px 16px 27px;
+    width: 100%;
+    max-width: 225px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+}
+.section-hamkorlar-imkonyatlar-text1 {
+    margin: 0px 0px 8px 32px;
+    width: 100%;
+    width: 232px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    text-align: center;
+}
+.section-hamkorlar-imkonyatlar-text2 {
+    margin: 0px 0px 48px 32px;
+    width: 100%;
+    width: 232px;
+    color: #b7b6b6;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.section-hamkorlarga-list2 {
+    margin: 0px 10px 16px 10px;
+    width: 100%;
+    max-width:280px;
+    height: 389px;
+    border-radius: 20px;
+    background: #fff;
+}
+.section-hamkorlar-imkonyatlar-img2 {
+    margin: 24px 44px 16px 80px;
+    width: 100%;
+    max-width: 136px;
+    height:92px;
+    flex-shrink: 0;
+    
+}
+.section-hamkorlar-imkonyatlar-title2 {
+    margin: 0px 27px 16px 28px;
+    width: 100%;
+    max-width: 225px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+}
+
+.section-hamkorlar-imkonyatlar-text2-1 {
+    margin: 0px 24px 10px 24px;
+    width: 100%;
+    max-width: 232px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+.section-hamkorlar-imkonyatlar-text2-2 {
+    margin: 0px 24px 48px 24px;
+    width: 100%;
+    max-width: 232px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: cente24;
+}
+.section-hamkorlar-imkonyatlar-img3 {
+    margin: 24px 45px 16px 45px;
+    width: 100%;
+    max-width: 190px;
+    height: 92px;
+}
+.section-hamkorlar-imkonyatlar-titl3 {
+    margin: 0px 0px 16px 10px;
+    width: 100%;
+    max-width: 200px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+.section-hamkorlar-imkonyatlar-text3-1 {
+    margin: 0px 24px 10px 24px;
+    width: 100%;
+    max-width: 232px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.section-hamkorlar-imkonyatlar-text3-2 {
+    margin: 0px 24px 48px 24px;
+    width: 100%;
+    max-width: 232px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-hamkorlarga-list4 {
+    margin: 0px 10px 31px 10px;
+    width: 100%;
+    max-width: 280px;
+    height: 431px;
+    border-radius: 20px;
+    background: #fff;
+}
+.section-hamkorlar-imkonyatlar-img4 {
+    margin: 24px 69px 24px 68px;
+    width: 100%;
+    max-width: 143px;
+    height: 104px;
+}
+.section-hamkorlar-imkonyatlar-title4 {
+    margin: 0px 28px 16px 27px;
+    width: 100%;
+    max-width: 225px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+.section-hamkorlar-imkonyatlar-text4-1 {
+    margin: 0px 24px 15px 24px;
+    width: 100%;
+    max-width: 232px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-hamkorlar-imkonyatlar-text4-2-container {
+    margin: 0px 187px 10px 20px;
+    width: 100%;
+    max-width: 200px;
+   
+}
+.section-hamkorlar-imkonyatlar-text4-2 {
+    margin-left: 24px;
+    width: 100%;
+    max-width: 232px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    list-style: disc;text-align: 
+    center;
+    
+}
+.section-hamkorlar-imkonyatlar-text4-3 {
+    margin: 0px 0px 48px 0px;
+    width: 100%;
+    max-width: 515px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+.section-hamkorlar-imkonyatlar-button {
+    margin: 0px 50px 72px 30px;
+    display: flex;
+    width: 100%;
+    max-width: 220px;
+    height: 56px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: #273895;
+    border-radius: 15px;
+}
+.section-osson-boshlash-title {
+    margin: 0px 19px 24px 21px;
+    width: 100%;
+    max-width: 280px;
+    height: 37px;
+    color: #303030;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.section-osson-boshlash-wrapper-royhat {
+    margin: -50px 10px 16px -60px;
+    width: 100%;
+    max-width: 280px;
+    height: 213px;
+    padding: 0px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-osson-boshlash-wrapper-royhat-1 {
+    margin: 24px 216px 22px 24px;
+    padding: 0px;
+    display: inline-flex;
+    padding: 5px 5px 5px 5px;
+    color: #404040;
+    width: 100%;
+    max-width: 15px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 50%;
+    border: solid 2px;
+}
+.section-osson-boshlash-wrapper-royhat-1-title {
+    margin: 0px 39px 16px 24px;
+    width: 100%;
+    max-width: 225px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+.section-osson-boshlash-wrapper-royhat-1-text {
+    margin: 0px 32px 24px 24px;
+    width: 100%;
+    max-width: 176px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    
+}
+
+
+.section-osson-boshlash-wrapper-royhat2 {
+    margin: 0px 16px 16px -60px;
+    width: 100%;
+    max-width: 280px;
+    height: 233px;
+    padding: 0px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-osson-boshlash-wrapper-royhat-2-text {
+    margin: 0px 0px 24px 24px;
+    width: 100%;
+    max-width: 185px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-osson-boshlash-wrapper-royhat-strategiya {
+    margin: 0px 16px 16px -60px;
+    width: 100%;
+    max-width: 280px;
+    height: 341px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-osson-boshlash-wrapper-royhat-strategiya-img {
+    margin: 24px 60px 21px 60px;
+    width: 100%;
+    max-width: 160px;
+    height: 112px;
+}
+.section-osson-boshlash-wrapper-royhat-3 {
+    margin: 0px 216px 22px 44px;
+    padding: 0px;
+    display: inline-flex;
+    padding: 5px 5px 5px 5px;
+    color: #404040;
+    width: 100%;
+    max-width: 15px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 50%;
+    border: solid 2px;
+}
+.section-osson-boshlash-wrapper-royhat-3-title {
+    margin: 0px 47px 16px 40px;
+    width: 100%;
+    max-width: 225px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+.section-osson-boshlash-wrapper-royhat-3-text {
+    margin: 0px 40px 57px 40px;
+    width: 100%;
+    max-width: 220px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-osson-boshlash-wrapper-royhat-target {
+    margin: 0px 0px 72px -60px;
+    width: 100%;
+    max-width: 281px;
+    height: 308px;
+    border-radius: 20px;
+    border: 2px solid #4917e8;
+    background: #fff;
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+}
+.section-osson-boshlash-wrapper-royhat-target-img {
+    margin: 24px 217px 16px 40px;
+    width: 100%;
+    max-width: 55px;
+    height: 55px;
+}
+.section-osson-boshlash-wrapper-royhat-4-text {
+    margin: 0px 0px 16px 24px;
+    width: 100%;
+    max-width: 200px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-osson-boshlash-wrapper-royhat-button {
+    margin: 0px 0px 40px 16px;
+    padding: 0px;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: #273895;
+    border-radius: 15px;
+}
+.section-hamkorlaruchun-bashorat {
+    margin: 600px 0px 144px 0px;
+    width: 100%;
+    max-width: 450px;
+    height: 452px;
+    flex-shrink: 0;
+    background: #273895;
+    display: block;
+}
+.section-hamkorlaruchun-bashorat-wrapper-title {
+    margin: 48px 40px 32px 80px;
+    width: 100%;
+    max-width: 150px;
+    text-align: center; 
+    height: 118px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.section-hamkorlaruchun-bashorat1-title {
+    margin: 64px 6px 8px 19px;
+    width: 100%;
+    max-width: 141px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-hamkorlaruchun-bashorat1-text {
+    margin: 0px 26px 36px 40px;
+    width: 100%;
+    max-width: 91px;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-hamkorlaruchun-bashorat1-title2 {
+    margin: 98px 8px 8px 0px;
+    width: 100%;
+    max-width: 128px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-hamkorlaruchun-bashorat1-text2 {
+    margin: 0px 16px 16px 0px;
+    width: 100%;
+    max-width: 140px;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-hamkorlaruchun-bashorat1-title3 {
+    margin: 1px 4px 8px 20px;
+    width: 100%;
+    max-width: 140px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-hamkorlaruchun-bashorat1-text3 {
+    margin: 0px 0px 96px 20px;
+    width: 100%;
+    max-width: 140px;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-hamkorlaruchun-bashorat1-title4 {
+    margin: 0px 0px 8px 0px;
+    width: 100%;
+    max-width: 139px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    background-image: linear-gradient(90deg, #4614e8 5%, #bca7ff 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-hamkorlaruchun-bashorat1-text4 {
+    margin: 0px 0px 96px 0px;
+    width: 100%;
+    max-width: 140px;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-rahbar-wrapper-img-img {
+    margin: 350px 0px 149px 8px;
+    padding: 0px 10px 0px 10px;
+    border-top: none;
+    border-bottom: none;
+    width: 100%;
+    max-width: 226px;
+    height: 283px;
+    flex-shrink: 0;
+    background-color: lightgray;
+
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; ; */
+}
+.aleksandr-container {
+    margin-left: -90px;
+    position: absolute;
+    z-index: 2;
+    top: -220px;
+    width: 100%;
+    max-width: 241px;
+    height: 106px;
+    padding: 0px;
+   
+    position: absolute;
+    border-radius: 11.936px;
+    background: linear-gradient(331deg, #f0ebff -4.05%, #fff 34.42%);
+    box-shadow: 0px 13.52766px 39.78723px 0px rgba(187, 166, 255, 0.2);
+}
+
+.aleksandr-container-text2 {
+    margin: 20px 45px 32px 32px;
+    padding: 0px;
+    width: 100%;
+    max-width: 209px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #303030;
+    font-family: Nunito Sans;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 15.915px;
+}
+.vergul {
+    width: 100%;
+    max-width: 29px;
+    height: 13px;
+    color: #303030;
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.915px;
+}
+.section-rahbar-wrapper-text-container {
+        margin-top: -950px;
+        margin-left: 10px;
+    }
+.section-rahbar-wrapper-container-text1 {
+    margin: 72px 20px 0px 0px;
+    width: 100%;
+    max-width: 250px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  text-align: center;
+}
+.section-rahbar-wrapper-container-title {
+    margin: 0px 20px 16px 20px;
+    width: 100%;
+    max-width: 280px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #303030;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+.section-rahbar-wrapper-container-text2 {
+    margin: 0px 20px 16px 8px;
+    width: 100%;
+    max-width: 280px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+}
+.section-rahbar-wrapper-container-text3 {
+    margin: 0px 0px 0px 8px;
+    width: 100%;
+    max-width: 280px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-rahbar-list-text {
+    margin: 0px 0px 0px 25px;
+    width: 100%;
+    max-width: 280px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    list-style: inside;
+}
+.section-rahbar-list-text2 {
+    margin: 0px 0px 9px 8px;
+    width: 100%;
+    max-width: 280px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-rahbar-list-text3 {
+    margin: 0px 0px 16px 8px;
+    width: 100%;
+    max-width: 250px;
+    color: #404040;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.section-rahbar-button {
+    margin: 0px 56px 309px 30px;
+    display: flex;
+    width: 100%;
+    max-width: 220px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    border-radius: 15px;
+    background: #273895;
+}
+.footer-chiziq {
+    width: 100;
+    max-width: 450px;
+    height: 1px;
+    background: #dee6ef;
+}
+.footer-logo{
+    flex-wrap: wrap;
+}
+.footer-logo-img {
+    margin: 32px 0px 16px 90px;
+    width: 100%;
+    max-width: 118px;
+    height: 37px;
+    flex-shrink: 0;
+}
+.footer-logo-text1 {
+    margin: 35px 0px 16px -35px;
+    width: 100%;
+    max-width: 60px;
+    height: 22px;
+    color: #3b1d8f;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+}
+.footer-logo-text2 {
+    margin: 0px 0px 32px 40px;
+    width: 100%;
+    max-width: 227px;
+    height: 40px;
+    color: #303030;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+.footer-img-link:nth-child(1){
+margin-left: 50px;
+}
+
+.footer-vk-link {
+    margin: 9px 0px 32px 0px;
+    padding: 9px;
+    width: 100%;
+    max-width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #cfdae7;
+    border: 1px solid #cfdae7;
+}
+
+.footer-vk-link4 {
+    margin: 9px 50px 32px 0px;
+    padding: 9px;
+    width: 100%;
+    max-width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #cfdae7;
+    border: 1px solid #cfdae7;
+}
+
+.elektron-manzil {
+    width: 100%;
+    max-width: 405px;
+    height: 171px;
+    background: #e8edf3;
+}
+.elektron-manzil-text1 {
+    margin: 112px 0px 16px 40px;
+    width: 100%;
+    max-width: 220px;
+    color: #7a7a7a;
+    font-family: Nunito Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+.elektron-manzil-text2 {
+    margin: -250px 16px 16px 70px;
+    color: #7a7a7a;
+    text-align: right;
+    font-family: Nunito Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.elektron-manzil-text3 {
+    margin: -210px 0px 32px 70px;
+    color: #7a7a7a;
+    text-align: right;
+    font-family: Nunito Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  
+}
+
+
+}
+
+@media only screen and ( max-width: 320px){
+        .section-hamkorlaruchun-bashorat {
+    margin: 600px 0px 144px 0px;
+    width: 100%;
+    max-width: 450px;
+    height: 452px;
+    flex-shrink: 0;
+    background: #273895;
+    display: block;
+}
+.elektron-manzil {
+    width: 100%;
+    max-width: 405px;
+    height: 171px;
+    background: #e8edf3;
+}
+
+
+}
+
+/**********  Media End **********/
